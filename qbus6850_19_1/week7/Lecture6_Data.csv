@@ -1,0 +1,16 @@
+Customer,Income,Education,Marital Status,Purchase
+1,Medium,University,Single,Yes
+2,High,University,Single,No
+3,High,University,Married,No
+4,Low,University,Single,Yes
+5,Low,High school,Single,Yes
+6,Low,High school,Married,No
+7,Medium,High school,Married,Yes
+8,High,University,Single,No
+9,High,High school,Single,Yes
+10,Low,High school,Single,Yes
+11,High,High school,Married,Yes
+12,Low,University,Married,No
+13,High,University,Single,No
+14,Medium,University,Married,Yes
+15,Medium,High school,Single,Yes

@@ -1,0 +1,309 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>Lab8code_19</title><meta name="generator" content="MATLAB 9.3"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-03-07"><meta name="DC.source" content="Lab8code_19.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">Lab Sheet 8: ARCH Models</a></li><li><a href="#2">Q1(a) Plot the price and return series.</a></li><li><a href="#3">Q1(b) Summary Statistics, histogram and JB test</a></li><li><a href="#4">Q1(c) ARCH(1) model</a></li><li><a href="#5">Q1(d) Unconditional variance vs sample variance</a></li><li><a href="#6">Q1(e) Unconditional kurtosis vs sample kurtosis</a></li><li><a href="#7">Q1(f) Least Squares estimates</a></li><li><a href="#8">Q1(g) Variance and kurtosis estimates for LS model</a></li></ul></div><h2 id="1">Lab Sheet 8: ARCH Models</h2><p>Import Data Home--&gt;Import Data for "BHP00-17.csv" and name numeric matrix 'BHPdata' Also import first column separately as a column vector named 'BHPdates' save lab8.mat;</p><pre class="codeinput">load <span class="string">lab8.mat</span>;
+</pre><h2 id="2">Q1(a) Plot the price and return series.</h2><pre class="codeinput"><span class="comment">% Select BHP prices</span>
+BHPp=BHPdata(:,7);
+
+<span class="comment">% Calculate log-returns</span>
+BHPr=100*diff(log((BHPp)));
+
+<span class="comment">% Plot the price and return series</span>
+figure;subplot(2,1,1);plot(BHPdates,BHPp);title(<span class="string">'BHP prices'</span>);
+ylim([min(BHPp)-2 max(BHPp)+2]);                <span class="comment">% set range of y-axis</span>
+xlim([BHPdates(1) BHPdates(end)]);              <span class="comment">% set range of x-axis</span>
+subplot(2,1,2);plot(BHPdates(2:end,1),BHPr);title(<span class="string">'BHP returns'</span>);
+ylim([min(BHPr)-1 max(BHPr)+1]);                <span class="comment">% set range of y-axis</span>
+xlim([BHPdates(2) BHPdates(end)]);              <span class="comment">% set range of x-axis</span>
+</pre><img vspace="5" hspace="5" src="Lab8code_19_01.png" alt=""> <h2 id="3">Q1(b) Summary Statistics, histogram and JB test</h2><pre class="codeinput"><span class="comment">% Summary statistics</span>
+[mean(BHPr) median(BHPr) std(BHPr) skewness(BHPr) kurtosis(BHPr) min(BHPr) max(BHPr)]
+<span class="comment">% Selected percentiles</span>
+[prctile(BHPr,0.5) prctile(BHPr,1) prctile(BHPr,10) prctile(BHPr,25) prctile(BHPr,75) prctile(BHPr,90) prctile(BHPr,99) prctile(BHPr,99.5) ]
+figure;hist(BHPr,50);title(<span class="string">'Histogram of BHP returns'</span>);
+<span class="comment">% JBtest for Gaussianity</span>
+[h,p]=jbtest(BHPr)
+</pre><pre class="codeoutput">
+ans =
+
+    0.0397         0    1.9350   -0.1562    6.6719  -14.0772   11.4645
+
+
+ans =
+
+  Columns 1 through 7
+
+   -6.1493   -4.9422   -2.1341   -1.0267    1.1166    2.2877    5.1615
+
+  Column 8
+
+    6.2152
+
+Warning: P is less than the smallest tabulated value, returning 0.001. 
+
+h =
+
+     1
+
+
+p =
+
+   1.0000e-03
+
+</pre><img vspace="5" hspace="5" src="Lab8code_19_02.png" alt=""> <h2 id="4">Q1(c) ARCH(1) model</h2><pre class="codeinput"><span class="comment">% Fit an ARCH(1) model and plot dynamic standard deviations</span>
+Mdl = garch(<span class="string">'Offset'</span>,NaN,<span class="string">'ARCHLags'</span>,1); <span class="comment">% Specify ARCH(1) model</span>
+<span class="comment">% Note: the 'Offset' parameter here is set to "NaN" (Not a Number) which</span>
+<span class="comment">% tells the Matlab to estimate it. The default is to set the 'Offset' to</span>
+<span class="comment">% zero ehich would be appropriate if we had used mean-corrected returns</span>
+<span class="comment">% (mean-corrected returns have zero mean 'Offset' would be zero)</span>
+
+EstMdl=estimate(Mdl,BHPr);              <span class="comment">% Estimate ARCH(1) model</span>
+v=infer(EstMdl,BHPr);                   <span class="comment">% infer the conditional variance</span>
+<span class="comment">% Note: the infer command can have provide additional outputs as you shall</span>
+<span class="comment">% see in future labs. type "help infer" in command window to see additional</span>
+<span class="comment">% options</span>
+s=v.^(.5);                              <span class="comment">% conditional standard deviations</span>
+
+<span class="comment">% Plot the estimated conditional standard deviations against time</span>
+figure;plot(BHPdates(2:end),s);
+xlim([BHPdates(2) BHPdates(end)]);
+title(<span class="string">'Inferred Conditional Standard Deviations'</span>);
+</pre><pre class="codeoutput"> 
+    GARCH(0,1) Conditional Variance Model:
+    ----------------------------------------
+    Conditional Probability Distribution: Gaussian
+
+                                  Standard          t     
+     Parameter       Value          Error       Statistic 
+    -----------   -----------   ------------   -----------
+     Constant        2.76564     0.0544427        50.7991
+      ARCH{1}        0.25839     0.0159109        16.2398
+       Offset      0.0508522      0.026067        1.95083
+</pre><img vspace="5" hspace="5" src="Lab8code_19_03.png" alt=""> <h2 id="5">Q1(d) Unconditional variance vs sample variance</h2><pre class="codeinput">a1=EstMdl.ARCH{1};  <span class="comment">% obtain coefficient of a(t-1)^2 in cond. vol equation</span>
+a0=EstMdl.Constant; <span class="comment">% obtain constant term from conditional vol equation</span>
+a0/(1-a1)           <span class="comment">% the model-based unconditional variance estimate</span>
+<span class="comment">% the above model-based formula was shown in lectures</span>
+var(BHPr)           <span class="comment">% this is the sample variance for comparison</span>
+<span class="comment">% Look at 'EstMdl' in the Workspace (double click on it) and you can see</span>
+<span class="comment">% the various estimated parameters and their data types. It will also help</span>
+<span class="comment">% you understand the commands used to extract them such as a1 and a0 above</span>
+</pre><pre class="codeoutput">
+ans =
+
+    3.7292
+
+
+ans =
+
+    3.7441
+
+</pre><h2 id="6">Q1(e) Unconditional kurtosis vs sample kurtosis</h2><pre class="codeinput">k=kurtosis(BHPr)      <span class="comment">% the sample kurtosis of returns</span>
+3*(1-a1^2)/(1-3*a1^2) <span class="comment">% the model-based unconditional kurtosis estimate</span>
+<span class="comment">% the above model-based formula was shown in lectures</span>
+</pre><pre class="codeoutput">
+k =
+
+    6.6719
+
+
+ans =
+
+    3.5009
+
+</pre><h2 id="7">Q1(f) Least Squares estimates</h2><pre class="codeinput"><span class="comment">% OLS estimation of an ARCH model</span>
+<span class="comment">% Setup data</span>
+n=length(BHPr);       <span class="comment">% sample size</span>
+a=BHPr-mean(BHPr);    <span class="comment">% demeaned returns (errors in mean equation)</span>
+a2=a(2:n).^2;         <span class="comment">% demeaned returns squared (y-variable)</span>
+x=a(1:n-1).^2;        <span class="comment">% lagged demeaned returns squared (x-variable)</span>
+xmat=[ones(n-1,1) x]; <span class="comment">% X matrix for LS regression of ARCH equation</span>
+
+<span class="comment">% OLS regression of demeaned returns squared vs lags</span>
+b=regress(a2,xmat) <span class="comment">% Coefficients: constant b(1) and arch coefficient b(2)</span>
+
+<span class="comment">% type the command 'help regress' to see more output options for OLS, e.g.</span>
+<span class="comment">% [B,BINT,R,RINT,STATS] = regress(Y,X) provides more output and was used in</span>
+<span class="comment">% the Lab 7 last week</span>
+</pre><pre class="codeoutput">
+b =
+
+    2.8819
+    0.2299
+
+</pre><h2 id="8">Q1(g) Variance and kurtosis estimates for LS model</h2><pre class="codeinput">b(1)/(1-b(2)) <span class="comment">% model-based unconditional variance estimate from regression</span>
+<span class="comment">% b(1) is the estimate of constant and b(2) is the estimate of the</span>
+<span class="comment">% coefficient of a(t-1)^2 in conditional vol equation</span>
+3*(1-b(2)^2)/(1-3*b(2)^2) <span class="comment">% the model-based unconditional kurtosis using</span>
+</pre><pre class="codeoutput">
+ans =
+
+    3.7424
+
+
+ans =
+
+    3.3770
+
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2017b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% Lab Sheet 8: ARCH Models
+% Import Data 
+% HomeREPLACE_WITH_DASH_DASH>Import Data for "BHP00-17.csv" and name numeric matrix 'BHPdata'
+% Also import first column separately as a column vector named 'BHPdates'
+% save lab8.mat;
+load lab8.mat;
+
+%% Q1(a) Plot the price and return series.
+
+% Select BHP prices
+BHPp=BHPdata(:,7);
+
+% Calculate log-returns
+BHPr=100*diff(log((BHPp)));
+
+% Plot the price and return series
+figure;subplot(2,1,1);plot(BHPdates,BHPp);title('BHP prices');
+ylim([min(BHPp)-2 max(BHPp)+2]);                % set range of y-axis
+xlim([BHPdates(1) BHPdates(end)]);              % set range of x-axis
+subplot(2,1,2);plot(BHPdates(2:end,1),BHPr);title('BHP returns');
+ylim([min(BHPr)-1 max(BHPr)+1]);                % set range of y-axis
+xlim([BHPdates(2) BHPdates(end)]);              % set range of x-axis
+
+%% Q1(b) Summary Statistics, histogram and JB test
+
+% Summary statistics
+[mean(BHPr) median(BHPr) std(BHPr) skewness(BHPr) kurtosis(BHPr) min(BHPr) max(BHPr)]
+% Selected percentiles
+[prctile(BHPr,0.5) prctile(BHPr,1) prctile(BHPr,10) prctile(BHPr,25) prctile(BHPr,75) prctile(BHPr,90) prctile(BHPr,99) prctile(BHPr,99.5) ]
+figure;hist(BHPr,50);title('Histogram of BHP returns');
+% JBtest for Gaussianity
+[h,p]=jbtest(BHPr)
+
+%% Q1(c) ARCH(1) model
+
+% Fit an ARCH(1) model and plot dynamic standard deviations
+Mdl = garch('Offset',NaN,'ARCHLags',1); % Specify ARCH(1) model
+% Note: the 'Offset' parameter here is set to "NaN" (Not a Number) which
+% tells the Matlab to estimate it. The default is to set the 'Offset' to
+% zero ehich would be appropriate if we had used mean-corrected returns
+% (mean-corrected returns have zero mean 'Offset' would be zero)
+
+EstMdl=estimate(Mdl,BHPr);              % Estimate ARCH(1) model
+v=infer(EstMdl,BHPr);                   % infer the conditional variance                                  
+% Note: the infer command can have provide additional outputs as you shall 
+% see in future labs. type "help infer" in command window to see additional
+% options
+s=v.^(.5);                              % conditional standard deviations
+
+% Plot the estimated conditional standard deviations against time
+figure;plot(BHPdates(2:end),s);
+xlim([BHPdates(2) BHPdates(end)]);
+title('Inferred Conditional Standard Deviations');
+
+%% Q1(d) Unconditional variance vs sample variance
+
+a1=EstMdl.ARCH{1};  % obtain coefficient of a(t-1)^2 in cond. vol equation
+a0=EstMdl.Constant; % obtain constant term from conditional vol equation
+a0/(1-a1)           % the model-based unconditional variance estimate
+% the above model-based formula was shown in lectures
+var(BHPr)           % this is the sample variance for comparison
+% Look at 'EstMdl' in the Workspace (double click on it) and you can see 
+% the various estimated parameters and their data types. It will also help 
+% you understand the commands used to extract them such as a1 and a0 above
+
+%% Q1(e) Unconditional kurtosis vs sample kurtosis
+
+k=kurtosis(BHPr)      % the sample kurtosis of returns 
+3*(1-a1^2)/(1-3*a1^2) % the model-based unconditional kurtosis estimate
+% the above model-based formula was shown in lectures
+
+%% Q1(f) Least Squares estimates
+
+% OLS estimation of an ARCH model
+% Setup data
+n=length(BHPr);       % sample size
+a=BHPr-mean(BHPr);    % demeaned returns (errors in mean equation)
+a2=a(2:n).^2;         % demeaned returns squared (y-variable)
+x=a(1:n-1).^2;        % lagged demeaned returns squared (x-variable)
+xmat=[ones(n-1,1) x]; % X matrix for LS regression of ARCH equation
+
+% OLS regression of demeaned returns squared vs lags
+b=regress(a2,xmat) % Coefficients: constant b(1) and arch coefficient b(2)
+
+% type the command 'help regress' to see more output options for OLS, e.g.
+% [B,BINT,R,RINT,STATS] = regress(Y,X) provides more output and was used in
+% the Lab 7 last week
+
+%% Q1(g) Variance and kurtosis estimates for LS model
+
+b(1)/(1-b(2)) % model-based unconditional variance estimate from regression
+% b(1) is the estimate of constant and b(2) is the estimate of the 
+% coefficient of a(t-1)^2 in conditional vol equation
+3*(1-b(2)^2)/(1-3*b(2)^2) % the model-based unconditional kurtosis using 
+
+##### SOURCE END #####
+--></body></html>

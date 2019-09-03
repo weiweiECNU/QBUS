@@ -1,0 +1,418 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>lab2code_19</title><meta name="generator" content="MATLAB 9.3"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-03-05"><meta name="DC.source" content="lab2code_19.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">Lab 2: CAPM modelling and analysis</a></li><li><a href="#2">(a) Calculate excess returns, plot them, and provide summary stats</a></li><li><a href="#3">(b) Scatterplots of industry excess returns against market excess returns</a></li><li><a href="#4">(c) Calculate correlations of industry excess returns against market excess returns and test</a></li><li><a href="#5">(d)  CAPM Simple Linear regressions</a></li><li><a href="#6">(e) Check for outliers using plots</a></li><li><a href="#7">(f) Strength of fit</a></li><li><a href="#8">(g) Assess industry risk (High/Medium/Low)</a></li></ul></div><h2 id="1">Lab 2: CAPM modelling and analysis</h2><pre class="codeinput"><span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">%%%%%%%%%%%   IMPORT DATA SETS FIRST   %%%%%%%%%%%%%%%</span>
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+
+<span class="comment">% Import "FF_Research_Data_Factors.txt" as a NUMERIC MATRIX and name 'FFResearchDataFactors'</span>
+<span class="comment">% Import "5_IndustryPortfolios.txt" as a NUMERIC MATRIX and name 'IndustryPortfolios'</span>
+<span class="comment">% Import only the MONTHLY from July, 1926 to December, 2011 from both files</span>
+<span class="comment">% From "5_IndustryPortfolios.txt" only import the "Value-weighted" data at</span>
+<span class="comment">% the top of the file.</span>
+
+<span class="comment">% You may need to play around a see whether 'fixed width' or 'Delimited'</span>
+<span class="comment">% method works best with each file. With delimited you will need to choose</span>
+<span class="comment">% the correct delimiter as space, comma, tab etc</span>
+<span class="comment">% Also check the end of the txt file in case there is additional text which</span>
+<span class="comment">% you do not want to include</span>
+
+<span class="comment">% Now shorten data matrix names for ease of programming,</span>
+<span class="comment">% and select only relevant rows (1:1026)</span>
+indmat = IndustryPortfolios(1:1026,:);
+FFmat = FFResearchDataFactors(1:1026,:);
+
+<span class="comment">% remove old matrices (to save space)</span>
+<span class="comment">% clear IndustryPortfolios FFResearchDataFactors</span>
+
+<span class="comment">% Alternatively, simply copy and paste the monthly data into</span>
+<span class="comment">% Matlab into the variable names 'FFmat' and 'indmat', i.e.</span>
+
+<span class="comment">% FFmat = [ &lt;copy and paste data from FF_Research_Data_Factors.txt here&gt; ];</span>
+<span class="comment">% indmat=[ &lt;copy and paste data from 5_Industry_Portfolios.txt here&gt; ];</span>
+
+<span class="comment">% NOTE: I used the VALUE weighted data here</span>
+
+<span class="comment">%%%%%%%%%%%% SAVING DATA AS MATLAB WORKSPACE OBJECT %%%%%%%%%%%%%%%</span>
+
+<span class="comment">% You could now save as a matlab data object 'name.mat' using</span>
+<span class="comment">% Home --&gt; Save Workspace as --&gt;  . I saved it as "lab2.mat"</span>
+<span class="comment">% Alternatively you could type the command: "save lab2.mat"</span>
+<span class="comment">%</span>
+<span class="comment">% Saving will easily allow you to load the data later without using the Import Data tool</span>
+<span class="comment">% or the copy/paste method</span>
+<span class="comment">% To load the data again use Home --&gt; Open --&gt;</span>
+<span class="comment">% Alternatively you could type the command: "load lab2.mat"</span>
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">%%%%%%%%%%%%%%%%%% BEGIN PROGRAMME  %%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+</pre><h2 id="2">(a) Calculate excess returns, plot them, and provide summary stats</h2><p>load lab2.mat</p><pre class="codeinput">rf=FFmat(:,5);   <span class="comment">% risk-free rate</span>
+ex_mark_ret=FFmat(:,2);  <span class="comment">% excess market return</span>
+cnsmr_ret=indmat(:,2);  <span class="comment">% return on consumer portfolio</span>
+cnsmr_ex_ret=cnsmr_ret-rf;  <span class="comment">% excess return</span>
+manuf_ret=indmat(:,3);manuf_ex_ret=manuf_ret-rf;
+hitech_ret=indmat(:,4);hitech_ex_ret=hitech_ret-rf;
+health_ret=indmat(:,5);health_ex_ret=health_ret-rf;
+other_ret=indmat(:,6);other_ex_ret=other_ret-rf;
+
+<span class="comment">% plots of industry excess returns against market excess returns</span>
+figure;plot(ex_mark_ret);hold <span class="string">on</span>;plot(cnsmr_ex_ret,<span class="string">'r'</span>)
+plot(manuf_ex_ret,<span class="string">'m'</span>);plot(hitech_ex_ret,<span class="string">'g'</span>)
+plot(health_ex_ret,<span class="string">'k'</span>);plot(other_ex_ret,<span class="string">'c'</span>)
+
+<span class="comment">% summary statistics table</span>
+summ = [mean(ex_mark_ret) median(ex_mark_ret) std(ex_mark_ret) min(ex_mark_ret) max(ex_mark_ret) skewness(ex_mark_ret) kurtosis(ex_mark_ret);
+mean(cnsmr_ex_ret) median(cnsmr_ex_ret) std(cnsmr_ex_ret) min(cnsmr_ex_ret) max(cnsmr_ex_ret) skewness(cnsmr_ex_ret) kurtosis(cnsmr_ex_ret);
+mean(manuf_ex_ret) median(manuf_ex_ret) std(manuf_ex_ret) min(manuf_ex_ret) max(manuf_ex_ret) skewness(manuf_ex_ret) kurtosis(manuf_ex_ret);
+mean(hitech_ex_ret) median(hitech_ex_ret) std(hitech_ex_ret) min(hitech_ex_ret) max(hitech_ex_ret) skewness(hitech_ex_ret) kurtosis(hitech_ex_ret);
+mean(health_ex_ret) median(health_ex_ret) std(health_ex_ret) min(health_ex_ret) max(health_ex_ret) skewness(health_ex_ret) kurtosis(health_ex_ret);
+mean(other_ex_ret) median(other_ex_ret) std(other_ex_ret) min(other_ex_ret) max(other_ex_ret) skewness(other_ex_ret) kurtosis(other_ex_ret)]
+
+<span class="comment">% you could also use histograms or boxplots here e.g.:</span>
+figure;axis([-60 60 0 300]);subplot(3,2,1);axis([-60 60 0 300]);hist(ex_mark_ret,25);title(<span class="string">'Market'</span>);axis([-60 60 0 300]);
+subplot(3,2,2);hist(cnsmr_ex_ret,25);title(<span class="string">'Consumer'</span>);axis([-60 60 0 300]);
+subplot(3,2,3);hist(manuf_ex_ret,25);;title(<span class="string">'Manufacturing'</span>);axis([-60 60 0 300]);
+subplot(3,2,4);hist(hitech_ex_ret, 25);title(<span class="string">'HiTech'</span>);axis([-60 60 0 300]);
+subplot(3,2,5);hist(health_ex_ret, 25);title(<span class="string">'Health'</span>);axis([-60 60 0 300]);
+subplot(3,2,6);hist(other_ex_ret, 25);title(<span class="string">'Other'</span>);axis([-60 60 0 300]);
+<span class="comment">% note: I put all axes on the same scale for ease of comparison</span>
+</pre><pre class="codeoutput">
+summ =
+
+    0.6175    0.9550    5.4572  -29.0400   38.2700    0.1685   10.3983
+    0.6940    0.9100    5.3856  -28.2000   42.5900    0.1153   10.1566
+    0.6820    0.9100    5.5966  -29.8400   41.5300    0.3579   11.0530
+    0.6257    0.8900    5.6908  -26.7700   33.8000   -0.1695    6.5058
+    0.7735    0.7350    5.7350  -34.8000   38.5600    0.1798   10.1047
+    0.5860    0.9350    6.5587  -30.0500   58.7100    0.8929   15.8557
+
+</pre><img vspace="5" hspace="5" src="lab2code_19_01.png" alt=""> <img vspace="5" hspace="5" src="lab2code_19_02.png" alt=""> <h2 id="3">(b) Scatterplots of industry excess returns against market excess returns</h2><p>find min and max values for xy-axes, note that we have already calculated the min and max ex returns</p><pre class="codeinput">xymin = min(summ(:,4));
+xymax = max(summ(:,5));
+<span class="comment">% scatterplots of industry excess returns against market excess returns</span>
+figure;subplot(3,2,1);plot(ex_mark_ret,cnsmr_ex_ret,<span class="string">'+'</span>);axis([xymin xymax xymin xymax]);title(<span class="string">'Consumer'</span>);
+subplot(3,2,2);plot(ex_mark_ret,manuf_ex_ret,<span class="string">'+'</span>);axis([xymin xymax xymin xymax]);title(<span class="string">'Manufacturing'</span>);
+subplot(3,2,3);plot(ex_mark_ret,hitech_ex_ret,<span class="string">'+'</span>);axis([xymin xymax xymin xymax]);title(<span class="string">'HiTech'</span>);
+subplot(3,2,4);plot(ex_mark_ret,health_ex_ret,<span class="string">'+'</span>);axis([xymin xymax xymin xymax]);title(<span class="string">'Health'</span>);
+subplot(3,2,5);plot(ex_mark_ret,other_ex_ret,<span class="string">'+'</span>);axis([xymin xymax xymin xymax]);title(<span class="string">'Other'</span>);
+</pre><img vspace="5" hspace="5" src="lab2code_19_03.png" alt=""> <h2 id="4">(c) Calculate correlations of industry excess returns against market excess returns and test</h2><p>[r,p]=corrcoef(x,y) command variables 'x' and 'y' and calculates the correlation 'r' between them and also reports 'p' which is the p-value from test that rho=0</p><pre class="codeinput">[rc,pc]=corrcoef(ex_mark_ret,cnsmr_ex_ret);
+[rm,pm]=corrcoef(ex_mark_ret,manuf_ex_ret);
+[rhi,phi]=corrcoef(ex_mark_ret,hitech_ex_ret);
+[rhe,phe]=corrcoef(ex_mark_ret,health_ex_ret);
+[ro,po]=corrcoef(ex_mark_ret,other_ex_ret);
+
+[rc(2,1) rm(2,1) rhi(2,1) rhe(2,1) ro(2,1); pc(2,1) pm(2,1) phi(2,1) phe(2,1) po(2,1)]
+<span class="comment">% r and p here are given as 2 by 2 matrices. The (2,1) and (1,2) elements</span>
+<span class="comment">% are the same and are the values we want.</span>
+</pre><pre class="codeoutput">
+ans =
+
+    0.9352    0.9612    0.9070    0.8036    0.9346
+         0         0         0    0.0000         0
+
+</pre><h2 id="5">(d)  CAPM Simple Linear regressions</h2><p>create X matrix for regression</p><pre class="codeinput">xmat=[ones(length(ex_mark_ret),1) ex_mark_ret];
+
+<span class="comment">%fit regression models</span>
+<span class="comment">% use 'doc regress; to get help on this command</span>
+<span class="comment">% For first regression below, Bc contains slope coefficients, BINTc has 95% confidence intervals Rc has the residuals,</span>
+<span class="comment">% RINTc contains 95% confidence intervals for the standardised residuals if these intervals do not contain zero then data point might be an outlier</span>
+<span class="comment">% STATSc contains in order the following stats: R^2 statistic, the F statistic and its p value, and an estimate of the error variance</span>
+<span class="comment">% In my labels 'c' refers to the consumer sector, 'm' for manufacuring and so on</span>
+[Bc,BINTc,Rc,RINTc,STATSc] = regress(cnsmr_ex_ret,xmat);   <span class="comment">% runs OLS regression</span>
+cnsmr_est=xmat*Bc;                                         <span class="comment">% estimates of average return from regression</span>
+[Bm,BINTm,Rm,RINTm,STATSm] = regress(manuf_ex_ret,xmat);   <span class="comment">% runs OLS regression</span>
+manuf_est=xmat*Bm;
+[Bhi,BINThi,Rhi,RINThi,STATShi] = regress(hitech_ex_ret,xmat);   <span class="comment">% runs OLS regression</span>
+hitech_est=xmat*Bhi;
+[Bhe,BINThe,Rhe,RINThe,STATShe] = regress(health_ex_ret,xmat);   <span class="comment">% runs OLS regression</span>
+health_est=xmat*Bhe;
+[Bo,BINTo,Ro,RINTo,STATSo] = regress(other_ex_ret,xmat);   <span class="comment">% runs OLS regression</span>
+other_est=xmat*Bo;
+
+<span class="comment">% make a table containing intercept, followed by intercept's 95% CI, followed by beta, followed by beta's 95% CI for each sector</span>
+[Bc(1) BINTc(1,:) Bc(2) BINTc(2,:);Bm(1) BINTm(1,:) Bm(2) BINTm(2,:);Bhi(1) BINThi(1,:) Bhi(2) BINThi(2,:);
+    Bhe(1) BINThe(1,:) Bhe(2) BINThe(2,:);Bo(1) BINTo(1,:) Bo(2) BINTo(2,:);]
+</pre><pre class="codeoutput">
+ans =
+
+    0.1241    0.0065    0.2418    0.9229    0.9015    0.9443
+    0.0733   -0.0219    0.1685    0.9858    0.9684    1.0031
+    0.0417   -0.1061    0.1895    0.9458    0.9189    0.9728
+    0.2520    0.0415    0.4625    0.8445    0.8062    0.8829
+   -0.1076   -0.2515    0.0363    1.1232    1.0970    1.1495
+
+</pre><h2 id="6">(e) Check for outliers using plots</h2><p>plot of data and line and residuals, assumption 3</p><pre class="codeinput">figure;subplot(1,2,1);plot(ex_mark_ret,cnsmr_ex_ret,<span class="string">'+'</span>);lsline
+subplot(1,2,2);plot(ex_mark_ret,cnsmr_ex_ret-cnsmr_est,<span class="string">'+'</span>)
+
+figure;subplot(1,2,1);plot(ex_mark_ret,manuf_ex_ret,<span class="string">'+'</span>);lsline
+subplot(1,2,2);plot(ex_mark_ret,manuf_ex_ret-manuf_est,<span class="string">'+'</span>)
+
+figure;subplot(1,2,1);plot(ex_mark_ret,hitech_ex_ret,<span class="string">'+'</span>);lsline
+subplot(1,2,2);plot(ex_mark_ret,hitech_ex_ret-hitech_est,<span class="string">'+'</span>)
+
+figure;subplot(1,2,1);plot(ex_mark_ret,health_ex_ret,<span class="string">'+'</span>);lsline
+subplot(1,2,2);plot(ex_mark_ret,health_ex_ret-health_est,<span class="string">'+'</span>)
+
+figure;subplot(1,2,1);plot(ex_mark_ret,other_ex_ret,<span class="string">'+'</span>);lsline
+subplot(1,2,2);plot(ex_mark_ret,other_ex_ret-other_est,<span class="string">'+'</span>)
+</pre><img vspace="5" hspace="5" src="lab2code_19_04.png" alt=""> <img vspace="5" hspace="5" src="lab2code_19_05.png" alt=""> <img vspace="5" hspace="5" src="lab2code_19_06.png" alt=""> <img vspace="5" hspace="5" src="lab2code_19_07.png" alt=""> <img vspace="5" hspace="5" src="lab2code_19_08.png" alt=""> <h2 id="7">(f) Strength of fit</h2><p>R^2 and SER per sector regression</p><pre class="codeinput">[STATSc(1) sqrt(STATSc(4));STATSm(1) sqrt(STATSm(4));STATShi(1) sqrt(STATShi(4));
+    STATShe(1) sqrt(STATShe(4));STATSo(1) sqrt(STATSo(4))]
+</pre><pre class="codeoutput">
+ans =
+
+    0.8745    1.9087
+    0.9239    1.5443
+    0.8227    2.3976
+    0.6458    3.4148
+    0.8735    2.3340
+
+</pre><h2 id="8">(g) Assess industry risk (High/Medium/Low)</h2><p>The command regstats(y,x) will provide regression statistics from a regression of y against x. A dialog box will allow you to choose which stats to record</p><pre class="codeinput">regstats(other_ex_ret,ex_mark_ret)
+<span class="comment">% choose 'Coefficients' (saved as 'beta'), 'coefficient covariances' (saved as 'covb')</span>
+<span class="comment">% and any others you feel like</span>
+
+<span class="comment">% t-test of beta&gt;1 for Other</span>
+ts = (beta(2)-1)/sqrt(covb(2,2))
+pval = 1-normcdf(ts)
+</pre><pre class="codeoutput">Variables have been created in the base workspace.
+
+ts =
+
+    9.2253
+
+
+pval =
+
+     0
+
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2017b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% Lab 2: CAPM modelling and analysis
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%   IMPORT DATA SETS FIRST   %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Import "FF_Research_Data_Factors.txt" as a NUMERIC MATRIX and name 'FFResearchDataFactors'
+% Import "5_IndustryPortfolios.txt" as a NUMERIC MATRIX and name 'IndustryPortfolios'
+% Import only the MONTHLY from July, 1926 to December, 2011 from both files
+% From "5_IndustryPortfolios.txt" only import the "Value-weighted" data at
+% the top of the file.
+
+% You may need to play around a see whether 'fixed width' or 'Delimited'
+% method works best with each file. With delimited you will need to choose 
+% the correct delimiter as space, comma, tab etc
+% Also check the end of the txt file in case there is additional text which
+% you do not want to include
+
+% Now shorten data matrix names for ease of programming, 
+% and select only relevant rows (1:1026)
+indmat = IndustryPortfolios(1:1026,:);
+FFmat = FFResearchDataFactors(1:1026,:);
+
+% remove old matrices (to save space)
+% clear IndustryPortfolios FFResearchDataFactors
+
+% Alternatively, simply copy and paste the monthly data into
+% Matlab into the variable names 'FFmat' and 'indmat', i.e.
+
+% FFmat = [ <copy and paste data from FF_Research_Data_Factors.txt here> ];
+% indmat=[ <copy and paste data from 5_Industry_Portfolios.txt here> ];  
+
+% NOTE: I used the VALUE weighted data here
+
+%%%%%%%%%%%% SAVING DATA AS MATLAB WORKSPACE OBJECT %%%%%%%%%%%%%%%
+
+% You could now save as a matlab data object 'name.mat' using
+% Home REPLACE_WITH_DASH_DASH> Save Workspace as REPLACE_WITH_DASH_DASH>  . I saved it as "lab2.mat"
+% Alternatively you could type the command: "save lab2.mat"
+%
+% Saving will easily allow you to load the data later without using the Import Data tool
+% or the copy/paste method
+% To load the data again use Home REPLACE_WITH_DASH_DASH> Open REPLACE_WITH_DASH_DASH> 
+% Alternatively you could type the command: "load lab2.mat"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%% BEGIN PROGRAMME  %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% (a) Calculate excess returns, plot them, and provide summary stats
+% load lab2.mat
+rf=FFmat(:,5);   % risk-free rate
+ex_mark_ret=FFmat(:,2);  % excess market return
+cnsmr_ret=indmat(:,2);  % return on consumer portfolio
+cnsmr_ex_ret=cnsmr_ret-rf;  % excess return
+manuf_ret=indmat(:,3);manuf_ex_ret=manuf_ret-rf;
+hitech_ret=indmat(:,4);hitech_ex_ret=hitech_ret-rf;
+health_ret=indmat(:,5);health_ex_ret=health_ret-rf;
+other_ret=indmat(:,6);other_ex_ret=other_ret-rf;
+
+% plots of industry excess returns against market excess returns
+figure;plot(ex_mark_ret);hold on;plot(cnsmr_ex_ret,'r')
+plot(manuf_ex_ret,'m');plot(hitech_ex_ret,'g')
+plot(health_ex_ret,'k');plot(other_ex_ret,'c')
+
+% summary statistics table
+summ = [mean(ex_mark_ret) median(ex_mark_ret) std(ex_mark_ret) min(ex_mark_ret) max(ex_mark_ret) skewness(ex_mark_ret) kurtosis(ex_mark_ret);
+mean(cnsmr_ex_ret) median(cnsmr_ex_ret) std(cnsmr_ex_ret) min(cnsmr_ex_ret) max(cnsmr_ex_ret) skewness(cnsmr_ex_ret) kurtosis(cnsmr_ex_ret);
+mean(manuf_ex_ret) median(manuf_ex_ret) std(manuf_ex_ret) min(manuf_ex_ret) max(manuf_ex_ret) skewness(manuf_ex_ret) kurtosis(manuf_ex_ret);
+mean(hitech_ex_ret) median(hitech_ex_ret) std(hitech_ex_ret) min(hitech_ex_ret) max(hitech_ex_ret) skewness(hitech_ex_ret) kurtosis(hitech_ex_ret);
+mean(health_ex_ret) median(health_ex_ret) std(health_ex_ret) min(health_ex_ret) max(health_ex_ret) skewness(health_ex_ret) kurtosis(health_ex_ret);
+mean(other_ex_ret) median(other_ex_ret) std(other_ex_ret) min(other_ex_ret) max(other_ex_ret) skewness(other_ex_ret) kurtosis(other_ex_ret)]
+
+% you could also use histograms or boxplots here e.g.:
+figure;axis([-60 60 0 300]);subplot(3,2,1);axis([-60 60 0 300]);hist(ex_mark_ret,25);title('Market');axis([-60 60 0 300]);
+subplot(3,2,2);hist(cnsmr_ex_ret,25);title('Consumer');axis([-60 60 0 300]);
+subplot(3,2,3);hist(manuf_ex_ret,25);;title('Manufacturing');axis([-60 60 0 300]);
+subplot(3,2,4);hist(hitech_ex_ret, 25);title('HiTech');axis([-60 60 0 300]);
+subplot(3,2,5);hist(health_ex_ret, 25);title('Health');axis([-60 60 0 300]);
+subplot(3,2,6);hist(other_ex_ret, 25);title('Other');axis([-60 60 0 300]);
+% note: I put all axes on the same scale for ease of comparison
+
+%% (b) Scatterplots of industry excess returns against market excess returns
+% find min and max values for xy-axes, note that we have already calculated the min and max ex returns
+xymin = min(summ(:,4));
+xymax = max(summ(:,5));
+% scatterplots of industry excess returns against market excess returns
+figure;subplot(3,2,1);plot(ex_mark_ret,cnsmr_ex_ret,'+');axis([xymin xymax xymin xymax]);title('Consumer');
+subplot(3,2,2);plot(ex_mark_ret,manuf_ex_ret,'+');axis([xymin xymax xymin xymax]);title('Manufacturing');
+subplot(3,2,3);plot(ex_mark_ret,hitech_ex_ret,'+');axis([xymin xymax xymin xymax]);title('HiTech');
+subplot(3,2,4);plot(ex_mark_ret,health_ex_ret,'+');axis([xymin xymax xymin xymax]);title('Health');
+subplot(3,2,5);plot(ex_mark_ret,other_ex_ret,'+');axis([xymin xymax xymin xymax]);title('Other');
+
+%% (c) Calculate correlations of industry excess returns against market excess returns and test
+% [r,p]=corrcoef(x,y) command variables 'x' and 'y' and calculates the correlation 'r' between them 
+% and also reports 'p' which is the p-value from test that rho=0
+[rc,pc]=corrcoef(ex_mark_ret,cnsmr_ex_ret);   
+[rm,pm]=corrcoef(ex_mark_ret,manuf_ex_ret);
+[rhi,phi]=corrcoef(ex_mark_ret,hitech_ex_ret); 
+[rhe,phe]=corrcoef(ex_mark_ret,health_ex_ret); 
+[ro,po]=corrcoef(ex_mark_ret,other_ex_ret); 
+
+[rc(2,1) rm(2,1) rhi(2,1) rhe(2,1) ro(2,1); pc(2,1) pm(2,1) phi(2,1) phe(2,1) po(2,1)]  
+% r and p here are given as 2 by 2 matrices. The (2,1) and (1,2) elements
+% are the same and are the values we want. 
+
+%% (d)  CAPM Simple Linear regressions
+% create X matrix for regression
+xmat=[ones(length(ex_mark_ret),1) ex_mark_ret];   
+
+%fit regression models
+% use 'doc regress; to get help on this command
+% For first regression below, Bc contains slope coefficients, BINTc has 95% confidence intervals Rc has the residuals, 
+% RINTc contains 95% confidence intervals for the standardised residuals if these intervals do not contain zero then data point might be an outlier
+% STATSc contains in order the following stats: R^2 statistic, the F statistic and its p value, and an estimate of the error variance
+% In my labels 'c' refers to the consumer sector, 'm' for manufacuring and so on
+[Bc,BINTc,Rc,RINTc,STATSc] = regress(cnsmr_ex_ret,xmat);   % runs OLS regression
+cnsmr_est=xmat*Bc;                                         % estimates of average return from regression
+[Bm,BINTm,Rm,RINTm,STATSm] = regress(manuf_ex_ret,xmat);   % runs OLS regression
+manuf_est=xmat*Bm;
+[Bhi,BINThi,Rhi,RINThi,STATShi] = regress(hitech_ex_ret,xmat);   % runs OLS regression
+hitech_est=xmat*Bhi;
+[Bhe,BINThe,Rhe,RINThe,STATShe] = regress(health_ex_ret,xmat);   % runs OLS regression
+health_est=xmat*Bhe;
+[Bo,BINTo,Ro,RINTo,STATSo] = regress(other_ex_ret,xmat);   % runs OLS regression
+other_est=xmat*Bo;
+
+% make a table containing intercept, followed by intercept's 95% CI, followed by beta, followed by beta's 95% CI for each sector
+[Bc(1) BINTc(1,:) Bc(2) BINTc(2,:);Bm(1) BINTm(1,:) Bm(2) BINTm(2,:);Bhi(1) BINThi(1,:) Bhi(2) BINThi(2,:);
+    Bhe(1) BINThe(1,:) Bhe(2) BINThe(2,:);Bo(1) BINTo(1,:) Bo(2) BINTo(2,:);]
+
+
+%% (e) Check for outliers using plots
+% plot of data and line and residuals, assumption 3
+figure;subplot(1,2,1);plot(ex_mark_ret,cnsmr_ex_ret,'+');lsline
+subplot(1,2,2);plot(ex_mark_ret,cnsmr_ex_ret-cnsmr_est,'+')
+
+figure;subplot(1,2,1);plot(ex_mark_ret,manuf_ex_ret,'+');lsline
+subplot(1,2,2);plot(ex_mark_ret,manuf_ex_ret-manuf_est,'+')
+
+figure;subplot(1,2,1);plot(ex_mark_ret,hitech_ex_ret,'+');lsline
+subplot(1,2,2);plot(ex_mark_ret,hitech_ex_ret-hitech_est,'+')
+
+figure;subplot(1,2,1);plot(ex_mark_ret,health_ex_ret,'+');lsline
+subplot(1,2,2);plot(ex_mark_ret,health_ex_ret-health_est,'+')
+
+figure;subplot(1,2,1);plot(ex_mark_ret,other_ex_ret,'+');lsline
+subplot(1,2,2);plot(ex_mark_ret,other_ex_ret-other_est,'+')
+
+%% (f) Strength of fit
+% R^2 and SER per sector regression
+[STATSc(1) sqrt(STATSc(4));STATSm(1) sqrt(STATSm(4));STATShi(1) sqrt(STATShi(4));
+    STATShe(1) sqrt(STATShe(4));STATSo(1) sqrt(STATSo(4))] 
+
+%% (g) Assess industry risk (High/Medium/Low)
+% The command regstats(y,x) will provide regression statistics from a
+% regression of y against x. A dialog box will allow you to choose which
+% stats to record
+regstats(other_ex_ret,ex_mark_ret)    
+% choose 'Coefficients' (saved as 'beta'), 'coefficient covariances' (saved as 'covb') 
+% and any others you feel like
+
+% t-test of beta>1 for Other
+ts = (beta(2)-1)/sqrt(covb(2,2))
+pval = 1-normcdf(ts)
+##### SOURCE END #####
+--></body></html>

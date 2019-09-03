@@ -1,0 +1,923 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>lab5code_19</title><meta name="generator" content="MATLAB 9.3"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-03-06"><meta name="DC.source" content="lab5code_19.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">Q1 PCA and Factor Modelling</a></li><li><a href="#2">Q1(a) Estimate the sample correlation matrix</a></li><li><a href="#3">Q1(b) PCA analysis</a></li><li><a href="#4">Q1(c) Describe PCs</a></li><li><a href="#5">Q1(d) Perform Factor Analysis m=1</a></li><li><a href="#6">Q1(e)	Describe the factor loadings and factor found</a></li><li><a href="#7">Q1(f) Assess whether 1 factor model is appropriate</a></li><li><a href="#8">Q1(g) Perform a Factor Analysis with m=2 factors</a></li><li><a href="#9">Q1(h) Unrotated factors</a></li><li><a href="#10">Fit 3 factor model</a></li></ul></div><h2 id="1">Q1 PCA and Factor Modelling</h2><p>I imported the data from the file 'Tsay_FM_data.txt' as column vectors. The names of the columns are in the first row of the file and become the names of the 5 separate vectors. I then saved the workspace with command: save lab5.mat</p><pre class="codeinput">load <span class="string">lab5.mat</span>
+Tsay_data = [BAC HPQ IBM INTC JPM]; <span class="comment">% combine all columns into one matrix</span>
+</pre><h2 id="2">Q1(a) Estimate the sample correlation matrix</h2><p>Estimate the sample correlation matrix showing all pairwise correlations.</p><pre class="codeinput">corr(Tsay_data)
+
+<span class="comment">% Scatterplot of BAC vs JPM</span>
+figure;plot(BAC,JPM,<span class="string">'+'</span>);title(<span class="string">'Plot of JPM vs BAC'</span>)
+;xlabel(<span class="string">'BAC'</span>);ylabel(<span class="string">'JPM'</span>);
+<span class="comment">% relationship seems roughly linear.</span>
+
+<span class="comment">% Calculate (and test) correlation between BAC and INTC (least significant)</span>
+[pc,p]=corr(BAC,INTC)
+</pre><pre class="codeoutput">
+ans =
+
+    1.0000    0.2591    0.2545    0.2521    0.6836
+    0.2591    1.0000    0.4620    0.5495    0.3889
+    0.2545    0.4620    1.0000    0.4593    0.3384
+    0.2521    0.5495    0.4593    1.0000    0.3578
+    0.6836    0.3889    0.3384    0.3578    1.0000
+
+
+pc =
+
+    0.2521
+
+
+p =
+
+   1.1885e-04
+
+</pre><img vspace="5" hspace="5" src="lab5code_19_01.png" alt=""> <h2 id="3">Q1(b) PCA analysis</h2><pre class="codeinput"><span class="comment">% Plot the 5 data series</span>
+plot(Tsay_data);title(<span class="string">'5 US return series'</span>);
+legend(<span class="string">'BAC'</span>,<span class="string">'HPQ'</span>,<span class="string">'IBM'</span>,<span class="string">'INTC'</span>,<span class="string">'JPM'</span>,<span class="string">'location'</span>,<span class="string">'southwest'</span>);
+xlim([0 length(Tsay_data)]);
+
+<span class="comment">% Perform PCA on Tsay_data</span>
+[pc_ret,score_ret,latent_ret] = princomp(Tsay_data)
+
+<span class="comment">% Percentage variance explained per component</span>
+latent_ret./sum(latent_ret)
+
+<span class="comment">% Cumulative percentage variance explained</span>
+cumsum(latent_ret)./sum(latent_ret)
+
+<span class="comment">% create vector/cell array of labels for biplot</span>
+vbls = {<span class="string">'BAC'</span>,<span class="string">'HPQ'</span>,<span class="string">'IBM'</span>,<span class="string">'INTC'</span>,<span class="string">'JPM'</span>};
+
+<span class="comment">% Biplot of components 1 and 2</span>
+figure;biplot(pc_ret(:,1:2),<span class="string">'varlabels'</span>,vbls);
+
+<span class="comment">% Biplot of components 1, 2 and 3</span>
+figure;biplot(pc_ret(:,1:3),<span class="string">'varlabels'</span>,vbls);
+</pre><pre class="codeoutput">Warning: princomp will be removed in a future release. Use pca instead. 
+
+pc_ret =
+
+    0.3474    0.6097   -0.1188   -0.0093    0.7024
+    0.4826   -0.2786    0.7009   -0.4298    0.1159
+    0.3298   -0.1393    0.2643    0.8954    0.0144
+    0.5808   -0.4781   -0.6516   -0.0962    0.0163
+    0.4476    0.5502   -0.0128   -0.0642   -0.7019
+
+
+score_ret =
+
+   -5.2700  -19.3402  -10.2933    6.3489    3.4297
+    1.6848    3.1452   -2.7567    6.9079    4.8249
+   -3.7548  -15.4312    4.1713   -0.5679   -4.3327
+   -7.2229    2.6503    1.1769    4.9572   -1.8301
+   25.6322   -2.8917   -4.4779    2.6274   -7.4108
+   -7.6691   -2.4346    0.9805   -0.9903    0.8062
+  -17.3816   -2.2491   -3.6063    0.4307    3.0531
+  -37.1433   12.4725    2.8307    5.3095   -4.4915
+  -30.1689  -40.8887    4.1436    7.7261   -9.5699
+  -40.5297  -29.4257  -15.4483   12.8775   12.0351
+   31.0625   16.2028    0.8430   -0.6249   17.1387
+   -0.0922   -6.5144    3.0040   -3.2809    1.0296
+   37.5882    8.4406    2.9605   -1.4163    3.3963
+   21.7761    7.7637    9.8182   -7.5226  -10.9485
+    5.4851   15.5081    0.9551  -14.5235    8.7401
+    8.4674   11.4657   -5.4852  -11.5970   -6.8428
+   16.0050    2.5014   -4.5020   -0.4753    7.5112
+  -23.2937    3.2014    6.7514   -3.3921  -12.6413
+    9.9836    5.7973    4.4951   -0.0160  -13.8326
+    4.7647    7.5364   -6.8166   -2.9916    5.7332
+  -16.2624    1.8648    8.6187   10.5405   -4.0729
+   -4.5516    3.9212    1.8005   -5.0618    5.3273
+  -15.1396  -12.0813   -3.8930   -1.2979    4.8016
+   22.4506   -0.6881   -2.7728  -12.8610   13.3431
+   26.9863    9.2915  -11.3566   -4.4653  -13.0188
+   21.8160    6.8277    9.0141  -12.7421   -4.6433
+   -8.4475    1.5751   15.4489   -6.4081   -0.2175
+    3.4734    7.5879    3.1604    7.5067   -1.3824
+   -7.0836    5.2152    1.3916    3.7881   -5.0985
+    5.7984   -1.1092  -13.6824    9.3923   -0.1731
+   -1.1138   -8.9271    1.0823   -5.7503    2.8791
+  -23.4989    2.0319  -16.7930    4.7181   -2.2961
+    3.7233   -1.3266  -12.1012   -6.6549    1.4861
+   -1.7772    6.3811   -5.9872  -18.4132   -0.6097
+   17.3645    3.0825    6.9519   -4.5551    2.5562
+    4.3486   -3.1194  -17.4602  -31.6200   -0.6026
+   16.0275   -5.1950  -11.3471   -1.6844    0.4907
+    6.1400   -5.9553   -2.2932    3.8687    0.5481
+   -2.0005    2.8222    1.1133   -7.3984    2.0465
+  -20.9170    1.5260   11.1107   -1.1190   -3.3666
+   13.8402  -13.8129    0.4468    2.0955   -1.4919
+   -0.8184    9.3256   -3.7838   -5.2713   -1.6252
+  -13.0185    8.7932   -7.9510   -3.8661   -1.0389
+   12.9578   -9.9144  -10.9332   -0.2320    4.0613
+    2.0488    5.0007  -14.1217   -6.0060   -8.4062
+  -10.3917  -10.1388   16.1300    6.8335    2.0166
+    0.7317   -1.8137    6.0292   14.9769    4.6288
+    7.2256    2.3590    5.2050    0.6966    0.2388
+    5.2903   -3.0841    1.5233   -3.7352    4.6799
+   -1.5656   -8.0538   -0.3738   -8.2747    2.9813
+   -9.4051   -1.4412   -3.8696    7.3105   -4.6458
+   -4.5996   10.5567    4.7237    6.6891   12.3281
+    8.3239    7.8709   -1.5623    8.5179   -2.2362
+  -11.9249    1.5907    0.6149   -4.0170   -6.6909
+    4.7931    2.7954    1.6417    3.0847    6.5723
+   15.3999   -9.2497    6.1249    2.0332    2.0609
+  -14.9323   -8.8819    4.6572    3.8285   -3.0247
+   10.4729    0.7505    8.7576    0.5067   -3.4820
+   -7.6124   -7.5266   -1.3501   -4.0773   -2.9565
+    1.3327   -1.2900    1.8542    2.2213    1.0103
+    7.4877    2.9280   -6.0334   -3.3601   -3.2385
+   18.1546   -4.5334    0.5810   -3.3248    5.4392
+    5.3042   -6.9557    1.4476    5.4283    5.6228
+   22.2124   -8.7114   -1.9038    6.1698   -6.3677
+   11.9502    9.6992   -8.2676   -2.9108    2.6156
+   11.2966  -11.4055    2.2446   -3.7738   -3.6915
+   11.9173    4.1467    3.9731    8.4015   -2.8067
+    3.2168   15.5118    2.9689   -5.9283   -1.3304
+    1.3115    9.1559    0.7170  -10.1388    3.8204
+    9.3178  -14.8363   -1.2556   -3.0151    4.2212
+   -9.7561   18.4902   -0.0063    5.2352    1.3457
+   -9.1462    1.2780    4.1980   -4.6885   -0.3059
+    9.1335    6.6339    6.8308   14.1987   -9.0050
+   19.3169   -1.8702   10.4625    2.5860    2.0886
+   -8.0771    9.2175   -6.0115   -5.5701    6.1218
+   12.1975  -11.9140   -4.0223   -9.5497    2.4722
+    5.6459   -3.2792   -7.0453   -1.9750    0.4626
+   -7.8336    6.4390   -5.0459   -3.8301    0.4006
+   -2.7951    3.4307   -8.5465   12.4664    2.2402
+    6.1520   -0.2943   -2.6271    5.0301   -5.2046
+   20.8811   -6.8288   -2.1045    0.5840   -1.4876
+    8.8146    4.8244  -16.3579    5.5195   -0.2242
+   30.7657   -4.0474    8.9776    8.4217    2.8438
+   -9.2892   -4.9025   -7.4612   -1.5749   -0.3691
+   19.2497   -3.4249  -11.1208   -1.3136    5.3311
+   -2.2342   16.7569    9.6350   -9.7203    2.3110
+  -12.2788   -4.7801   -2.4112   -1.4429   -1.0447
+   10.4203   -1.6116   -4.3137   13.7651    7.1006
+   -0.6458    0.0761    1.6190    7.6800   -3.5368
+    4.3906    7.8109   10.2460    0.4335    6.0573
+   39.7736   -5.6601    1.5659    0.9471   -1.1575
+  -16.3217   -7.5959   -8.2902    2.1925  -12.2269
+    9.7795    1.7609    9.2299   -1.8570    0.3194
+  -22.6117   10.3108    1.7472    0.4839   -2.8756
+   -0.8113   -4.4479    1.7376   10.2630    4.7018
+   -7.1719    6.5361    6.6091   -4.1776    1.0051
+    1.4630   -6.5609  -13.2379   -4.8859   -0.1287
+   22.3586    7.7954    0.6571   -1.5437    0.8411
+   -6.6298   17.1823    4.2066    2.5160   -1.7987
+   14.9617   -3.5090   12.1963    1.7228    3.0031
+  -18.8235    9.7630   -4.8222   10.8777   -1.3597
+    3.0899    6.8687   -6.0441   -1.5519   -6.1916
+    8.3625   -3.1295  -10.5300   14.7291    1.9862
+  -51.2410  -25.6854    1.8066   -4.3843    0.7296
+    6.4902  -27.7686   -1.3979    7.4717   10.9140
+   26.5109   12.6512    9.0764    5.1048  -12.8085
+   23.6798    2.4115   -8.4581    5.3347    2.1165
+   14.1932   -6.7154    3.6247    4.3772  -11.5509
+   22.0578   -0.6052   -3.2052   -8.7935    3.5206
+  -21.0039   14.0374   -2.8802    1.6849   -6.2113
+    4.0090    5.7787    2.2535    2.7250    4.8718
+   13.8235   -5.8319   12.8619    7.8962    1.7987
+   -6.3662  -13.6640   24.6524    3.7663    4.2642
+   22.9042   10.1503   -0.6459    4.6649   -2.0792
+   -0.6478  -19.7147   -6.2453   -4.9135    1.5739
+    8.7897   -9.3226  -10.2157   -3.1602  -11.8030
+  -23.1278   -0.7446   -3.5683    5.4266    0.3142
+   -4.2852   23.9902  -24.2782  -11.5216   -2.7706
+    2.5127  -19.0830   20.4017   -5.2975    4.3542
+    7.5123  -17.6570   11.0763   -4.3460   -7.5658
+    8.3809   -7.5287  -14.0812    3.6464   -5.5800
+   11.0356  -14.8366    4.8277  -18.3251    0.0577
+   20.0620    4.7663   -9.0284   10.6267    3.9693
+  -15.8640  -11.7213    3.1979   -4.1681    8.2679
+   -3.5296   14.7767   -9.6807    1.5089    5.5693
+    2.9469  -30.3352   17.1632   -9.2531   -9.1004
+   -0.5747   14.1151   -9.9276    7.4535   -0.3372
+   24.7904    4.1949    2.0666    8.1099    2.7705
+  -61.1619   24.8226   19.3659    1.9018    8.2267
+   -7.0545   -6.2131  -10.6489  -10.7543   -5.8796
+  -47.2405   -2.3389  -15.2198   15.1118   -1.9457
+   -4.5713   32.7721   10.9425   -7.7901   -5.2898
+   41.0674    2.7117    2.4307   14.6031    0.0964
+  -42.0005    8.0669   -2.3966    3.9631    3.7963
+   -2.4522    5.8559    9.0898   -6.0515   10.0649
+   12.8481   -1.8975  -12.8111   18.1310   -4.0030
+   -5.7796   11.5261    9.3051   -2.8065    3.1765
+   -1.8922   -7.6497   -6.5250    1.7178    7.7725
+   -9.2763    6.8019  -14.2129   -0.1538    3.9626
+  -15.5639   -1.6065   -0.9525   -0.6475    3.5127
+  -48.3698   16.1141   -6.7185   11.8854    2.3676
+   18.4557   -8.8173   -4.1446   10.6118   -1.1871
+   34.4455  -16.1174    0.9773   -8.6481    2.0744
+   -6.1612    3.2879   -1.2519    7.3674    4.4414
+    1.7125   -8.3587   -4.8847  -14.1217    4.9908
+  -27.3768    7.0232    4.0927   -1.4335   10.9245
+    9.3524   14.1309  -11.3247    7.9832  -10.5001
+  -12.9658   11.0551   -5.8908  -16.7854    4.0541
+    2.7605    3.4138    8.3452   -8.0708    2.7862
+  -44.9649   20.3732    9.5801    3.7855   -3.7720
+  -19.8155  -18.2189   -6.8001    2.9228   15.8852
+   -4.6646   12.6650    5.1885    9.2420   -0.8049
+  -45.1079   -7.0161   -2.8779  -13.3316   15.1165
+   43.2665  -11.6648   13.6988   11.2006    3.4045
+   31.1868   -5.1278    4.6163   -3.3150  -10.2506
+  -30.1430   16.4443    8.3361   -2.4224    1.6911
+   -1.3563   -0.6815   -0.2048    0.6496    1.6309
+   -2.6042   -3.9984  -12.7248    3.1614    0.4084
+   -4.6861    4.2129    3.2027    1.4200   -5.0285
+   23.6154   10.6691   -4.0158    2.3407   -7.5883
+   20.4493   -4.9774    5.1453   -6.2619   -5.3024
+    4.5923    5.1082    3.8317  -10.1221    3.3503
+   10.7660   -3.3506  -13.1011   -3.1218    0.9806
+    1.1373   -8.7151  -12.5287    2.4233   -1.5113
+   -2.9178    1.5842    2.7225    8.0370   -0.6874
+   17.1972  -11.3535   -1.2011   -7.0208   -3.8088
+   -2.4153   -1.1178   -2.6241    2.2106    0.6010
+    3.2668    7.0035    6.7147   -0.3237    3.3986
+    2.5806    5.0496    7.1775    4.6113   -3.1567
+   -4.9260    7.2257   -1.3312   -0.3198   -3.8476
+   -6.2771    5.1949    3.9140   -4.3191   -1.6281
+  -18.3298    1.6872   -7.6611    3.8582    4.9079
+    8.2722   -6.1458   -1.8078   -3.5724    4.9002
+   -0.9491    6.4728    1.4492   -0.3836   -1.6246
+  -12.8758    6.3237    4.4727    2.2181    1.7352
+  -11.6741   16.9714   -1.0914    3.6469   -1.6205
+   -3.2611    0.0472    8.0713   -0.5561   -1.5045
+    5.6586   -4.3220   -6.3156    3.3650    4.0631
+    3.5369   -2.1292    5.3428    1.5902    5.0673
+    7.0611   -0.4477    1.5205    1.1250    0.1393
+  -11.3789    2.1140   -3.3550   -1.2886    0.7328
+    4.0568   -5.4563   -0.6088   -3.7829    2.8490
+   -5.5159   -5.4511    6.3275   -2.9453    1.3485
+   -8.1554    7.2843  -10.7417  -13.4697   -1.8670
+   11.7994   -6.8486   -3.0277   -6.2710    2.9185
+   -3.0437   -0.1260    5.1652   -3.2363    1.0594
+    5.2762   -7.1967    4.0877    8.1238   -2.5640
+   -1.7971   -2.3254   10.8911   -7.3484    3.8382
+   -2.6779   -0.4109    6.5941   -2.3469   -0.9300
+   -0.8121   10.4046    0.2119    3.4195   -3.6919
+   15.1385   -2.7394   -3.0629    3.5226    2.2094
+   -8.1037    7.8120   -0.1865   -5.2359   -2.6541
+   -8.5174    3.6605   16.6135   -3.1640   -2.8313
+    1.4475    4.3183    4.5054   -3.1739    0.7924
+   -3.3812    3.3535    4.6939    2.6670   -0.4049
+    6.3062   10.1096   -3.9305   -0.5468   -0.0767
+  -12.0949    0.6716    5.7636   -0.9116    2.8378
+   -1.9591   -2.4164   -5.7894   -3.1272    0.5761
+    1.9746   11.6743    3.2609    0.2198   -1.3332
+   11.7849   -7.8318    4.8864   -2.3895    2.5545
+    4.2968    1.5150   -3.0799    0.0916    1.1491
+    7.7513   -3.4009    4.4453    7.8515    0.1854
+   -1.4044   -1.3557    0.6631   -0.8499    2.8077
+    0.4964    2.6776    8.1995    3.2586   -2.9452
+    5.2896   -0.7187    1.8298   -1.0345   -4.4572
+  -13.5058    2.9708   -4.8788   -0.7606   -0.5778
+   -3.3623    0.3163    4.2901    0.7805    2.0711
+   13.4127   -3.5361   -2.1749    3.4906   -4.8050
+    5.6434   -4.2374    4.4349    0.2525    2.0871
+   -3.7517   -8.1478   -5.8492   -0.3993    2.1453
+   -4.0333   -7.7571    4.2699    3.7501    4.5691
+   11.4072   -2.1365   -0.3756    1.0320    5.0442
+    0.5987    1.4724    0.5787    0.1355   -1.4142
+    1.7973   -3.1031    0.0617   -3.4756   -4.5658
+  -10.0028   -1.2951   -0.9457   -7.6273   -1.2600
+   -5.6184   -9.1563   -0.3751    3.0890   -3.5728
+  -16.3403   24.6578    3.9620    6.9301   -3.5053
+   -8.8655  -15.6676   12.4987    3.4992    4.5779
+    1.1846   -0.3439   -6.3287    1.9452   -6.2444
+    7.9180    2.3403   -1.0072    2.3598   -8.0667
+   -4.0739  -15.1035    1.2487    6.2170    0.7750
+  -33.6498  -25.5950    2.5282   -2.8141   -7.9714
+   22.2757   26.6237   -3.2399    4.5098   10.4799
+   -3.4213   -8.4711    0.3459   -6.0856    0.6107
+   -2.1069   29.5703    9.1649   -2.5042   -4.4764
+  -45.6423  -12.7555   -4.6626   -9.8867  -20.5687
+  -43.7040  -27.8350    5.1173   -4.2442  -10.5225
+   -0.2971  -11.5231    0.4134    0.9844   -7.5593
+
+
+latent_ret =
+
+  284.1675
+  112.9316
+   57.4371
+   46.8064
+   29.8740
+
+
+ans =
+
+    0.5349
+    0.2126
+    0.1081
+    0.0881
+    0.0562
+
+
+ans =
+
+    0.5349
+    0.7475
+    0.8557
+    0.9438
+    1.0000
+
+</pre><img vspace="5" hspace="5" src="lab5code_19_02.png" alt=""> <img vspace="5" hspace="5" src="lab5code_19_03.png" alt=""> <img vspace="5" hspace="5" src="lab5code_19_04.png" alt=""> <h2 id="4">Q1(c) Describe PCs</h2><pre class="codeinput"><span class="comment">% sample covariance matrix</span>
+cov(Tsay_data)
+
+<span class="comment">% Plot of 5 return series together along with first 3 components</span>
+figure;subplot(4,1,1);plot(Tsay_data);xlim([0 length(Tsay_data)]);
+title(<span class="string">'Stock returns'</span>);xlim([1 length(Tsay_data)]);
+subplot(4,1,2);plot(score_ret(:,1));
+title(<span class="string">'1st Principle component'</span>);xlim([1 length(score_ret)]);
+subplot(4,1,3);plot(score_ret(:,2));xlim([0 length(Tsay_data)]);
+title(<span class="string">'2nd Principle component'</span>);xlim([1 length(score_ret)]);
+subplot(4,1,4);plot(score_ret(:,3));xlim([0 length(Tsay_data)]);
+title(<span class="string">'3rd Principle component'</span>);xlim([1 length(score_ret)]);
+
+<span class="comment">% Correlation matrix of all 5 components</span>
+corr(score_ret)   <span class="comment">%  note the zero correlations of the PCs</span>
+
+<span class="comment">% Plot of 5 return series together along with first 5 components together</span>
+figure;subplot(2,1,1);plot(Tsay_data);title(<span class="string">'5 US return series'</span>);
+xlim([1 length(Tsay_data)]);
+legend(<span class="string">'BAC'</span>,<span class="string">'HPQ'</span>,<span class="string">'IBM'</span>,<span class="string">'INTC'</span>,<span class="string">'JPM'</span>,<span class="string">'location'</span>,<span class="string">'south'</span>,<span class="string">'Orientation'</span>,<span class="string">'horizontal'</span>);
+subplot(2,1,2);plot(score_ret);title(<span class="string">'5 Principle Components'</span>);
+legend(<span class="string">'PC1'</span>,<span class="string">'PC2'</span>,<span class="string">'PC3'</span>,<span class="string">'PC4'</span>,<span class="string">'PC5'</span>,<span class="string">'location'</span>,<span class="string">'south'</span>,<span class="string">'Orientation'</span>,<span class="string">'horizontal'</span>);
+xlim([1 length(Tsay_data)]);
+
+<span class="comment">% Correlation between the average of the returns along with the first component</span>
+corrcoef(mean(Tsay_data'),score_ret(:,1));
+
+<span class="comment">% Scatter plot of the average of the returns and the first component</span>
+figure;plot(mean(Tsay_data'),score_ret(:,1),<span class="string">'+'</span>);
+title(<span class="string">'PC1 vs Average of the returns'</span>);
+xlabel(<span class="string">'Average return'</span>);ylabel(<span class="string">'PC1'</span>);
+
+<span class="comment">% Plot of the daily average of the returns and the first component</span>
+figure;plot(mean(Tsay_data')); <span class="comment">%transpose to take average of 5 returns each period</span>
+hold <span class="string">on</span>;plot(score_ret(:,1),<span class="string">'r'</span>);xlim([0 length(Tsay_data)]);
+legend(<span class="string">'Average returns'</span>,<span class="string">'PC1'</span>,<span class="string">'location'</span>,<span class="string">'southeast'</span>);
+title(<span class="string">'Average Returns and PC1'</span>);
+</pre><pre class="codeoutput">
+ans =
+
+   91.8261   26.2997   21.0695   29.2428   67.4529
+   26.2997  112.2189   42.2812   70.4519   42.4237
+   21.0695   42.2812   74.6379   48.0269   30.1030
+   29.2428   70.4519   48.0269  146.4969   44.5942
+   67.4529   42.4237   30.1030   44.5942  106.0369
+
+
+ans =
+
+    1.0000    0.0000    0.0000   -0.0000    0.0000
+    0.0000    1.0000    0.0000    0.0000    0.0000
+    0.0000    0.0000    1.0000    0.0000    0.0000
+   -0.0000    0.0000    0.0000    1.0000   -0.0000
+    0.0000    0.0000    0.0000   -0.0000    1.0000
+
+</pre><img vspace="5" hspace="5" src="lab5code_19_05.png" alt=""> <img vspace="5" hspace="5" src="lab5code_19_06.png" alt=""> <img vspace="5" hspace="5" src="lab5code_19_07.png" alt=""> <img vspace="5" hspace="5" src="lab5code_19_08.png" alt=""> <h2 id="5">Q1(d) Perform Factor Analysis m=1</h2><pre class="codeinput">ymat=Tsay_data;  <span class="comment">% rows are observations over time, columns are variables</span>
+size(ymat)   <span class="comment">% should be T by n</span>
+
+[lam1_rets,psi1_rets,T1_ret,stats1_ret,F1_ret] = factoran(ymat,1);  <span class="comment">% fit 1 factor model</span>
+
+<span class="comment">% show standardised factor loadings and specific error variances</span>
+[lam1_rets psi1_rets]
+
+<span class="comment">% factor loadings (regression coefficients)</span>
+lam1_ret=lam1_rets.*(std(ymat))'; <span class="comment">% std(ymat) gives stds, transpose give 5x1 vector, dot multiply another 5x1</span>
+
+<span class="comment">%  specific error variances (SER^2)</span>
+psi1_ret=(psi1_rets.*(var(ymat))');
+
+[lam1_ret psi1_ret sqrt(psi1_ret) (1-psi1_ret'./var(ymat))']
+<span class="comment">%  above code displays actual factor loadings (regression coefficients),</span>
+<span class="comment">%  specific error variances (SER^2), SER and adjusted R-squared for each industry series</span>
+<span class="comment">%  psi1 are specific variances, so var(ymat)-psi1_ret'  gives communalities</span>
+
+<span class="comment">% overall amount of variance captured by the factor model</span>
+(trace(cov(ymat))-sum(psi1_ret))/trace(cov(ymat))
+
+<span class="comment">% Stats from the factor analysis</span>
+stats1_ret
+
+<span class="comment">% Estimated error variances, and sample variances, for each asset</span>
+[psi1_ret';var(ymat)]
+
+<span class="comment">% Sample mean and variance of single factor</span>
+[mean(F1_ret) var(F1_ret)]
+
+<span class="comment">% SER, R-squared and Standard Deviations for each asset</span>
+[sqrt(psi1_ret'); (1-psi1_ret'./var(ymat));  std(ymat)]
+</pre><pre class="codeoutput">
+ans =
+
+   228     5
+
+
+ans =
+
+    0.7261    0.4728
+    0.5196    0.7300
+    0.4708    0.7784
+    0.4969    0.7531
+    0.8426    0.2900
+
+
+ans =
+
+    6.9575   43.4187    6.5893    0.5272
+    5.5045   81.9197    9.0510    0.2700
+    4.0671   58.0968    7.6221    0.2216
+    6.0139  110.3304   10.5038    0.2469
+    8.6767   30.7511    5.5454    0.7100
+
+
+ans =
+
+    0.3891
+
+
+stats1_ret = 
+
+  struct with fields:
+
+    loglike: -0.4111
+        dfe: 5
+      chisq: 92.0155
+          p: 2.5338e-18
+
+
+ans =
+
+   43.4187   81.9197   58.0968  110.3304   30.7511
+   91.8261  112.2189   74.6379  146.4969  106.0369
+
+
+ans =
+
+    0.0000    1.2200
+
+
+ans =
+
+    6.5893    9.0510    7.6221   10.5038    5.5454
+    0.5272    0.2700    0.2216    0.2469    0.7100
+    9.5826   10.5933    8.6393   12.1036   10.2974
+
+</pre><h2 id="6">Q1(e)	Describe the factor loadings and factor found</h2><p>Plot 5 US returns series and single factor</p><pre class="codeinput">figure;subplot(2,1,1);plot(ymat);xlim([1 length(Tsay_data)]);
+title(<span class="string">'5 Asset Returns'</span>);
+legend(<span class="string">'IBM'</span>,<span class="string">'HPQ'</span>,<span class="string">'INTC'</span>,<span class="string">'JPM'</span>,<span class="string">'BAC'</span>,<span class="string">'Location'</span>,<span class="string">'South'</span>,<span class="string">'Orientation'</span>,<span class="string">'horizontal'</span>);
+subplot(2,1,2);plot(F1_ret);xlim([1 length(Tsay_data)]);
+title(<span class="string">'1st Factor'</span>);
+</pre><img vspace="5" hspace="5" src="lab5code_19_09.png" alt=""> <h2 id="7">Q1(f) Assess whether 1 factor model is appropriate</h2><pre class="codeinput"><span class="comment">% Correlation between first principle component and single factor</span>
+corrcoef(score_ret(:,1),F1_ret)
+
+<span class="comment">% Correlations of asset return and single factor</span>
+corr([ymat F1_ret])
+</pre><pre class="codeoutput">
+ans =
+
+    1.0000    0.9036
+    0.9036    1.0000
+
+
+ans =
+
+    1.0000    0.2591    0.2545    0.2521    0.6836    0.8020
+    0.2591    1.0000    0.4620    0.5495    0.3889    0.5739
+    0.2545    0.4620    1.0000    0.4593    0.3384    0.5200
+    0.2521    0.5495    0.4593    1.0000    0.3578    0.5488
+    0.6836    0.3889    0.3384    0.3578    1.0000    0.9307
+    0.8020    0.5739    0.5200    0.5488    0.9307    1.0000
+
+</pre><h2 id="8">Q1(g) Perform a Factor Analysis with m=2 factors</h2><pre class="codeinput"><span class="comment">% Estimate 2-factor model, m=2</span>
+[lam2_rets,psi2_rets,T2_ret,stats2_ret,F2_ret]=factoran(ymat,2,<span class="string">'maxit'</span>,500);  <span class="comment">% fit 2 factor model</span>
+<span class="comment">% NB the maxit option specifies how many iterations to use in the search</span>
+<span class="comment">% procedure for estimates. the default is 250 which is not enough for this</span>
+<span class="comment">% model and data, so I set it higher.</span>
+
+<span class="comment">% show standardised factor loadings and specific error variances</span>
+[lam2_rets psi2_rets]
+<span class="comment">%  Display the two columns of factor loadings, then specific error variances, SER and adjusted R</span>
+<span class="comment">%  squared for each industry series from the single factor model.</span>
+lam2_ret=lam2_rets;
+lam2_ret(:,1)=lam2_rets(:,1).*(std(ymat))';
+lam2_ret(:,2)=lam2_rets(:,2).*(std(ymat))';
+psi2_ret=psi2_rets.*(var(ymat))';
+
+<span class="comment">% Display the two columns of factor loadings, specific error variances,</span>
+<span class="comment">% SER and adj. R-squared for each industry for the single factor model.</span>
+[lam2_ret psi2_ret sqrt(psi2_ret) (1-psi2_ret'./var(ymat))']
+
+<span class="comment">% overall amount of variance captured by the factor model</span>
+(trace(cov(ymat))-sum(psi2_ret))/trace(cov(ymat))
+
+<span class="comment">% Stats from the factor analysis</span>
+stats2_ret
+
+<span class="comment">% Estimated error variances, and sample variances, for each asset</span>
+[psi2_ret';var(ymat)]
+
+<span class="comment">% Sample means and variance of 2 factors</span>
+mean(F2_ret)
+<span class="comment">% Covariance matrix of 2 factors</span>
+var(F2_ret)
+
+<span class="comment">% SER, R-squared and Standard Deviations for each asset</span>
+[sqrt(psi2_ret'); (1-psi2_ret'./var(ymat));std(ymat)]
+
+figure;subplot(3,1,1);plot(ymat);xlim([1 length(Tsay_data)]);
+title(<span class="string">'5 Asset Returns'</span>);
+<span class="comment">%legend('IBM','HPQ','INTC','JPM','BAC','location','South','Orientation','horizontal');</span>
+subplot(3,1,2);plot(F2_ret(:,1));xlim([1 length(Tsay_data)]);
+title(<span class="string">'1st Factor'</span>);
+subplot(3,1,3);plot(F2_ret(:,2));xlim([1 length(Tsay_data)]);
+title(<span class="string">'2nd Factor'</span>);
+
+<span class="comment">% Correlations between asset return and factors</span>
+corr([ymat F2_ret])
+
+<span class="comment">% create vector/cell array of labels for biplot</span>
+vbls = {<span class="string">'BAC'</span>,<span class="string">'HPQ'</span>,<span class="string">'IBM'</span>,<span class="string">'INTC'</span>,<span class="string">'JPM'</span>};
+
+<span class="comment">% Create biplot of two factors</span>
+figure;biplot(lam2_ret,<span class="string">'varlabels'</span>,vbls,<span class="keyword">...</span><span class="comment">  % Add variable labels to plot</span>
+   <span class="string">'LineWidth'</span>,2,<span class="keyword">...</span><span class="comment">                         % Set linewidth for biplot</span>
+   <span class="string">'MarkerSize'</span>,20)                          <span class="comment">% Set marker size for biplot</span>
+</pre><pre class="codeoutput">
+ans =
+
+    0.1273    0.9577    0.0666
+    0.7334    0.1739    0.4318
+    0.5937    0.1868    0.6126
+    0.7093    0.1680    0.4686
+    0.3605    0.6659    0.4267
+
+
+ans =
+
+    1.2196    9.1773    6.1154    2.4729    0.9334
+    7.7696    1.8423   48.4584    6.9612    0.5682
+    5.1296    1.6141   45.7199    6.7616    0.3874
+    8.5856    2.0338   68.6482    8.2854    0.5314
+    3.7117    6.8567   45.2460    6.7265    0.5733
+
+
+ans =
+
+    0.5968
+
+
+stats2_ret = 
+
+  struct with fields:
+
+    loglike: -0.0012
+        dfe: 1
+      chisq: 0.2759
+          p: 0.5994
+
+
+ans =
+
+    6.1154   48.4584   45.7199   68.6482   45.2460
+   91.8261  112.2189   74.6379  146.4969  106.0369
+
+
+ans =
+
+   1.0e-15 *
+
+    0.1553   -0.0214
+
+
+ans =
+
+    1.3581    1.0822
+
+
+ans =
+
+    2.4729    6.9612    6.7616    8.2854    6.7265
+    0.9334    0.5682    0.3874    0.5314    0.5733
+    9.5826   10.5933    8.6393   12.1036   10.2974
+
+
+ans =
+
+    1.0000    0.2591    0.2545    0.2521    0.6836    0.0870    0.9872
+    0.2591    1.0000    0.4620    0.5495    0.3889    0.8436    0.1283
+    0.2545    0.4620    1.0000    0.4593    0.3384    0.6800    0.1518
+    0.2521    0.5495    0.4593    1.0000    0.3578    0.8159    0.1240
+    0.6836    0.3889    0.3384    0.3578    1.0000    0.3775    0.6669
+    0.0870    0.8436    0.6800    0.8159    0.3775    1.0000   -0.0615
+    0.9872    0.1283    0.1518    0.1240    0.6669   -0.0615    1.0000
+
+</pre><img vspace="5" hspace="5" src="lab5code_19_10.png" alt=""> <img vspace="5" hspace="5" src="lab5code_19_11.png" alt=""> <h2 id="9">Q1(h) Unrotated factors</h2><p>Calculate and display unrotated loadings.</p><pre class="codeinput">unrot_lam = lam2_ret*inv(T2_ret);   <span class="comment">% Often makes 1st factor similar to single factor model :)</span>
+unrot_lam'
+
+<span class="comment">% Create biplot of two unrotated factors</span>
+figure;biplot(unrot_lam,<span class="string">'varlabels'</span>,vbls,<span class="keyword">...</span><span class="comment">    % Add variable labels to plot</span>
+       <span class="string">'LineWidth'</span>,2,<span class="keyword">...</span><span class="comment">                        % Set linewidth for biplot</span>
+       <span class="string">'MarkerSize'</span>,20)                         <span class="comment">% Set marker size for biplot</span>
+</pre><pre class="codeoutput">
+ans =
+
+    9.1961    3.6917    2.8229    4.0775    7.5576
+   -1.0686    7.0804    4.5770    7.8245    1.9166
+
+</pre><img vspace="5" hspace="5" src="lab5code_19_12.png" alt=""> <h2 id="10">Fit 3 factor model</h2><pre class="codeinput">[lam3_ret,psi3_ret,T3_ret,stats3_ret,F3_ret]=factoran(ymat,3,<span class="string">'maxit'</span>,500);
+
+<span class="comment">% This code returns the following error message:</span>
+<span class="comment">%   " Error using factoran (line 139)</span>
+<span class="comment">%     The number of factors requested, M, is too large for the number of the observed variables. "</span>
+<span class="comment">% Matlab is telling us that three factors give too many unknowns to estimate for this data.</span>
+</pre><pre class="codeoutput error">Error using factoran (line 139)
+The number of factors requested, M, is too large for the number of the observed variables.
+
+Error in lab5code_19 (line 207)
+[lam3_ret,psi3_ret,T3_ret,stats3_ret,F3_ret]=factoran(ymat,3,'maxit',500);  
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2017b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% Q1 PCA and Factor Modelling
+% I imported the data from the file 'Tsay_FM_data.txt' as column vectors.
+% The names of the columns are in the first row of the file and become the
+% names of the 5 separate vectors. I then saved the workspace with command:
+% save lab5.mat
+load lab5.mat
+Tsay_data = [BAC HPQ IBM INTC JPM]; % combine all columns into one matrix
+
+%% Q1(a) Estimate the sample correlation matrix
+% Estimate the sample correlation matrix showing all pairwise correlations.
+corr(Tsay_data)    
+
+% Scatterplot of BAC vs JPM
+figure;plot(BAC,JPM,'+');title('Plot of JPM vs BAC')
+;xlabel('BAC');ylabel('JPM');
+% relationship seems roughly linear.
+
+% Calculate (and test) correlation between BAC and INTC (least significant)
+[pc,p]=corr(BAC,INTC)
+
+%% Q1(b) PCA analysis
+
+% Plot the 5 data series
+plot(Tsay_data);title('5 US return series');
+legend('BAC','HPQ','IBM','INTC','JPM','location','southwest');
+xlim([0 length(Tsay_data)]);
+
+% Perform PCA on Tsay_data
+[pc_ret,score_ret,latent_ret] = princomp(Tsay_data)
+
+% Percentage variance explained per component
+latent_ret./sum(latent_ret)
+
+% Cumulative percentage variance explained
+cumsum(latent_ret)./sum(latent_ret)
+
+% create vector/cell array of labels for biplot
+vbls = {'BAC','HPQ','IBM','INTC','JPM'};
+
+% Biplot of components 1 and 2
+figure;biplot(pc_ret(:,1:2),'varlabels',vbls);
+
+% Biplot of components 1, 2 and 3
+figure;biplot(pc_ret(:,1:3),'varlabels',vbls);
+
+%% Q1(c) Describe PCs
+
+% sample covariance matrix
+cov(Tsay_data)
+
+% Plot of 5 return series together along with first 3 components
+figure;subplot(4,1,1);plot(Tsay_data);xlim([0 length(Tsay_data)]);
+title('Stock returns');xlim([1 length(Tsay_data)]);
+subplot(4,1,2);plot(score_ret(:,1));
+title('1st Principle component');xlim([1 length(score_ret)]);
+subplot(4,1,3);plot(score_ret(:,2));xlim([0 length(Tsay_data)]);
+title('2nd Principle component');xlim([1 length(score_ret)]);
+subplot(4,1,4);plot(score_ret(:,3));xlim([0 length(Tsay_data)]);
+title('3rd Principle component');xlim([1 length(score_ret)]);
+
+% Correlation matrix of all 5 components
+corr(score_ret)   %  note the zero correlations of the PCs
+
+% Plot of 5 return series together along with first 5 components together 
+figure;subplot(2,1,1);plot(Tsay_data);title('5 US return series');
+xlim([1 length(Tsay_data)]);
+legend('BAC','HPQ','IBM','INTC','JPM','location','south','Orientation','horizontal');
+subplot(2,1,2);plot(score_ret);title('5 Principle Components');
+legend('PC1','PC2','PC3','PC4','PC5','location','south','Orientation','horizontal');
+xlim([1 length(Tsay_data)]);
+
+% Correlation between the average of the returns along with the first component
+corrcoef(mean(Tsay_data'),score_ret(:,1));
+
+% Scatter plot of the average of the returns and the first component
+figure;plot(mean(Tsay_data'),score_ret(:,1),'+');
+title('PC1 vs Average of the returns');
+xlabel('Average return');ylabel('PC1');
+
+% Plot of the daily average of the returns and the first component
+figure;plot(mean(Tsay_data')); %transpose to take average of 5 returns each period
+hold on;plot(score_ret(:,1),'r');xlim([0 length(Tsay_data)]);
+legend('Average returns','PC1','location','southeast');
+title('Average Returns and PC1');
+
+%% Q1(d) Perform Factor Analysis m=1
+
+ymat=Tsay_data;  % rows are observations over time, columns are variables
+size(ymat)   % should be T by n
+
+[lam1_rets,psi1_rets,T1_ret,stats1_ret,F1_ret] = factoran(ymat,1);  % fit 1 factor model
+
+% show standardised factor loadings and specific error variances
+[lam1_rets psi1_rets]
+
+% factor loadings (regression coefficients)
+lam1_ret=lam1_rets.*(std(ymat))'; % std(ymat) gives stds, transpose give 5x1 vector, dot multiply another 5x1
+
+%  specific error variances (SER^2)
+psi1_ret=(psi1_rets.*(var(ymat))');
+
+[lam1_ret psi1_ret sqrt(psi1_ret) (1-psi1_ret'./var(ymat))']
+%  above code displays actual factor loadings (regression coefficients),
+%  specific error variances (SER^2), SER and adjusted R-squared for each industry series
+%  psi1 are specific variances, so var(ymat)-psi1_ret'  gives communalities
+
+% overall amount of variance captured by the factor model
+(trace(cov(ymat))-sum(psi1_ret))/trace(cov(ymat))
+
+% Stats from the factor analysis
+stats1_ret
+
+% Estimated error variances, and sample variances, for each asset
+[psi1_ret';var(ymat)]
+
+% Sample mean and variance of single factor 
+[mean(F1_ret) var(F1_ret)]
+
+% SER, R-squared and Standard Deviations for each asset
+[sqrt(psi1_ret'); (1-psi1_ret'./var(ymat));  std(ymat)]
+
+
+%% Q1(e)	Describe the factor loadings and factor found
+% Plot 5 US returns series and single factor
+figure;subplot(2,1,1);plot(ymat);xlim([1 length(Tsay_data)]);
+title('5 Asset Returns');
+legend('IBM','HPQ','INTC','JPM','BAC','Location','South','Orientation','horizontal');
+subplot(2,1,2);plot(F1_ret);xlim([1 length(Tsay_data)]);
+title('1st Factor');
+
+%% Q1(f) Assess whether 1 factor model is appropriate 
+
+% Correlation between first principle component and single factor
+corrcoef(score_ret(:,1),F1_ret) 
+
+% Correlations of asset return and single factor
+corr([ymat F1_ret])
+
+%% Q1(g) Perform a Factor Analysis with m=2 factors
+
+% Estimate 2-factor model, m=2
+[lam2_rets,psi2_rets,T2_ret,stats2_ret,F2_ret]=factoran(ymat,2,'maxit',500);  % fit 2 factor model
+% NB the maxit option specifies how many iterations to use in the search
+% procedure for estimates. the default is 250 which is not enough for this
+% model and data, so I set it higher.
+
+% show standardised factor loadings and specific error variances
+[lam2_rets psi2_rets]
+%  Display the two columns of factor loadings, then specific error variances, SER and adjusted R
+%  squared for each industry series from the single factor model.
+lam2_ret=lam2_rets;
+lam2_ret(:,1)=lam2_rets(:,1).*(std(ymat))';
+lam2_ret(:,2)=lam2_rets(:,2).*(std(ymat))';
+psi2_ret=psi2_rets.*(var(ymat))';
+
+% Display the two columns of factor loadings, specific error variances, 
+% SER and adj. R-squared for each industry for the single factor model.
+[lam2_ret psi2_ret sqrt(psi2_ret) (1-psi2_ret'./var(ymat))']
+
+% overall amount of variance captured by the factor model
+(trace(cov(ymat))-sum(psi2_ret))/trace(cov(ymat))
+
+% Stats from the factor analysis
+stats2_ret
+
+% Estimated error variances, and sample variances, for each asset
+[psi2_ret';var(ymat)]
+
+% Sample means and variance of 2 factors 
+mean(F2_ret) 
+% Covariance matrix of 2 factors 
+var(F2_ret)
+
+% SER, R-squared and Standard Deviations for each asset
+[sqrt(psi2_ret'); (1-psi2_ret'./var(ymat));std(ymat)]
+
+figure;subplot(3,1,1);plot(ymat);xlim([1 length(Tsay_data)]);
+title('5 Asset Returns');
+%legend('IBM','HPQ','INTC','JPM','BAC','location','South','Orientation','horizontal');
+subplot(3,1,2);plot(F2_ret(:,1));xlim([1 length(Tsay_data)]);
+title('1st Factor');
+subplot(3,1,3);plot(F2_ret(:,2));xlim([1 length(Tsay_data)]);
+title('2nd Factor');
+
+% Correlations between asset return and factors
+corr([ymat F2_ret])
+
+% create vector/cell array of labels for biplot
+vbls = {'BAC','HPQ','IBM','INTC','JPM'};
+
+% Create biplot of two factors
+figure;biplot(lam2_ret,'varlabels',vbls,...  % Add variable labels to plot
+   'LineWidth',2,...                         % Set linewidth for biplot
+   'MarkerSize',20)                          % Set marker size for biplot
+
+%% Q1(h) Unrotated factors
+% Calculate and display unrotated loadings.
+unrot_lam = lam2_ret*inv(T2_ret);   % Often makes 1st factor similar to single factor model :)
+unrot_lam'
+
+% Create biplot of two unrotated factors
+figure;biplot(unrot_lam,'varlabels',vbls,...    % Add variable labels to plot
+       'LineWidth',2,...                        % Set linewidth for biplot
+       'MarkerSize',20)                         % Set marker size for biplot
+
+%% Fit 3 factor model
+[lam3_ret,psi3_ret,T3_ret,stats3_ret,F3_ret]=factoran(ymat,3,'maxit',500);  
+
+% This code returns the following error message: 
+%   " Error using factoran (line 139)
+%     The number of factors requested, M, is too large for the number of the observed variables. "
+% Matlab is telling us that three factors give too many unknowns to estimate for this data.
+
+##### SOURCE END #####
+--></body></html>

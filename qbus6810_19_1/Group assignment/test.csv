@@ -1,0 +1,1001 @@
+Id,experiences_offered,host_response_time,host_response_rate,host_is_superhost,host_listings_count,host_identity_verified,latitude,longitude,property_type,room_type,accommodates,bathrooms,bedrooms,beds,bed_type,security_deposit,cleaning_fee,guests_included,extra_people,minimum_nights,maximum_nights,number_of_reviews,review_scores_rating,review_scores_accuracy,review_scores_cleanliness,review_scores_checkin,review_scores_communication,review_scores_location,review_scores_value,instant_bookable,cancellation_policy,require_guest_profile_picture,require_guest_phone_verification,reviews_per_month
+0,none,within an hour,1,f,1,f,51.44397052,-0.166191495,Apartment,Entire home/apt,4,2,2,2,Real Bed,85,84,2,15,2,21,12,100,10,10,10,10,10,10,f,moderate,f,f,0.69
+1,none,within a few hours,0.94,f,62,t,51.51034767,-0.146679059,Apartment,Entire home/apt,5,2,2,3,Real Bed,,,1,0,6,1125,1,60,2,8,8,10,10,8,f,strict_14_with_grace_period,f,f,0.13
+2,none,within an hour,1,f,5,f,51.52556359,-0.180024809,Apartment,Entire home/apt,6,2,3,4,Real Bed,,,6,10,1,1125,0,,,,,,,,t,moderate,f,f,
+3,none,within a few hours,0.9,f,1,f,51.52418019,-0.068227175,Apartment,Entire home/apt,2,1,2,2,Real Bed,,,1,0,7,1125,2,90,9,8,9,8,10,10,f,moderate,f,f,0.2
+4,none,within an hour,1,t,150,f,51.47869897,-0.194385193,Apartment,Entire home/apt,4,1.5,2,2,Real Bed,200,95,1,0,3,1125,16,99,10,10,10,10,10,10,f,moderate,f,f,0.58
+5,none,N/A,N/A,f,1,t,51.54177588,-0.02348242,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,5,1125,1,80,10,10,10,10,6,8,t,strict_14_with_grace_period,f,f,0.03
+6,none,within an hour,1,f,1,f,51.46009906,-0.07928496,Apartment,Entire home/apt,2,1,1,1,Real Bed,85,64,2,15,2,21,9,98,10,10,10,10,10,10,f,moderate,f,f,0.77
+7,none,within a few hours,1,f,7,f,51.48973666,-0.156244662,Condominium,Entire home/apt,4,2,2,2,Real Bed,,50,1,0,4,90,3,80,5,10,7,8,6,8,f,moderate,f,f,0.29
+8,none,within a day,1,f,1,f,51.54353038,0.002859317,Apartment,Entire home/apt,2,1,1,2,Real Bed,0,30,1,0,3,1125,4,90,9,9,9,10,10,9,f,moderate,f,f,0.2
+9,none,within an hour,1,t,1,t,51.48582272,-0.18945101,Apartment,Entire home/apt,2,1,1,0,Real Bed,250,60,1,0,2,15,24,98,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,1.81
+10,none,within an hour,1,t,2,t,51.4867259,0.032109708,House,Private room,1,1,1,1,Real Bed,,,1,0,1,6,183,96,10,10,10,10,10,10,f,flexible,f,f,7.63
+11,none,N/A,N/A,f,1,f,51.52575218,-0.180270818,Apartment,Entire home/apt,4,2,2,2,Real Bed,550,50,4,25,2,31,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+12,none,within an hour,1,f,1,f,51.52939395,-0.204363839,Apartment,Entire home/apt,3,1,1,1,Real Bed,,,1,0,2,1125,8,80,7,9,7,8,9,9,f,moderate,f,f,3.48
+13,family,N/A,N/A,f,1,t,51.5594912,-0.064113433,Apartment,Entire home/apt,5,1,2,5,Real Bed,,30,4,10,1,1125,29,95,10,9,10,10,9,9,f,strict_14_with_grace_period,f,f,0.46
+14,none,N/A,N/A,f,1,f,51.5207897,-0.028350582,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+15,none,,,,,,51.49376972,-0.177551036,Apartment,Entire home/apt,4,2,2,2,Real Bed,400,40,1,0,4,1125,3,93,10,10,9,9,10,10,f,moderate,f,f,0.09
+16,none,a few days or more,0.44,f,2,t,51.49262743,-0.208446578,Apartment,Entire home/apt,2,1,0,1,Real Bed,100,28,1,0,4,1125,57,95,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,1.64
+17,none,N/A,N/A,f,1,t,51.54209033,-0.055548988,Apartment,Shared room,2,1,1,1,Real Bed,,,1,0,8,48,0,,,,,,,,t,flexible,f,f,
+18,none,within a day,0.75,f,2,f,51.54022868,-0.194263564,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,3,1125,28,90,9,9,9,9,10,9,f,flexible,f,f,5.49
+19,none,within an hour,0.97,f,9,f,51.53807127,-0.088490572,Apartment,Entire home/apt,4,1,1,2,Real Bed,100,40,2,20,2,1125,1,60,6,6,6,6,6,4,t,strict_14_with_grace_period,f,f,1
+20,none,within an hour,1,t,3,f,51.48476907,-0.120602634,Apartment,Entire home/apt,6,2,2,2,Real Bed,0,80,4,15,3,1124,4,100,10,10,10,9,10,9,t,moderate,f,f,0.69
+21,none,a few days or more,0,f,1,f,51.48803761,-0.145634707,Apartment,Private room,4,1,2,2,Real Bed,,,1,0,3,3,0,,,,,,,,f,flexible,f,f,
+22,none,within an hour,1,f,15,t,51.4900262,-0.106714982,Apartment,Private room,2,1,1,1,Real Bed,0,15,1,0,1,27,7,91,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,2.56
+23,none,within a few hours,0.99,f,19,t,51.51080231,-0.11732883,Bed and breakfast,Private room,2,2,1,2,Real Bed,,,1,0,1,1125,3,87,9,9,9,9,9,8,f,flexible,f,f,0.07
+24,none,within a few hours,1,f,2,f,51.51797019,-0.152600611,Apartment,Entire home/apt,4,1,2,2,Real Bed,200,90,4,0,3,1125,10,82,9,9,9,8,10,8,f,strict_14_with_grace_period,f,f,1.49
+25,none,within a day,1,f,1,f,51.4667898,-0.018374237,Condominium,Private room,1,1,1,1,Real Bed,0,12,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+26,none,within an hour,1,f,111,f,51.5216579,-0.097498513,Apartment,Entire home/apt,4,2,2,2,Real Bed,250,,1,0,7,1125,1,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.07
+27,none,N/A,N/A,f,1,f,51.48802159,-0.135477918,Apartment,Entire home/apt,3,1,2,2,Real Bed,180,25,1,0,10,16,1,100,10,8,10,10,10,10,f,moderate,f,f,0.05
+28,none,within an hour,1,f,179,f,51.51762083,-0.185083181,Serviced apartment,Entire home/apt,4,1,1,1,Real Bed,350,65,2,15,3,1125,2,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.19
+29,none,within a few hours,1,f,1,t,51.46630353,-0.120434393,Apartment,Entire home/apt,6,1,2,3,Real Bed,100,30,4,15,3,1125,7,91,10,9,10,9,9,9,t,strict_14_with_grace_period,f,f,1.32
+30,none,within an hour,0.96,f,1277,f,51.55578967,-0.178104813,House,Entire home/apt,5,2,3,3,Real Bed,495,225,5,0,1,1125,1,100,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,0.37
+31,none,within a few hours,0.78,f,183,f,51.53008496,-0.230450121,Apartment,Entire home/apt,4,1,2,2,Real Bed,495,95,1,0,2,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+32,none,N/A,N/A,f,2,t,51.52911611,-0.110848594,Apartment,Private room,2,1.5,1,1,Real Bed,,,1,10,4,1125,5,96,10,9,10,10,10,9,f,moderate,f,f,0.21
+33,none,within an hour,1,t,2,f,51.55498884,-0.219836212,House,Private room,3,2.5,2,2,Real Bed,100,20,1,20,2,1125,108,96,10,10,10,10,9,10,t,moderate,f,f,1.37
+34,none,within an hour,0.93,f,2,f,51.5303267,-0.088300986,Apartment,Private room,3,1,0,3,Real Bed,,,1,0,1,1125,18,99,10,10,10,10,9,10,t,flexible,f,f,1.52
+35,none,N/A,N/A,f,1,t,51.45722884,-0.071949167,Other,Private room,2,1,1,1,Real Bed,250,30,2,0,5,1125,3,100,10,10,10,10,9,9,f,moderate,f,f,0.1
+36,none,N/A,N/A,f,1,t,51.44676432,-0.128867785,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,3,20,4,80,10,9,10,10,9,9,f,strict_14_with_grace_period,f,f,0.11
+37,none,N/A,N/A,f,1,f,51.50828517,-0.068037782,Apartment,Entire home/apt,4,1,1,2,Real Bed,,,1,0,1,3,2,,,,,,,,f,strict_14_with_grace_period,f,f,0.15
+38,none,within an hour,1,t,1,f,51.52110325,-0.172685424,Apartment,Private room,1,1,1,1,Real Bed,0,40,1,20,1,14,18,100,10,10,10,10,9,9,f,moderate,f,f,3.18
+39,none,within an hour,1,t,2,t,51.51927194,-0.043629959,Loft,Entire home/apt,2,2,1,1,Real Bed,,50,1,0,6,1125,8,100,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,0.69
+40,none,within an hour,1,f,4,t,51.5190723,-0.134800789,Apartment,Entire home/apt,6,1,2,3,Real Bed,86,51,1,0,2,90,13,89,9,9,10,10,10,8,t,moderate,f,f,0.57
+41,none,N/A,N/A,f,2,t,51.51746195,-0.205013932,Apartment,Entire home/apt,3,1,0,2,Real Bed,,25,1,0,3,1125,0,,,,,,,,f,flexible,f,f,
+42,none,within an hour,1,t,3,t,51.5321606,-0.034697097,Apartment,Entire home/apt,2,1,1,1,Real Bed,100,30,1,0,1,14,39,97,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,1.86
+43,none,within an hour,1,f,2,f,51.49283152,-0.191735641,Apartment,Entire home/apt,2,1,1,1,Real Bed,,50,1,0,1,60,13,87,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.4
+44,romantic,N/A,N/A,f,1,f,51.50225994,-0.21764141,Apartment,Entire home/apt,2,1,0,1,Real Bed,1000,,1,0,4,14,0,,,,,,,,f,moderate,f,f,
+45,none,within an hour,1,f,13,t,51.4933455,-0.186260474,Apartment,Entire home/apt,3,1,1,2,Real Bed,100,35,1,0,1,1125,38,92,10,9,10,10,10,9,t,moderate,f,f,1.79
+46,none,within an hour,1,f,63,f,51.49280582,-0.192220596,Apartment,Entire home/apt,4,2,2,2,Real Bed,250,55,2,10,1,1125,3,87,7,7,9,9,9,8,f,moderate,f,f,0.16
+47,none,N/A,N/A,f,10,f,51.5180014,-0.151048992,Serviced apartment,Entire home/apt,2,1,1,1,Real Bed,,,2,0,1,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+48,none,within an hour,1,t,3,t,51.48076877,-0.015434161,Apartment,Private room,2,1.5,1,1,Real Bed,0,18,1,18,1,1125,197,96,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,5.13
+49,none,within an hour,1,f,2,t,51.53675148,-0.19203342,Apartment,Private room,4,1,1,1,Real Bed,0,25,2,25,2,1125,16,91,9,9,10,10,10,9,t,strict_14_with_grace_period,f,f,1.75
+50,none,within an hour,0.98,f,58,f,51.51244948,-0.179757066,Apartment,Entire home/apt,6,2,2,3,Real Bed,100,60,4,0,3,1125,1,100,10,10,10,10,10,10,t,moderate,f,f,1
+51,none,within a few hours,1,f,1,f,51.49000583,-0.213379663,Apartment,Entire home/apt,5,1,2,3,Real Bed,0,85,1,0,2,1125,11,84,9,8,9,9,9,8,f,moderate,f,f,1.76
+52,none,N/A,N/A,f,1,f,51.48696819,-0.073808847,Apartment,Entire home/apt,4,1,2,2,Real Bed,200,15,1,40,1,1125,12,77,9,8,9,8,8,8,f,strict_14_with_grace_period,f,f,0.32
+53,none,within a day,0.94,f,13,f,51.50041356,-0.180978927,Bed and breakfast,Private room,2,3,1,1,Real Bed,,,1,0,1,1125,1,80,8,8,10,10,10,10,f,strict_14_with_grace_period,f,f,1
+54,none,N/A,N/A,f,1,f,51.47739299,-0.172773428,Apartment,Private room,1,1.5,1,1,Real Bed,,,1,0,21,32,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+55,none,within an hour,1,t,4,t,51.51690079,0.012667832,Apartment,Private room,8,2,3,6,Real Bed,500,60,4,15,1,1125,87,93,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,2.46
+56,none,N/A,N/A,f,1,f,51.53213373,-0.100938601,Apartment,Private room,2,1,0,1,Real Bed,0,25,1,0,2,1125,0,,,,,,,,t,flexible,f,f,
+57,none,within a few hours,1,t,6,t,51.5392725,-0.14604202,Apartment,Private room,2,1,1,1,Real Bed,,10,1,0,3,1125,3,100,10,10,10,10,10,9,f,flexible,f,f,0.45
+58,none,within a few hours,1,f,2,t,51.56024001,-0.112173261,House,Private room,2,1,1,1,Pull-out Sofa,800,25,1,20,3,1125,26,95,10,10,10,10,9,9,f,strict_14_with_grace_period,f,f,0.53
+59,none,within an hour,1,f,1,f,51.48012237,-0.183295909,Apartment,Entire home/apt,3,1,2,2,Real Bed,250,60,1,0,3,60,47,89,9,8,9,9,9,9,f,strict_14_with_grace_period,f,t,0.67
+60,none,within an hour,1,f,63,t,51.52947022,-0.084440409,Apartment,Entire home/apt,5,1,1,2,Real Bed,200,40,4,20,2,1124,2,80,10,9,8,10,9,8,f,strict_14_with_grace_period,f,t,0.38
+61,none,N/A,N/A,f,1,t,51.49935209,-0.213469404,Apartment,Private room,1,1,1,1,Real Bed,,,1,5,2,1125,5,96,10,10,10,10,10,10,f,moderate,f,f,0.12
+62,none,N/A,N/A,f,1,t,51.50849247,-0.236403851,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,60,1,0,4,1124,9,100,10,10,10,10,10,10,f,moderate,f,f,0.45
+63,none,N/A,N/A,f,2,f,51.47786232,-0.194405236,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,4,14,0,,,,,,,,t,flexible,f,f,
+64,none,within an hour,1,f,2,f,51.53752644,-0.079285423,Apartment,Private room,2,1,1,1,Real Bed,3800,20,1,10,1,10,4,95,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,0.71
+65,none,within an hour,0.97,f,29,f,51.52357674,-0.172535038,Serviced apartment,Entire home/apt,4,1,1,2,Real Bed,0,50,1,0,1,1125,17,76,8,8,9,9,8,8,t,moderate,f,f,1.35
+66,none,within an hour,1,t,2,f,51.51498389,-0.181396962,Apartment,Private room,2,1,1,1,Real Bed,,,1,10,3,1125,205,98,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,2.98
+67,none,within an hour,1,t,2,f,51.52337002,-0.158578869,Apartment,Entire home/apt,6,2,3,3,Real Bed,400,50,1,0,2,1125,48,95,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,4.22
+68,family,within a few hours,1,f,1,t,51.49935362,-0.264631136,Townhouse,Entire home/apt,6,1,3,4,Real Bed,300,40,1,0,4,14,6,100,10,10,10,10,10,10,f,flexible,f,f,0.14
+69,none,within an hour,1,f,62,f,51.51163837,-0.03205448,Apartment,Entire home/apt,4,1,2,2,Real Bed,0,85,1,0,90,1125,0,,,,,,,,f,moderate,f,f,
+70,none,N/A,N/A,f,1,t,51.53192939,-0.168774335,Apartment,Private room,2,1,1,1,Real Bed,,10,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+71,none,within an hour,1,t,1,f,51.49729649,-0.053249451,Townhouse,Private room,1,1,1,1,Real Bed,0,15,1,10,1,30,6,97,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,1.1
+72,none,N/A,N/A,t,1,f,51.45796046,-0.10192767,Apartment,Entire home/apt,2,1,1,1,Real Bed,500,30,1,0,2,10,11,96,10,10,10,10,10,9,f,moderate,f,f,0.77
+73,none,within an hour,0.95,f,7,f,51.49308658,-0.1865544,Apartment,Entire home/apt,2,1,0,1,Real Bed,0,40,1,0,2,1125,63,90,10,9,9,10,10,9,t,strict_14_with_grace_period,f,f,1.7
+74,none,N/A,N/A,f,1,f,51.51224296,-0.14146927,Apartment,Entire home/apt,4,2,2,2,Real Bed,0,80,1,0,2,1125,15,97,10,10,9,10,10,9,f,moderate,f,f,0.99
+75,none,within an hour,0.99,f,8,f,51.53538851,-0.137127917,House,Private room,2,1,1,1,Real Bed,0,5,1,0,1,1125,57,84,9,8,10,10,9,8,t,strict_14_with_grace_period,f,f,7.4
+76,none,within a few hours,0.8,f,2,f,51.5163574,-0.137413499,Apartment,Private room,2,1.5,1,1,Real Bed,800,38,1,50,1,90,0,,,,,,,,f,strict_14_with_grace_period,f,t,
+77,none,within an hour,1,f,1,f,51.52884206,-0.042103515,Apartment,Private room,1,1,1,1,Real Bed,0,0,1,20,1,30,3,100,10,10,10,10,10,10,f,moderate,f,f,0.79
+78,none,within an hour,0.96,f,1277,f,51.47093247,-0.196284203,House,Entire home/apt,6,5,3,2,Real Bed,495,225,6,0,1,1125,1,100,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,0.39
+79,none,N/A,N/A,f,1,f,51.51814807,-0.072219883,Apartment,Private room,2,1,1,1,Real Bed,0,11,1,25,3,6,8,98,10,10,10,10,10,10,f,flexible,f,f,0.44
+80,none,N/A,N/A,f,1,f,51.54834201,-0.072297063,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,1,1125,1,,,,,,,,t,flexible,f,f,0.11
+81,none,within a few hours,0.9,f,1,f,51.52432413,-0.137738943,Apartment,Entire home/apt,2,1,1,1,Real Bed,150,30,1,5,4,1125,3,87,9,9,9,9,10,9,f,strict_14_with_grace_period,f,f,1.3
+82,none,within an hour,1,t,2,f,51.48639193,0.017806282,Apartment,Entire home/apt,7,2,3,4,Real Bed,500,59,8,10,2,180,30,96,10,10,10,9,9,10,t,moderate,f,f,3
+83,none,within an hour,1,t,2,t,51.49340776,0.013182501,Guest suite,Private room,4,1,1,2,Real Bed,0,20,2,10,1,1125,112,98,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,5.72
+84,none,within a few hours,1,f,1,f,51.47392252,-0.173570189,Apartment,Entire home/apt,3,1,1,1,Real Bed,250,25,1,0,5,1125,1,,,,,,,,t,flexible,f,f,0.37
+85,none,within a few hours,1,t,2,t,51.51372217,-0.120377663,Apartment,Private room,1,1,1,1,Real Bed,100,20,1,0,3,1125,15,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.95
+86,none,N/A,N/A,f,1,t,51.52769886,-0.191400492,Townhouse,Private room,2,1,1,2,Real Bed,,15,1,10,1,1125,0,,,,,,,,f,flexible,f,f,
+87,none,N/A,N/A,f,1,t,51.55265865,-0.044496247,Apartment,Entire home/apt,5,2,3,3,Real Bed,,,1,0,2,28,6,100,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,0.85
+88,none,within a few hours,0.9,f,2,f,51.4804756,-0.085030267,Apartment,Entire home/apt,2,1,1,1,Real Bed,85,20,1,0,1,1125,13,95,10,10,9,10,10,10,t,moderate,f,f,5
+89,none,within an hour,1,f,4,f,51.44691404,-0.016836718,House,Private room,2,1,2,4,Real Bed,0,0,1,0,7,14,0,,,,,,,,f,flexible,f,f,
+90,none,N/A,N/A,f,1,f,51.5204571,-0.028208099,House,Private room,2,1,1,1,Real Bed,0,4,1,5,2,1125,4,87,10,8,10,10,10,9,t,flexible,f,f,0.54
+91,none,within a few hours,0.67,f,1,f,51.48503722,-0.185776896,Apartment,Entire home/apt,3,1,1,1,Real Bed,0,25,1,0,2,1125,14,97,10,10,9,10,10,9,f,moderate,f,f,1.63
+92,none,within a few hours,1,f,4,t,51.48037542,-0.010373508,Apartment,Private room,2,1,1,1,Real Bed,0,5,1,0,14,120,52,97,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,1.67
+93,social,N/A,N/A,f,1,f,51.46519989,-0.136062359,Apartment,Private room,2,1,1,1,Real Bed,700,20,1,0,2,14,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+94,none,N/A,N/A,f,1,f,51.46106864,-0.16515917,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,1,1125,1,100,10,10,10,10,10,10,f,flexible,f,f,0.06
+95,none,within an hour,1,f,9,f,51.49314401,-0.127378843,Apartment,Entire home/apt,2,1,1,1,Real Bed,300,10,1,0,1,1125,7,83,9,7,10,9,9,7,f,moderate,f,f,6.18
+96,none,within an hour,1,t,1,f,51.52989237,-0.086437532,Apartment,Entire home/apt,4,2,2,2,Real Bed,400,55,1,0,4,1125,26,98,10,10,9,10,10,9,f,moderate,f,f,1.01
+97,none,within an hour,0.67,f,2,f,51.52192318,-0.074076315,Apartment,Private room,4,1,2,2,Real Bed,,,1,0,2,14,0,,,,,,,,f,flexible,f,f,
+98,none,within an hour,1,f,4,t,51.51466624,-0.180935419,Townhouse,Private room,2,1,1,1,Real Bed,150,90,1,15,1,365,77,97,10,10,10,10,10,9,f,moderate,t,t,2.18
+99,none,within a few hours,1,t,1,f,51.45505315,-0.070298711,Apartment,Private room,2,1,1,1,Real Bed,,10,1,10,1,1125,83,95,10,10,10,10,10,9,f,moderate,t,t,1.76
+100,none,within a day,0.5,f,31,t,51.53095625,-0.192058949,Apartment,Private room,1,1.5,0,1,Real Bed,100,40,1,0,3,1125,12,83,9,7,9,9,9,9,f,strict_14_with_grace_period,f,f,0.46
+101,none,within an hour,1,f,39,f,51.52495995,-0.203469074,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,65,1,0,2,1124,1,100,10,10,10,10,10,10,f,moderate,f,f,0.21
+102,none,N/A,N/A,f,1,f,51.46203659,-0.162364954,Apartment,Entire home/apt,6,1,1,3,Real Bed,0,0,1,20,2,1125,12,95,10,9,10,10,9,10,t,strict_14_with_grace_period,f,f,0.51
+103,none,N/A,N/A,f,1,t,51.50593257,-0.090677705,Apartment,Private room,2,2,1,1,Real Bed,,,1,0,2,7,0,,,,,,,,f,flexible,f,f,
+104,none,N/A,N/A,f,2,f,51.55117157,-0.036483305,House,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+105,none,within an hour,1,f,2,f,51.48570778,-0.104267195,House,Private room,2,1,1,1,Real Bed,,,1,0,2,1125,2,100,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,1.46
+106,none,N/A,N/A,f,1,t,51.53607989,-0.222961841,House,Entire home/apt,6,1.5,4,4,Real Bed,,,6,0,2,1125,1,80,8,6,10,10,10,10,f,strict_14_with_grace_period,f,f,0.03
+107,none,within an hour,1,f,48,f,51.5546818,-0.161102458,Apartment,Entire home/apt,3,2,1,2,Real Bed,0,60,1,0,2,1125,18,86,9,9,9,9,10,9,f,strict_14_with_grace_period,f,f,1.25
+108,none,within an hour,1,f,37,f,51.52172287,-0.152555604,Apartment,Private room,2,1,1,1,Real Bed,300,30,1,0,1,1125,1,80,8,10,10,10,10,8,f,strict_14_with_grace_period,f,f,1
+109,none,within an hour,1,f,15,t,51.51566593,-0.188514721,Apartment,Entire home/apt,3,1,0,2,Real Bed,,35,2,10,1,1125,3,73,8,7,10,10,10,9,t,flexible,f,f,0.82
+110,none,within an hour,1,t,3,f,51.53282144,-0.225528059,House,Private room,2,1,1,1,Real Bed,0,50,1,15,2,90,22,99,10,10,10,10,9,9,t,moderate,f,f,1.21
+111,none,within an hour,1,f,4,t,51.51332487,-0.123994,Apartment,Entire home/apt,6,2,2,4,Real Bed,0,85,1,0,2,1125,93,84,8,9,9,9,10,8,f,strict_14_with_grace_period,f,f,2.98
+112,none,within an hour,1,t,8,t,51.53461271,-0.118684039,Townhouse,Private room,2,1,1,1,Real Bed,400,25,1,15,2,31,61,96,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,4.3
+113,none,within an hour,0.96,f,1277,f,51.54087046,-0.152056528,Apartment,Entire home/apt,8,2,4,5,Real Bed,495,300,8,0,1,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+114,none,within a few hours,0.82,f,6,f,51.49332112,-0.093777048,Apartment,Private room,2,1,1,2,Real Bed,200,45,1,0,2,1125,22,96,10,9,10,10,9,10,f,strict_14_with_grace_period,f,f,1.01
+115,none,within a few hours,1,f,2,t,51.55451884,-0.072026888,Apartment,Private room,2,1,1,1,Real Bed,0,12,1,0,1,1125,16,100,10,10,10,10,9,10,f,flexible,f,f,1.32
+116,none,within a few hours,1,f,2,f,51.52665292,-0.137529343,Apartment,Entire home/apt,8,2,2,4,Real Bed,200,75,4,25,4,1124,1,80,10,10,10,10,10,10,t,moderate,f,f,1
+117,none,within an hour,1,t,2,t,51.45895207,0.010255404,Condominium,Entire home/apt,2,1,1,1,Real Bed,750,30,1,5,2,1125,30,96,10,10,10,10,9,9,t,strict_14_with_grace_period,f,f,0.9
+118,none,within a few hours,1,f,2,t,51.55129105,-0.133007435,Apartment,Entire home/apt,3,2,2,2,Real Bed,100,80,3,20,6,28,10,98,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.35
+119,none,within a day,0.98,f,34,f,51.51459959,-0.066757356,Apartment,Entire home/apt,4,1,1,2,Real Bed,100,,2,20,1,1125,133,88,9,9,10,10,9,9,f,moderate,f,f,2.81
+120,none,N/A,N/A,f,2,t,51.52525531,-0.084890013,Apartment,Entire home/apt,4,2,2,2,Real Bed,,30,1,10,1,1125,1,80,8,8,8,6,6,8,f,flexible,f,f,0.03
+121,none,N/A,N/A,f,2,f,51.53739372,-0.00332603,Apartment,Private room,2,1,1,1,Real Bed,300,20,1,30,1,60,0,,,,,,,,f,flexible,f,f,
+122,none,within a few hours,1,f,3,t,51.47770377,-0.128978517,Apartment,Private room,2,1,1,1,Real Bed,250,25,1,0,3,1125,31,98,10,10,9,10,9,10,f,flexible,f,f,1.08
+123,social,N/A,N/A,f,1,t,51.52748248,-0.047249066,Apartment,Private room,2,1,1,1,Real Bed,200,,1,0,4,15,7,91,9,8,9,9,8,9,f,strict_14_with_grace_period,f,f,0.13
+124,none,within an hour,1,t,2,f,51.50545861,-0.22279202,House,Private room,1,1,1,2,Real Bed,0,10,1,0,1,7,2,100,10,10,10,10,9,10,f,moderate,f,f,0.36
+125,none,N/A,N/A,f,1,t,51.53999064,-0.136782113,House,Private room,2,2,1,1,Real Bed,,,1,0,5,1125,5,90,10,8,10,10,10,10,t,flexible,f,f,0.22
+126,none,within an hour,0.9,f,2,f,51.52483717,-0.22342171,Apartment,Entire home/apt,4,1,1,2,Real Bed,0,50,2,15,3,1125,9,89,9,9,10,10,8,8,f,strict_14_with_grace_period,f,f,0.61
+127,none,within an hour,1,t,23,f,51.52358896,-0.079556363,Apartment,Entire home/apt,2,1,0,1,Real Bed,80,20,1,0,1,1125,46,93,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,4.04
+128,none,within an hour,1,f,7,f,51.50772341,-0.107417942,Apartment,Entire home/apt,7,2,2,2,Real Bed,0,0,6,35,2,1125,2,90,10,10,7,9,10,8,f,strict_14_with_grace_period,f,f,0.38
+129,none,N/A,N/A,f,1,t,51.45647626,-0.108691408,Apartment,Private room,2,1,1,1,Real Bed,,10,2,10,1,1125,19,90,9,8,9,10,10,9,f,moderate,f,f,0.43
+130,none,within an hour,1,f,2,f,51.46678436,-0.152955915,Cottage,Private room,1,1,1,1,Real Bed,150,,1,20,1,21,2,100,10,9,10,10,10,10,t,flexible,f,f,2
+131,none,within an hour,1,f,11,f,51.51375809,-0.259124334,House,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+132,none,within an hour,1,f,17,t,51.52369331,-0.11770335,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,7,1125,22,95,9,10,9,9,10,9,f,strict_14_with_grace_period,f,f,0.28
+133,none,within an hour,1,f,1,f,51.49519262,-0.118641848,Apartment,Entire home/apt,4,2,2,2,Real Bed,85,84,2,15,2,1125,53,92,10,9,9,10,10,9,f,strict_14_with_grace_period,f,f,3.1
+134,none,N/A,N/A,f,1,f,51.46584047,-0.127111008,Apartment,Entire home/apt,4,1,1,2,Real Bed,500,60,2,25,3,1125,5,93,10,10,9,9,9,9,f,strict_14_with_grace_period,f,f,0.08
+135,none,within a few hours,1,f,3,t,51.45806734,-0.189281697,Townhouse,Private room,2,1,1,1,Real Bed,100,10,1,0,1,30,4,100,10,10,10,10,10,10,f,moderate,f,f,0.12
+136,none,within a few hours,1,f,1,t,51.53031468,-0.094106001,Condominium,Entire home/apt,2,1,1,1,Real Bed,0,38,1,0,4,14,5,100,10,10,10,10,10,10,f,flexible,f,f,0.51
+137,none,within an hour,0.95,f,17,f,51.50593434,-0.064493693,Bed and breakfast,Private room,4,1,1,2,Real Bed,0,15,1,10,1,1125,3,87,10,9,9,10,10,10,f,super_strict_30,f,f,0.48
+138,none,N/A,N/A,f,1,t,51.55389613,-0.207397892,House,Private room,2,2,1,1,Real Bed,200,10,1,25,2,1125,1,100,10,10,10,10,10,10,t,moderate,f,f,0.1
+139,none,within a day,1,f,2,f,51.52723695,-0.093710261,Apartment,Entire home/apt,3,1,1,2,Real Bed,200,30,1,0,3,60,8,95,9,10,10,10,10,10,f,moderate,f,f,0.11
+140,none,within an hour,1,f,1,t,51.54458937,-0.188846957,House,Private room,4,1,2,5,Real Bed,,30,4,25,2,31,108,95,10,10,10,10,10,10,f,moderate,f,f,4.15
+141,none,within an hour,1,f,7,f,51.53406819,-0.234173137,Townhouse,Private room,2,2,1,1,Real Bed,0,21,1,16,1,90,2,100,10,8,10,10,10,10,f,strict_14_with_grace_period,f,f,0.21
+142,none,within an hour,1,f,35,f,51.54646601,-0.201121739,Apartment,Entire home/apt,6,1.5,2,3,Real Bed,0,85,1,0,2,1125,6,90,9,9,9,9,9,9,f,moderate,f,f,0.85
+143,none,within an hour,1,f,4,f,51.51538129,-0.051978114,Apartment,Private room,2,1,1,1,Real Bed,0,5,1,5,1,1125,125,92,10,9,10,10,9,9,t,moderate,f,f,8.3
+144,none,within a few hours,1,f,4,t,51.44466051,-0.113943653,House,Private room,4,1.5,2,2,Real Bed,150,20,1,9,5,1125,5,95,9,10,10,10,9,9,t,moderate,f,f,0.24
+145,none,within an hour,1,f,213,t,51.48262316,-0.009614474,Apartment,Entire home/apt,3,1,1,1,Real Bed,250,60,2,10,2,1125,12,73,9,9,9,10,10,8,f,strict_14_with_grace_period,f,f,1.22
+146,none,within a few hours,0.9,f,5,f,51.49739465,-0.228189246,Serviced apartment,Entire home/apt,4,2,2,2,Real Bed,,,4,0,1,1125,0,,,,,,,,t,flexible,f,f,
+147,none,within an hour,1,f,1,f,51.53716508,-0.146807125,Apartment,Entire home/apt,4,1,2,2,Real Bed,85,84,2,25,1,20,16,96,10,9,10,10,10,10,f,moderate,f,f,1.82
+148,none,N/A,N/A,f,1,t,51.53838549,-0.085115964,Apartment,Entire home/apt,4,2,2,2,Real Bed,63,20,6,20,3,1125,5,100,10,10,9,10,9,10,f,strict_14_with_grace_period,f,f,0.09
+149,none,within an hour,1,f,3,t,51.4883904,-0.194459476,Apartment,Entire home/apt,4,1,1,0,Real Bed,500,100,2,10,6,90,10,92,9,10,10,9,10,9,f,strict_14_with_grace_period,f,f,0.61
+150,none,N/A,N/A,f,1,f,51.56115022,-0.218447679,House,Private room,1,,1,,Real Bed,,,1,0,2,30,2,100,10,10,10,10,9,9,f,flexible,f,f,0.05
+151,none,N/A,N/A,f,1,f,51.50995958,-0.060477695,Apartment,Private room,2,0.5,1,1,Real Bed,120,15,1,0,5,1125,2,90,10,7,10,10,10,10,f,moderate,f,f,0.04
+152,none,N/A,N/A,f,1,f,51.51816516,-0.076191877,Apartment,Private room,2,1,0,1,Real Bed,0,10,1,10,2,1125,1,100,10,10,10,10,10,10,t,flexible,f,f,0.09
+153,none,within a few hours,1,f,3,f,51.49862151,-0.211948442,Apartment,Entire home/apt,5,1,2,2,Real Bed,,,4,23,5,1125,1,100,10,10,10,10,10,10,t,moderate,f,f,1
+154,none,within an hour,1,f,1,f,51.4839382,-0.104299061,House,Private room,2,1,1,1,Real Bed,0,40,1,10,2,1125,9,100,10,10,10,10,10,10,f,moderate,f,f,1.65
+155,none,within an hour,1,f,1,f,51.53279108,-0.090717317,Apartment,Entire home/apt,6,2,3,3,Real Bed,200,75,1,20,1,60,10,100,10,10,10,10,10,10,t,flexible,f,f,7.5
+156,none,N/A,N/A,t,3,f,51.53905207,-0.047763196,Apartment,Entire home/apt,5,1,2,2,Real Bed,800,25,2,15,3,1125,7,97,10,10,9,10,9,10,t,moderate,f,f,0.54
+157,none,within an hour,1,f,2,t,51.46981928,-0.105375506,Apartment,Private room,1,1,1,1,Real Bed,100,12,1,10,2,1125,27,93,10,9,10,10,8,9,f,strict_14_with_grace_period,f,f,0.96
+158,none,within an hour,1,t,1,f,51.53885058,-0.125033753,Apartment,Private room,2,1,1,1,Real Bed,250,59,1,0,5,10,30,99,10,10,10,10,9,10,t,strict_14_with_grace_period,f,f,1.68
+159,none,within a day,1,f,3,f,51.49299718,-0.171598337,Apartment,Entire home/apt,2,1,2,1,Real Bed,1000,150,1,0,7,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+160,family,within an hour,0.99,f,8,t,51.54176448,-0.130950852,Apartment,Private room,3,1.5,1,2,Real Bed,,,3,0,2,1125,274,90,10,9,10,10,9,9,t,strict_14_with_grace_period,f,f,5.27
+161,none,N/A,N/A,f,1,t,51.4568144,-0.070174374,House,Entire home/apt,8,2,4,4,Real Bed,400,60,6,0,4,7,2,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.06
+162,none,within an hour,1,f,4,t,51.52410601,-0.173350734,Apartment,Private room,1,1,1,0,Real Bed,100,30,1,0,3,1125,19,80,9,8,8,8,9,9,t,strict_14_with_grace_period,f,f,0.33
+163,none,within a few hours,1,f,2,f,51.49720087,-0.037752844,House,Private room,1,1,1,1,Real Bed,0,0,1,50,1,15,2,100,10,10,10,10,10,10,t,flexible,f,f,0.41
+164,none,within an hour,0.98,f,58,f,51.51177298,-0.180527097,Apartment,Entire home/apt,8,2,3,4,Real Bed,0,60,8,0,3,1125,7,87,9,9,8,8,9,9,t,moderate,f,f,2.36
+165,none,within a day,0.95,f,18,f,51.51408025,-0.066264679,Apartment,Entire home/apt,3,1,1,2,Real Bed,100,,2,20,1,1125,5,96,10,10,10,10,10,10,f,moderate,f,f,0.21
+166,none,within a day,1,f,1,t,51.54820134,-0.107429368,Apartment,Entire home/apt,4,1,1,2,Real Bed,500,20,2,8,2,1125,17,96,10,10,10,10,10,9,f,moderate,f,f,0.4
+167,none,within an hour,1,t,2,t,51.5252074,-0.027569098,Apartment,Entire home/apt,4,1.5,2,2,Real Bed,150,10,2,5,5,40,4,95,10,9,9,10,10,10,f,strict_14_with_grace_period,f,f,0.28
+168,family,within an hour,1,f,4,t,51.51643043,-0.180242048,Apartment,Entire home/apt,5,1,1,1,Real Bed,100,59,4,15,4,180,65,92,10,9,9,10,9,9,f,strict_14_with_grace_period,f,f,1.11
+169,none,within a day,1,f,2,f,51.4992559,-0.149899985,House,Private room,2,0,0,1,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+170,none,N/A,N/A,f,1,f,51.52856591,-0.125919651,Apartment,Entire home/apt,3,1,1,1,Real Bed,0,0,1,0,1,1125,2,70,9,10,10,10,10,8,t,flexible,f,f,0.1
+171,business,within a day,1,f,1,t,51.463036,-0.188955792,Serviced apartment,Entire home/apt,4,1,1,2,Real Bed,250,20,2,20,1,1125,76,93,9,9,10,10,9,9,f,strict_14_with_grace_period,f,f,1.68
+172,none,within an hour,1,f,1,f,51.52397111,-0.260679036,Apartment,Entire home/apt,4,1,2,2,Real Bed,200,86,1,0,2,1125,3,93,9,10,9,10,10,10,t,strict_14_with_grace_period,f,f,1.1
+173,none,within an hour,0.98,f,58,f,51.52553165,-0.137451834,Apartment,Entire home/apt,6,1,2,3,Real Bed,0,60,1,0,3,1125,3,80,10,9,10,9,10,9,t,flexible,f,f,0.87
+174,none,N/A,N/A,t,2,t,51.52643729,-0.191519895,House,Private room,2,1.5,1,1,Real Bed,,,1,0,2,1125,17,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.39
+175,none,within a few hours,1,f,1,f,51.49174717,-0.243431631,Apartment,Entire home/apt,4,1,1,3,Pull-out Sofa,75,,1,15,3,7,93,89,9,9,9,9,9,9,t,flexible,t,t,1.24
+176,none,within an hour,1,f,17,t,51.52061162,-0.106304794,Apartment,Entire home/apt,2,1,1,0,Real Bed,0,0,1,0,7,90,6,100,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,0.12
+177,none,N/A,N/A,f,1,t,51.46532702,-0.107561044,House,Private room,2,2,1,1,Real Bed,,,1,0,2,1125,2,100,9,10,10,10,10,10,f,flexible,f,f,0.05
+178,none,within an hour,1,f,13,f,51.52158381,-0.152354566,Apartment,Entire home/apt,4,1,1,1,Real Bed,500,0,2,19,2,1125,14,86,9,9,8,9,10,9,t,strict_14_with_grace_period,f,f,1.13
+179,none,within a few hours,0.83,f,2,f,51.49169511,-0.018890008,Apartment,Private room,2,1,1,1,Real Bed,100,20,1,10,2,1125,1,,,,,,,,f,moderate,f,f,1
+180,none,within a few hours,1,f,2,f,51.48491059,-0.126120874,Apartment,Private room,1,1,1,1,Real Bed,500,25,1,25,28,28,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+181,none,within an hour,1,f,159,t,51.49370451,-0.227506892,Apartment,Entire home/apt,3,1,1,2,Real Bed,0,70,2,16,1,1125,3,93,9,10,9,9,9,7,t,strict_14_with_grace_period,f,t,1.43
+182,none,N/A,N/A,f,1,f,51.50228629,-0.02409595,Apartment,Entire home/apt,3,1,1,2,Real Bed,,30,1,0,2,1125,0,,,,,,,,f,flexible,f,f,
+183,none,N/A,N/A,f,1,t,51.47496879,-0.024897789,Apartment,Private room,2,1,1,1,Real Bed,0,5,1,0,3,60,8,100,10,9,10,10,9,10,f,flexible,f,f,0.23
+184,none,within an hour,1,t,2,f,51.49105978,-0.137136849,Apartment,Private room,3,1.5,1,2,Real Bed,0,19,4,0,3,353,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+185,none,N/A,N/A,f,1,t,51.52062059,-0.11004172,Apartment,Entire home/apt,5,1,2,2,Real Bed,200,50,2,5,2,1125,23,97,10,10,10,10,10,10,f,moderate,f,f,0.64
+186,none,N/A,N/A,f,1,f,51.55441584,-0.186587801,Apartment,Entire home/apt,5,3,3,3,Real Bed,,,1,0,2,1125,1,,,,,,,,t,flexible,f,f,0.06
+187,none,within an hour,1,t,2,t,51.51314267,-0.138172051,Apartment,Entire home/apt,3,1,0,0,Real Bed,450,30,2,20,1,120,31,97,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,1.76
+188,none,within an hour,1,f,4,t,51.53124747,-0.199071282,Apartment,Entire home/apt,4,1,2,3,Real Bed,0,35,1,0,3,1125,29,96,10,10,9,10,9,9,t,strict_14_with_grace_period,f,f,1.47
+189,none,within an hour,0.96,f,1277,f,51.55002394,-0.13162194,Apartment,Entire home/apt,6,1,4,4,Real Bed,495,300,6,0,1,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+190,none,within a few hours,1,f,1,t,51.48873484,-0.18064435,Apartment,Entire home/apt,2,1,1,1,Real Bed,,35,1,0,2,1125,43,90,9,9,9,10,10,9,f,strict_14_with_grace_period,f,f,1.05
+191,none,within a few hours,0.78,f,183,f,51.51539811,-0.214713777,House,Entire home/apt,4,2,2,2,Real Bed,495,95,1,0,3,1125,1,80,6,8,10,4,6,6,f,strict_14_with_grace_period,f,f,0.07
+192,none,N/A,N/A,f,1,t,51.51942896,-0.035636237,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,1,14,0,,,,,,,,t,flexible,f,f,
+193,none,N/A,N/A,f,1,t,51.55971964,-0.128060775,House,Private room,2,2.5,1,1,Real Bed,72,20,1,0,1,7,0,,,,,,,,t,flexible,f,f,
+194,none,N/A,N/A,f,1,t,51.50920834,0.004267713,Apartment,Entire home/apt,3,1,1,2,Real Bed,500,25,1,0,3,5,2,90,10,8,10,10,9,9,f,strict_14_with_grace_period,f,f,0.09
+195,none,N/A,N/A,f,1,t,51.46342737,-0.1662121,Apartment,Entire home/apt,4,1,1,2,Real Bed,200,20,2,20,2,1125,4,95,10,10,8,10,10,9,f,moderate,f,f,0.12
+196,none,within an hour,0.95,f,8,f,51.48875733,-0.134553732,Apartment,Entire home/apt,4,1,1,2,Real Bed,0,0,1,0,1,31,3,100,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,3
+197,none,within an hour,1,f,3,t,51.53131485,-0.112865669,House,Private room,2,1,1,1,Real Bed,0,0,1,10,28,1125,36,90,9,8,10,10,10,9,f,strict_14_with_grace_period,f,f,0.83
+198,none,within an hour,0.97,f,21,f,51.52731281,-0.140937603,Apartment,Shared room,1,2,1,1,Real Bed,0,5,1,0,2,1125,0,,,,,,,,t,flexible,f,f,
+199,none,within a day,0.7,f,6,f,51.51061442,-0.185209849,Apartment,Entire home/apt,4,2,2,2,Real Bed,100,50,1,0,2,1125,0,,,,,,,,t,flexible,f,f,
+200,family,N/A,N/A,f,1,t,51.55170997,-0.133888601,Apartment,Entire home/apt,4,1,2,1,Real Bed,96,,1,0,3,7,2,100,10,10,10,10,8,9,f,moderate,f,f,0.04
+201,none,N/A,N/A,f,1,f,51.52277661,-0.091030546,Apartment,Entire home/apt,6,1,2,3,Real Bed,0,85,1,0,2,1125,10,86,9,8,10,10,10,9,f,moderate,f,f,0.45
+202,none,within a day,1,f,1,f,51.55238926,-0.033656332,House,Private room,4,1,1,1,Real Bed,,,2,30,1,10,16,73,6,7,8,8,6,7,f,strict_14_with_grace_period,f,f,0.3
+203,none,N/A,N/A,f,1,f,51.52148578,-0.029303121,Apartment,Private room,2,1,1,1,Real Bed,150,,1,5,5,1125,0,,,,,,,,f,moderate,f,f,
+204,none,N/A,N/A,f,1,f,51.55070445,-0.134326529,Hostel,Private room,2,1,1,1,Real Bed,100,20,1,0,3,1125,1,100,10,10,10,10,10,10,t,moderate,f,f,0.05
+205,none,within a few hours,1,f,4,f,51.47692213,-0.147055235,Apartment,Entire home/apt,4,1,2,2,Real Bed,,50,4,10,2,60,22,74,7,7,9,9,8,8,t,strict_14_with_grace_period,f,f,1.23
+206,none,within an hour,1,f,1,f,51.51304743,-0.134165435,Apartment,Entire home/apt,4,2,2,2,Real Bed,200,70,1,0,2,1125,10,92,10,9,9,9,10,9,f,strict_14_with_grace_period,f,f,1.27
+207,none,within a few hours,1,f,1,f,51.49993129,0.031622742,Apartment,Private room,4,1,1,1,Real Bed,850,30,1,12,1,1125,2,100,10,10,9,9,9,10,t,flexible,f,f,0.36
+208,none,within an hour,1,f,78,t,51.51416406,-0.192877703,Apartment,Entire home/apt,3,1,1,1,Real Bed,1000,95,1,0,4,1125,4,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.49
+209,none,within a day,1,t,1,t,51.52896715,-0.084778619,Apartment,Private room,2,1,1,1,Pull-out Sofa,150,25,1,9,2,10,53,97,10,10,10,10,10,10,f,moderate,f,f,1.28
+210,none,N/A,N/A,f,1,t,51.49468816,-0.174273085,Apartment,Entire home/apt,6,1.5,3,3,Real Bed,,50,1,0,2,1125,3,100,9,9,10,10,10,9,f,flexible,f,f,0.06
+211,none,within an hour,1,t,2,t,51.53823987,-0.07895524,Apartment,Private room,1,1,1,1,Real Bed,0,10,1,10,2,40,30,99,10,9,10,10,10,10,t,moderate,f,f,3.27
+212,none,N/A,N/A,f,1,t,51.44845325,-0.057891428,Apartment,Private room,2,1,1,1,Real Bed,500,35,1,0,2,150,1,,,,,,,,t,moderate,f,f,0.09
+213,none,within a few hours,1,f,3,f,51.51524748,-0.165229016,Apartment,Entire home/apt,5,1,2,0,Real Bed,,,1,0,6,15,0,,,,,,,,t,flexible,f,f,
+214,none,N/A,N/A,f,1,t,51.5404816,-0.083096995,House,Private room,2,2.5,1,1,Real Bed,,,1,0,2,10,0,,,,,,,,t,flexible,f,f,
+215,none,within an hour,0.97,f,28,f,51.54008012,-0.140617914,House,Private room,4,2,1,2,Real Bed,0,22,1,15,1,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+216,none,within an hour,1,t,1,t,51.51671941,-0.194990137,Apartment,Entire home/apt,2,1,1,1,Real Bed,200,48,2,20,14,1125,50,96,10,9,10,10,10,9,f,strict_14_with_grace_period,f,f,0.96
+217,none,within an hour,0.9,f,16,t,51.51459576,-0.18791367,Apartment,Entire home/apt,6,2,2,4,Real Bed,200,60,5,25,3,999,14,94,10,9,10,9,10,10,f,strict_14_with_grace_period,f,f,0.65
+218,none,within a few hours,1,f,7,f,51.52601376,-0.098430551,Apartment,Private room,6,1,2,3,Real Bed,300,60,5,20,2,1125,1,100,10,8,10,10,10,10,f,strict_14_with_grace_period,f,f,0.48
+219,none,N/A,N/A,f,1,t,51.49793493,-0.208635301,Apartment,Entire home/apt,3,1,1,2,Real Bed,200,40,3,50,3,16,1,100,10,6,10,10,10,10,f,moderate,f,f,0.09
+220,none,within a few hours,1,f,1,t,51.52251407,-0.048334567,Apartment,Entire home/apt,4,1,2,2,Real Bed,,30,2,25,5,1125,4,87,9,9,10,10,9,7,f,flexible,f,f,0.1
+221,none,N/A,N/A,f,2,t,51.51671409,-0.065755435,Apartment,Entire home/apt,4,2,2,2,Real Bed,0,40,1,0,2,7,4,87,10,7,9,10,9,8,t,flexible,f,f,0.43
+222,none,within a day,1,f,1,t,51.52916091,-0.012832167,Apartment,Entire home/apt,4,1,1,2,Real Bed,,,1,0,3,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+223,none,within a day,1,f,1,f,51.49011049,-0.204501093,Apartment,Entire home/apt,8,1,3,3,Real Bed,300,50,5,15,4,14,7,90,9,9,10,10,9,9,t,strict_14_with_grace_period,f,f,0.3
+224,none,within a few hours,1,f,1,t,51.44956785,-0.216583631,Apartment,Private room,2,1,1,1,Real Bed,,5,1,20,1,15,17,100,10,10,10,10,9,10,f,moderate,f,f,1.35
+225,none,within an hour,1,f,3,f,51.52411605,-0.119160385,Apartment,Entire home/apt,6,1,2,3,Real Bed,650,50,3,10,6,75,9,93,10,10,10,10,10,9,f,moderate,f,t,1.32
+226,none,N/A,N/A,f,1,t,51.53441791,-0.174113263,Apartment,Private room,5,2,2,2,Real Bed,250,60,4,40,2,28,1,100,10,10,10,10,10,10,f,moderate,f,f,0.05
+227,business,within an hour,1,f,1,f,51.49204035,-0.141021005,Apartment,Private room,2,1,2,2,Real Bed,100,30,2,4,2,10,50,95,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,1.12
+228,none,within an hour,1,f,2,f,51.47211097,-0.015826243,Apartment,Entire home/apt,6,2,2,2,Real Bed,250,60,6,20,5,1124,2,100,10,10,10,10,9,9,t,strict_14_with_grace_period,f,f,0.19
+229,none,within an hour,0.99,f,67,f,51.53135607,-0.062528583,Apartment,Entire home/apt,6,1,2,2,Real Bed,0,85,1,0,2,1125,12,93,10,9,9,9,9,9,f,strict_14_with_grace_period,f,f,2.17
+230,none,within a day,0.5,f,4,t,51.54886332,-0.042368632,Apartment,Private room,2,1.5,1,2,Real Bed,0,0,1,10,1,1125,8,97,9,9,10,10,9,10,f,flexible,f,f,0.25
+231,none,within an hour,1,f,3,f,51.54836477,-0.222675572,Apartment,Entire home/apt,2,1,1,1,Real Bed,150,40,1,0,1,1125,6,97,10,10,10,10,9,9,f,strict_14_with_grace_period,f,f,0.18
+232,none,N/A,N/A,f,1,t,51.54156253,-0.196184164,Apartment,Entire home/apt,2,1,0,1,Real Bed,,20,1,0,3,1125,0,,,,,,,,f,flexible,f,f,
+233,none,within a few hours,0.86,f,2,t,51.51236856,-0.060981058,Apartment,Entire home/apt,10,2,2,5,Real Bed,200,40,1,25,1,1125,6,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.09
+234,none,within an hour,1,t,4,t,51.51853327,-0.212728256,Apartment,Entire home/apt,2,1,1,1,Real Bed,300,40,1,15,1,365,82,96,10,10,10,10,10,10,f,strict_14_with_grace_period,t,t,1.18
+235,none,within an hour,0.67,f,2,t,51.48118908,-0.134400849,Apartment,Entire home/apt,3,1,1,2,Real Bed,250,60,2,30,2,1125,6,97,9,9,10,10,8,9,f,strict_14_with_grace_period,f,f,1.14
+236,none,within an hour,1,f,12,f,51.50001665,-0.085310996,Apartment,Entire home/apt,8,2,2,4,Real Bed,0,60,8,0,1,1125,28,90,9,10,9,9,9,9,t,strict_14_with_grace_period,f,f,0.91
+237,none,N/A,N/A,f,1,f,51.52266392,-0.158818071,Apartment,Private room,2,1,1,2,Real Bed,100,10,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+238,none,within a few hours,1,f,1,f,51.4587781,-0.172292083,House,Entire home/apt,5,1,3,3,Real Bed,,,1,0,5,30,1,,,,,,,,t,strict_14_with_grace_period,f,f,0.05
+239,none,within a few hours,1,f,2,t,51.49690167,-0.220334747,Apartment,Private room,2,1,1,1,Real Bed,,15,1,0,7,1120,4,95,10,9,10,10,10,10,f,moderate,f,f,0.12
+240,none,within a few hours,1,f,4,f,51.47713438,-0.111297463,Apartment,Private room,2,1.5,3,3,Real Bed,,,1,0,7,1125,2,70,9,6,10,10,10,7,t,moderate,f,f,0.91
+241,none,within an hour,0.9,t,1,t,51.52571719,-0.099011491,Loft,Private room,2,1,1,1,Real Bed,300,25,1,0,2,1125,61,99,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,2.07
+242,none,N/A,N/A,f,1,f,51.52541942,-0.144217124,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,7,1125,1,,,,,,,,t,strict_14_with_grace_period,f,f,0.08
+243,none,within an hour,1,f,3,t,51.47502239,-0.185760924,Apartment,Entire home/apt,2,1,0,1,Real Bed,300,32,1,0,5,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+244,none,within an hour,1,f,1,f,51.5216295,-0.207461479,Apartment,Entire home/apt,4,1,2,2,Real Bed,,,1,0,2,1125,1,60,8,8,10,10,6,6,f,flexible,f,f,0.45
+245,none,within a few hours,1,f,1,t,51.50935204,-0.230121194,Apartment,Entire home/apt,4,2.5,3,4,Real Bed,350,50,1,0,6,1125,16,98,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.41
+246,none,N/A,N/A,f,1,f,51.44559777,-0.193139751,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,1,100,10,8,10,10,10,10,t,flexible,f,f,0.05
+247,none,within an hour,1,f,1,f,51.49499502,-0.083161367,Townhouse,Private room,1,2.5,1,2,Real Bed,100,20,1,30,1,30,0,,,,,,,,t,flexible,f,f,
+248,none,within a few hours,1,f,1,t,51.49487707,-0.19060349,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,20,1,0,4,32,7,100,10,10,10,10,10,10,f,flexible,f,f,0.6
+249,none,N/A,N/A,f,1,t,51.52001733,-0.175918051,Apartment,Entire home/apt,2,1,1,1,Real Bed,120,60,1,0,7,1125,5,100,10,10,10,10,10,10,t,flexible,f,f,0.27
+250,none,within an hour,1,f,12,f,51.51103945,-0.088940751,Serviced apartment,Entire home/apt,2,1,0,0,Real Bed,,,1,0,5,1124,2,80,10,10,10,10,9,7,f,flexible,f,f,0.76
+251,none,within a day,0.73,f,2,f,51.56096347,-0.095687309,House,Private room,2,1,1,1,Real Bed,0,10,1,5,1,1125,31,89,10,8,10,10,10,9,f,moderate,f,f,2.88
+252,none,N/A,N/A,f,1,f,51.50222753,-0.017717794,Apartment,Entire home/apt,2,1,2,1,Real Bed,,,1,0,3,9,0,,,,,,,,t,flexible,f,f,
+253,none,within a few hours,0.8,f,4,f,51.49416764,-0.167317343,House,Entire home/apt,6,2,2,3,Real Bed,100,50,1,0,5,100,1,,,,,,,,f,flexible,f,f,0.22
+254,none,within an hour,1,f,213,t,51.49304511,-0.037356925,Apartment,Entire home/apt,4,2,2,2,Real Bed,350,65,2,10,2,1125,16,93,10,9,10,10,9,10,f,strict_14_with_grace_period,f,f,0.99
+255,none,within a few hours,1,f,3,f,51.44358031,-0.01089468,House,Private room,2,1,1,1,Real Bed,,,1,0,1,90,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+256,none,within an hour,1,f,4,f,51.532283,0.007366305,House,Entire home/apt,5,1.5,2,4,Real Bed,0,30,3,20,3,1125,0,,,,,,,,t,flexible,f,f,
+257,none,within an hour,0.9,f,5,f,51.51263843,-0.218273373,Apartment,Entire home/apt,6,1,2,3,Real Bed,250,85,2,15,1,1125,58,91,9,9,9,10,9,9,t,strict_14_with_grace_period,f,f,1.38
+258,none,within an hour,1,f,2,f,51.49805472,-0.166726882,Apartment,Entire home/apt,4,1,2,2,Real Bed,85,84,2,15,2,1125,17,79,8,8,9,9,10,8,f,strict_14_with_grace_period,f,f,1.52
+259,family,within a few hours,1,t,2,t,51.53600618,-0.052091592,House,Entire home/apt,9,3,5,5,Real Bed,1000,140,8,60,2,1125,82,99,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,1.47
+260,none,N/A,N/A,t,2,t,51.5611874,-0.100697955,Apartment,Entire home/apt,4,1.5,2,2,Real Bed,100,20,1,0,2,10,15,100,10,10,10,10,10,10,f,moderate,f,t,0.35
+261,none,N/A,N/A,f,1,f,51.51098499,-0.049442244,Apartment,Entire home/apt,4,1,1,1,Real Bed,150,25,1,22,3,1125,17,99,10,10,10,10,9,10,t,strict_14_with_grace_period,f,f,0.92
+262,none,within an hour,1,f,1,f,51.51283759,-0.13768308,Apartment,Entire home/apt,2,1,0,1,Real Bed,85,60,2,10,2,1125,6,83,9,8,9,9,10,8,f,moderate,f,f,1.76
+263,none,within an hour,0.94,f,42,f,51.55277719,-0.00665608,Apartment,Entire home/apt,4,1,0,2,Real Bed,0,0,2,8,3,1125,12,82,9,8,10,9,10,9,t,strict_14_with_grace_period,f,f,1.32
+264,none,within an hour,1,f,34,f,51.51219705,-0.119120936,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,1,1125,14,94,10,10,10,10,10,9,t,flexible,f,f,0.46
+265,none,within an hour,1,f,10,f,51.47714863,-0.100077459,House,Private room,6,1,3,2,Real Bed,0,13,2,14,1,30,61,93,10,8,10,10,9,9,f,moderate,f,f,5.92
+266,none,N/A,N/A,f,1,f,51.45409548,-0.127953532,Apartment,Entire home/apt,4,1,2,2,Real Bed,85,84,2,15,2,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+267,none,within a day,0.5,f,2,f,51.48544836,-0.138937673,Apartment,Entire home/apt,5,1,2,3,Real Bed,0,40,1,0,3,20,22,95,10,9,10,9,10,10,t,strict_14_with_grace_period,f,f,2.57
+268,none,within an hour,1,f,3,f,51.48830142,-0.223587827,Townhouse,Entire home/apt,5,1,3,5,Real Bed,,0,1,0,1,1125,1,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.26
+269,none,N/A,N/A,f,2,f,51.54293941,-0.023800151,Apartment,Entire home/apt,3,1,1,1,Real Bed,0,10,2,20,2,10,48,98,10,10,10,10,10,10,t,moderate,f,f,2.1
+270,none,N/A,N/A,f,1,t,51.45459941,-0.12034782,Apartment,Private room,2,2,1,1,Real Bed,,4,2,10,1,1125,28,98,10,10,10,10,10,10,t,flexible,f,f,0.69
+271,none,within an hour,1,f,10,f,51.52062067,-0.110599204,Condominium,Entire home/apt,8,1.5,2,4,Real Bed,150,40,6,8,3,90,3,100,10,10,10,10,10,10,t,flexible,f,f,3
+272,none,within an hour,1,f,17,t,51.52193834,-0.062984415,Apartment,Entire home/apt,6,1,2,3,Real Bed,150,35,3,4,2,90,27,92,10,9,9,10,9,9,t,strict_14_with_grace_period,f,f,1.39
+273,none,within a few hours,0.98,f,24,f,51.48955705,-0.24954794,Apartment,Entire home/apt,2,1,1,1,Real Bed,300,60,1,0,3,1125,4,100,10,10,10,9,10,10,f,strict_14_with_grace_period,f,f,0.98
+274,none,within a day,0.91,f,15,t,51.52253706,-0.139035686,Serviced apartment,Entire home/apt,3,1,1,1,Real Bed,150,15,2,15,3,1125,0,,,,,,,,f,moderate,f,f,
+275,none,within a few hours,1,f,5,t,51.5183912,-0.134357866,Apartment,Entire home/apt,4,1,1,2,Real Bed,,40,4,0,1,1125,5,80,9,9,8,8,10,8,f,moderate,f,f,0.11
+276,none,within a day,0.98,f,40,f,51.51055147,-0.125845077,Other,Entire home/apt,5,1,1,2,Real Bed,200,50,4,10,3,90,7,94,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,0.39
+277,none,N/A,N/A,f,1,t,51.51005464,-0.196907055,Apartment,Entire home/apt,3,1,1,2,Real Bed,650,40,2,40,7,90,63,94,9,10,10,9,10,9,f,strict_14_with_grace_period,f,f,0.88
+278,none,N/A,N/A,f,1,f,51.52587722,-0.07543985,Apartment,Private room,1,1,1,1,Real Bed,0,20,1,10,7,16,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+279,none,within an hour,1,f,1,f,51.46930673,-0.207441802,Apartment,Entire home/apt,4,1,1,3,Real Bed,500,45,1,10,1,60,12,93,9,9,9,9,9,9,t,moderate,f,f,0.53
+280,none,N/A,N/A,f,1,t,51.52708503,-0.137447701,Apartment,Entire home/apt,2,2,1,1,Real Bed,,,2,50,5,1125,0,,,,,,,,f,flexible,f,f,
+281,none,N/A,N/A,t,1,f,51.44824946,-0.04430888,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,2,1125,6,100,10,10,10,10,10,10,t,moderate,f,f,0.47
+282,none,within an hour,1,f,5,t,51.53407551,-0.087224668,Apartment,Entire home/apt,5,1,2,2,Real Bed,200,30,2,20,2,14,4,80,9,10,10,10,7,7,f,moderate,f,f,1.56
+283,none,within a day,0.5,f,1,t,51.50061668,-0.263678319,Townhouse,Entire home/apt,6,3.5,3,3,Real Bed,,,1,0,3,1125,0,,,,,,,,t,flexible,f,f,
+284,none,within an hour,0.86,f,1,t,51.53698228,-0.057988685,Townhouse,Private room,2,1,1,1,Real Bed,,10,1,0,2,45,44,95,10,9,10,10,10,9,t,moderate,f,f,2.19
+285,none,within a few hours,0.87,f,19,f,51.51340782,-0.17623603,Apartment,Entire home/apt,5,1,2,3,Real Bed,500,0,1,0,2,1125,26,90,9,9,10,9,10,9,f,moderate,f,f,0.71
+286,none,within a day,1,f,2,f,51.54369138,-0.04063735,House,Entire home/apt,6,1.5,3,4,Real Bed,3827,75,1,0,7,12,0,,,,,,,,f,flexible,f,f,
+287,none,within a day,0.5,f,7,t,51.52381119,-0.201388631,Apartment,Entire home/apt,6,2,2,5,Real Bed,,50,5,0,1,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+288,none,within an hour,0.96,f,1277,f,51.5440097,-0.079771843,Apartment,Entire home/apt,4,1,2,2,Real Bed,495,150,4,0,1,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+289,none,within an hour,1,f,9,f,51.51761501,-0.016697633,Apartment,Entire home/apt,4,2,2,3,Real Bed,100,25,1,12,1,1125,15,87,9,9,9,9,9,9,t,moderate,f,f,2.32
+290,none,N/A,N/A,f,1,f,51.55052821,-0.089582307,Apartment,Entire home/apt,2,1,1,1,Real Bed,200,58,1,0,2,1125,1,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.19
+291,none,within an hour,1,t,2,t,51.53101852,-0.074728346,Apartment,Private room,2,1.5,1,1,Real Bed,100,15,1,5,3,100,21,99,10,10,10,10,10,10,f,moderate,f,f,0.97
+292,none,within an hour,1,f,15,f,51.51295307,-0.06485614,Apartment,Entire home/apt,7,2.5,3,4,Real Bed,200,50,1,0,3,28,2,90,9,9,10,9,9,9,t,strict_14_with_grace_period,f,f,0.28
+293,none,N/A,N/A,f,1,t,51.54339552,-0.05516149,Apartment,Entire home/apt,6,1,2,2,Real Bed,300,30,6,0,4,31,14,97,10,10,10,10,10,10,f,moderate,f,f,0.64
+294,none,within a few hours,0.89,f,16,f,51.5273603,-0.073231718,Apartment,Private room,2,1,1,1,Real Bed,0,15,1,9,2,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+295,none,N/A,N/A,f,1,t,51.50839628,-0.002363106,Apartment,Entire home/apt,3,1,1,1,Real Bed,0,20,1,0,10,20,0,,,,,,,,f,flexible,f,f,
+296,none,within an hour,0.71,f,12,f,51.50102306,-0.191434481,Apartment,Entire home/apt,4,1,1,1,Real Bed,300,99,1,0,2,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+297,none,N/A,N/A,f,1,t,51.47225364,-0.14835395,Apartment,Entire home/apt,2,1,1,1,Real Bed,,25,1,0,3,1125,0,,,,,,,,f,moderate,f,f,
+298,none,within an hour,1,t,2,f,51.48858574,-0.20797617,Apartment,Private room,1,1,1,1,Real Bed,,20,1,25,1,1125,73,98,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,3.72
+299,none,N/A,N/A,f,2,t,51.50412567,-0.237718277,Apartment,Entire home/apt,6,2,3,3,Real Bed,250,90,1,0,2,17,12,93,9,10,10,10,9,9,f,moderate,f,f,0.42
+300,none,N/A,N/A,f,1,t,51.50646249,-0.006378319,Apartment,Private room,2,2,1,2,Real Bed,200,30,2,10,1,1125,2,60,7,5,6,9,9,6,t,flexible,f,f,0.15
+301,none,N/A,N/A,f,1,f,51.45080193,-0.01457269,Apartment,Entire home/apt,4,1,2,2,Real Bed,,,1,0,5,1125,3,93,10,9,9,10,9,10,f,moderate,f,f,0.08
+302,none,within an hour,0.99,f,13,f,51.52377716,-0.193506384,Apartment,Entire home/apt,6,1,2,3,Real Bed,0,29,1,0,3,60,24,77,8,8,9,8,9,8,t,strict_14_with_grace_period,f,f,4.21
+303,none,N/A,N/A,f,1,f,51.49013952,-0.088495126,Apartment,Private room,1,1.5,1,1,Real Bed,,20,1,0,10,1125,0,,,,,,,,f,moderate,f,f,
+304,none,within an hour,1,f,3,t,51.48769361,-0.137779645,Apartment,Entire home/apt,2,1,1,1,Real Bed,,50,1,0,3,1125,15,89,9,9,10,10,10,9,f,strict_14_with_grace_period,f,f,2.51
+305,none,within an hour,0.99,f,29,t,51.48799945,-0.207857647,Apartment,Entire home/apt,4,2,1,2,Real Bed,0,60,1,0,2,1125,3,80,10,10,9,10,10,10,t,moderate,f,f,2.25
+306,none,within an hour,1,f,4,f,51.51839754,-0.188828857,Serviced apartment,Entire home/apt,2,1,0,1,Real Bed,200,40,1,0,2,89,1,100,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,1
+307,none,within an hour,0.98,f,58,f,51.50984606,-0.131739975,Apartment,Entire home/apt,4,1,1,1,Real Bed,0,45,1,0,3,1124,7,86,9,8,9,9,9,8,t,moderate,f,f,0.72
+308,none,within an hour,1,f,3,f,51.54084352,-0.099936107,Apartment,Private room,2,1,1,1,Real Bed,500,15,1,10,1,14,0,,,,,,,,f,moderate,f,f,
+309,none,within a few hours,1,t,2,t,51.5437312,-0.003830945,Apartment,Entire home/apt,4,1,1,0,Real Bed,750,30,2,15,4,1125,68,99,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,1.48
+310,none,within a few hours,1,f,4,t,51.5221102,-0.189302939,Serviced apartment,Private room,2,1,0,1,Real Bed,,,1,0,7,1125,0,,,,,,,,f,flexible,f,f,
+311,none,within an hour,1,f,5,f,51.52642719,-0.189276573,Apartment,Entire home/apt,2,1,0,1,Real Bed,300,45,1,0,2,27,39,98,10,10,10,10,9,9,t,strict_14_with_grace_period,f,f,2
+312,none,N/A,N/A,f,1,f,51.53069653,-0.09608285,Condominium,Private room,2,1,1,1,Real Bed,,20,1,0,7,1125,0,,,,,,,,t,flexible,f,f,
+313,none,N/A,N/A,f,1,f,51.53319342,-0.170532332,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,6,8,0,,,,,,,,t,flexible,f,f,
+314,none,within an hour,1,f,6,f,51.5462343,-0.200996055,Apartment,Entire home/apt,5,1,2,2,Real Bed,800,0,3,15,1,1125,24,93,10,10,10,9,9,9,t,strict_14_with_grace_period,f,f,3.41
+315,none,within an hour,0.98,f,17,f,51.49460295,-0.193854333,Apartment,Entire home/apt,4,1,1,2,Real Bed,0,75,2,15,1,400,2,100,10,10,10,10,10,10,t,super_strict_30,f,f,0.78
+316,none,N/A,N/A,f,2,f,51.46680436,-0.007769199,Apartment,Entire home/apt,4,1.5,2,2,Real Bed,100,80,4,25,2,1125,16,89,10,9,10,10,10,9,f,moderate,f,f,0.73
+317,none,N/A,N/A,f,1,t,51.53661051,-0.085235573,Apartment,Entire home/apt,2,1,1,1,Real Bed,300,25,1,0,3,1125,1,100,10,10,8,10,10,10,f,moderate,f,f,0.02
+318,none,within an hour,0.94,f,1199,f,51.49385942,-0.139594474,Apartment,Entire home/apt,5,2,3,3,Real Bed,300,113,6,5,2,1125,6,92,9,9,10,9,9,9,f,strict_14_with_grace_period,f,f,0.53
+319,none,N/A,N/A,f,1,t,51.49038204,-0.112002522,Condominium,Entire home/apt,2,1,1,2,Real Bed,858,29,2,19,45,1124,4,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.19
+320,none,within an hour,1,t,1,t,51.48143779,-0.020945737,Apartment,Entire home/apt,6,2,3,3,Real Bed,250,35,1,0,4,1125,25,96,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,0.9
+321,none,within a day,0.5,f,1,f,51.52688498,-0.077082941,Apartment,Entire home/apt,3,1,1,2,Real Bed,300,65,1,0,3,1125,8,95,10,9,10,10,9,10,f,strict_14_with_grace_period,f,f,1.82
+322,none,within an hour,1,f,1,f,51.51630622,-0.161504404,Apartment,Entire home/apt,3,1,1,2,Real Bed,,,1,0,2,1125,4,80,9,8,10,10,10,8,f,strict_14_with_grace_period,f,f,2.5
+323,none,within an hour,1,f,1,f,51.54279338,-0.023268398,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,t,flexible,f,f,
+324,family,within an hour,0.9,f,2,t,51.48980834,-0.141432095,Apartment,Entire home/apt,5,2,2,0,Real Bed,300,60,1,0,3,1125,126,97,10,10,10,10,10,10,f,moderate,f,f,2.47
+325,none,within an hour,1,f,9,t,51.45971449,-0.117580277,Apartment,Entire home/apt,4,1,1,2,Real Bed,200,36,1,9,2,1125,14,94,10,10,10,9,10,10,t,strict_14_with_grace_period,f,f,1.41
+326,none,N/A,N/A,f,1,f,51.48565545,-0.181417219,Apartment,Private room,2,1,1,1,Real Bed,400,26,1,0,2,5,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+327,none,within an hour,1,f,7,f,51.54654082,-0.16330492,Guesthouse,Private room,2,1,1,2,Real Bed,0,0,2,0,1,1125,0,,,,,,,,t,moderate,f,f,
+328,none,a few days or more,0,f,1,f,51.52418307,-0.206172659,Apartment,Private room,2,1.5,1,1,Real Bed,80,10,1,20,2,60,2,100,10,10,10,10,10,8,f,flexible,f,f,0.1
+329,none,within an hour,1,f,2,t,51.49953402,-0.112368396,Apartment,Private room,2,1,1,1,Real Bed,100,20,1,15,2,1125,4,100,10,10,9,10,10,10,f,strict_14_with_grace_period,f,f,0.07
+330,none,within an hour,0.91,f,7,f,51.51915599,-0.16924653,House,Private room,4,2.5,1,2,Real Bed,0,35,1,0,1,1125,3,80,9,9,8,9,10,7,t,strict_14_with_grace_period,f,f,3
+331,none,within an hour,1,f,159,t,51.51763871,-0.202944893,Serviced apartment,Entire home/apt,2,1,1,1,Real Bed,0,70,2,0,2,1125,2,80,9,10,9,8,9,8,t,flexible,f,t,0.23
+332,none,within an hour,1,f,7,f,51.54744371,-0.11415309,Apartment,Entire home/apt,4,2,2,2,Real Bed,500,90,1,0,2,1125,11,84,9,9,9,10,9,9,f,strict_14_with_grace_period,f,t,0.62
+333,none,within an hour,1,f,1,f,51.49168971,-0.170319133,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,2,66,13,95,10,10,10,10,10,10,t,moderate,f,f,1.34
+334,none,a few days or more,0.4,f,1,f,51.49099261,-0.100133141,Apartment,Entire home/apt,4,1,2,3,Real Bed,300,50,1,0,4,1125,1,100,10,10,10,8,10,8,f,flexible,f,f,0.46
+335,none,within an hour,1,f,4,t,51.51523587,-0.13258194,Apartment,Entire home/apt,8,2,3,4,Real Bed,200,130,1,15,2,90,24,93,9,10,9,10,10,9,t,moderate,f,f,1.23
+336,none,within an hour,1,f,1,f,51.52788333,-0.085781459,Treehouse,Private room,3,1,4,4,Real Bed,100,10,1,25,1,2,22,90,9,9,9,9,10,9,t,moderate,f,f,3.65
+337,none,within an hour,0.8,f,1,t,51.48972804,-0.097743255,Apartment,Entire home/apt,4,1,2,4,Real Bed,,50,4,50,2,1125,16,93,10,10,10,10,9,9,t,strict_14_with_grace_period,f,f,1.06
+338,none,N/A,N/A,f,1,f,51.4678255,-0.019111538,Apartment,Private room,2,1,1,1,Real Bed,,5,1,0,2,1125,16,89,10,9,10,10,9,9,f,moderate,f,f,0.73
+339,none,within an hour,0.96,f,1277,f,51.46732454,-0.136653469,House,Entire home/apt,10,3,5,7,Real Bed,642,486,10,0,5,1125,2,100,10,10,10,10,8,10,t,strict_14_with_grace_period,f,f,0.1
+340,none,within an hour,1,f,4,f,51.55286612,-0.18217784,Apartment,Entire home/apt,6,2,3,3,Real Bed,99,104,3,15,2,1125,0,,,,,,,,f,moderate,f,f,
+341,none,within an hour,1,f,80,f,51.52395654,-0.071660246,Apartment,Entire home/apt,2,1,1,2,Real Bed,0,0,2,0,1,28,0,,,,,,,,t,super_strict_30,f,f,
+342,none,within an hour,1,f,1,f,51.50390803,-0.265983311,House,Private room,2,1,1,1,Real Bed,3000,20,1,9,15,60,7,93,9,9,10,10,9,9,f,moderate,f,f,1.24
+343,none,a few days or more,0,f,1,f,51.51391331,-0.204750317,Apartment,Entire home/apt,3,1,2,2,Real Bed,500,30,1,0,3,20,0,,,,,,,,f,flexible,f,f,
+344,none,within a day,1,f,2,t,51.51970115,-0.156202489,Apartment,Entire home/apt,4,1,2,2,Real Bed,,,1,0,20,24,0,,,,,,,,f,flexible,f,f,
+345,none,within a few hours,1,f,1,f,51.51822246,-0.1960525,Apartment,Entire home/apt,4,1,1,1,Real Bed,85,64,2,15,2,1125,24,95,10,9,10,10,10,10,f,strict_14_with_grace_period,f,f,1.56
+346,none,N/A,N/A,f,2,f,51.5576392,-0.139248121,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+347,none,N/A,N/A,f,20,f,51.50967341,0.025842674,Apartment,Entire home/apt,4,2,2,3,Real Bed,,49,3,24,1,1125,0,,,,,,,,t,flexible,f,f,
+348,none,within an hour,1,f,7,t,51.51763853,0.008587727,Apartment,Private room,2,1,1,1,Real Bed,75,,1,10,1,120,217,91,9,9,9,9,9,9,t,strict_14_with_grace_period,f,f,5.26
+349,none,within an hour,1,f,13,t,51.5143997,-0.127748235,Loft,Entire home/apt,6,1,2,5,Real Bed,300,60,5,50,1,1125,62,95,9,9,10,10,10,9,t,strict_14_with_grace_period,f,f,2.77
+350,none,within a day,0.89,f,2,f,51.5479443,-0.013557829,House,Entire home/apt,6,2.5,4,4,Real Bed,,,1,0,2,25,0,,,,,,,,f,flexible,f,f,
+351,none,within an hour,0.99,f,24,f,51.54161794,-0.094716607,Apartment,Entire home/apt,2,1,1,1,Real Bed,200,50,2,0,2,1125,0,,,,,,,,f,moderate,f,f,
+352,none,N/A,N/A,f,2,f,51.56468623,-0.072998326,Apartment,Entire home/apt,4,1,2,2,Real Bed,0,85,2,0,2,1125,21,98,10,10,10,10,10,10,f,moderate,f,f,0.65
+353,none,within an hour,1,f,2,f,51.55271117,-0.108103746,Apartment,Private room,2,1,1,0,Real Bed,,15,1,15,1,30,9,84,10,9,10,9,10,9,f,moderate,f,f,1.86
+354,none,N/A,N/A,f,1,f,51.52571947,-0.058354046,Apartment,Private room,2,1,1,1,Real Bed,0,0,1,23,1,1125,8,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.25
+355,none,within an hour,1,t,1,f,51.51672043,-0.20867057,Apartment,Entire home/apt,6,1,2,3,Real Bed,200,65,2,20,2,1125,14,86,9,8,10,9,10,8,t,moderate,f,f,3.39
+356,none,within an hour,0.99,f,46,t,51.52823942,-0.138357543,Apartment,Entire home/apt,4,1,1,1,Real Bed,0,39,3,0,1,1125,35,92,10,9,9,10,10,9,t,strict_14_with_grace_period,f,f,1.56
+357,none,N/A,N/A,f,1,t,51.56440308,-0.047420111,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+358,none,N/A,N/A,f,1,t,51.54587801,-0.098230707,Apartment,Entire home/apt,2,1.5,1,1,Real Bed,200,20,1,0,3,18,5,100,10,10,10,10,10,10,f,moderate,f,f,0.16
+359,none,N/A,N/A,f,1,t,51.55327869,-0.113084305,Apartment,Private room,3,1.5,1,2,Pull-out Sofa,90,9,2,10,1,60,31,98,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.98
+360,none,N/A,N/A,f,1,f,51.53021668,-0.17959493,Apartment,Entire home/apt,4,2,2,2,Real Bed,0,80,1,0,2,1125,2,80,9,9,5,7,9,7,f,moderate,f,f,0.1
+361,none,within an hour,1,t,1,f,51.46347876,-0.160006584,Apartment,Entire home/apt,4,1,2,2,Real Bed,500,84,2,15,2,1125,8,98,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,1.73
+362,none,within a few hours,1,f,12,t,51.50162433,-0.185566519,Apartment,Entire home/apt,3,1,1,1,Real Bed,200,,1,0,1,1125,50,82,8,9,9,9,10,9,f,strict_14_with_grace_period,f,f,0.97
+363,none,N/A,N/A,f,1,t,51.45424309,-0.174430463,Apartment,Entire home/apt,4,1,1,2,Real Bed,350,30,1,0,2,1125,0,,,,,,,,f,moderate,f,f,
+364,none,within a day,1,f,1,t,51.5068637,-0.023954211,Apartment,Entire home/apt,1,1,1,1,Couch,,20,1,0,1,1125,3,93,10,10,10,10,10,10,f,moderate,f,f,0.07
+365,none,within an hour,1,f,1,f,51.49035751,-0.142811722,Condominium,Entire home/apt,5,1.5,2,2,Real Bed,1000,50,4,15,1,1125,31,93,9,9,10,9,10,9,t,flexible,f,f,3.86
+366,none,within an hour,1,f,3,t,51.51244743,-0.186604831,Apartment,Private room,1,1.5,1,1,Real Bed,0,5,1,0,1,61,168,91,10,9,9,10,10,9,t,moderate,f,f,5.26
+367,none,N/A,N/A,f,1,t,51.48650436,-0.104390352,Apartment,Entire home/apt,4,1,2,2,Real Bed,,15,1,0,5,18,2,100,9,10,10,10,9,9,f,flexible,f,f,0.09
+368,none,N/A,N/A,f,1,f,51.50545601,-0.007378718,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,2,7,6,100,10,10,10,10,10,9,f,moderate,f,f,0.43
+369,none,N/A,N/A,f,1,f,51.50068619,-0.088363285,Apartment,Private room,2,1,1,1,Real Bed,0,10,1,0,1,15,7,92,10,9,10,10,10,9,f,flexible,f,f,0.36
+370,none,within an hour,1,f,1,f,51.45579258,-0.014604417,Apartment,Entire home/apt,5,1,2,3,Real Bed,150,20,2,5,3,1125,2,80,10,8,10,10,8,8,f,moderate,f,f,0.14
+371,none,within an hour,1,f,6,t,51.5190092,-0.106513843,Apartment,Entire home/apt,8,3,3,3,Real Bed,400,80,6,10,5,1125,17,96,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,0.48
+372,none,within a day,1,f,1,t,51.52279276,-0.067499322,Apartment,Private room,2,1,1,1,Real Bed,,,1,19,2,4,62,91,9,9,10,10,9,9,f,flexible,f,f,1.77
+373,none,within an hour,1,f,2,t,51.52676867,-0.100662703,Apartment,Entire home/apt,2,1,1,1,Real Bed,110,35,1,0,1,90,26,89,9,9,9,10,9,9,t,moderate,f,f,1.24
+374,none,N/A,N/A,f,1,f,51.51033656,-0.15220748,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,92,1125,0,,,,,,,,t,flexible,f,f,
+375,none,within an hour,0.94,f,1199,f,51.54606877,-0.141634798,Apartment,Entire home/apt,4,2,2,2,Real Bed,300,93,4,5,2,1125,3,87,9,9,7,9,9,9,f,strict_14_with_grace_period,f,f,0.37
+376,none,within a few hours,0.98,f,24,f,51.46259443,-0.019198229,House,Entire home/apt,7,2,4,4,Real Bed,480,100,5,10,3,1125,1,60,4,2,2,2,8,4,f,strict_14_with_grace_period,f,f,0.44
+377,none,within a day,1,f,1,t,51.50023955,-0.212096159,Apartment,Entire home/apt,4,1,2,2,Real Bed,0,0,1,0,5,30,15,96,10,10,10,10,10,9,f,moderate,f,f,0.31
+378,none,within a few hours,1,f,1,f,51.44508588,-0.199431315,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,2,30,17,100,10,10,10,10,10,10,t,flexible,f,f,1.07
+379,family,within a day,1,f,1,f,51.51188085,-0.188154517,Apartment,Entire home/apt,6,2,3,3,Real Bed,,40,1,0,4,14,11,90,9,8,10,10,10,8,f,moderate,f,f,0.26
+380,none,within an hour,1,f,58,f,51.5200811,-0.13537242,Serviced apartment,Entire home/apt,2,1,1,1,Real Bed,150,50,2,35,5,1125,9,96,9,10,10,10,10,9,t,strict_14_with_grace_period,f,t,0.62
+381,none,within an hour,1,f,51,f,51.49260511,-0.14190447,House,Entire home/apt,6,2.5,3,3,Real Bed,300,85,2,15,2,1125,18,92,9,10,9,10,10,9,f,strict_14_with_grace_period,f,f,1.09
+382,none,N/A,N/A,f,3,t,51.44870674,0.014673813,House,Entire home/apt,4,1,2,2,Real Bed,,8,1,0,4,1125,14,97,10,9,10,10,9,10,f,moderate,f,f,0.41
+383,business,within a few hours,1,f,1,t,51.50927562,-0.05516474,House,Private room,2,1.5,1,1,Futon,0,35,1,0,2,99,27,93,10,10,10,10,9,9,f,moderate,f,f,0.46
+384,none,N/A,N/A,f,1,f,51.50938941,-0.187955,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,4,1125,0,,,,,,,,f,flexible,f,f,
+385,none,within an hour,1,f,1,t,51.47476657,-0.10070689,Apartment,Entire home/apt,3,1,1,2,Real Bed,0,20,2,10,2,1125,8,98,10,10,10,10,9,10,t,strict_14_with_grace_period,f,f,0.43
+386,none,within an hour,1,t,2,f,51.49707888,-0.090440864,Apartment,Private room,2,1.5,1,1,Real Bed,,,1,0,1,1125,7,97,10,10,10,10,9,10,t,moderate,f,f,1.78
+387,none,within a few hours,1,f,1,f,51.49408331,-0.173051057,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,2,1125,0,,,,,,,,f,flexible,f,f,
+388,none,within a few hours,1,f,2,t,51.52739861,-0.096142442,Serviced apartment,Private room,2,1,1,1,Real Bed,100,15,1,0,3,1125,1,100,10,10,10,10,10,10,f,moderate,f,f,1
+389,none,N/A,N/A,f,1,f,51.47590144,-0.169450046,Apartment,Private room,1,1,1,1,Real Bed,,20,1,0,3,1125,0,,,,,,,,t,moderate,f,f,
+390,none,N/A,N/A,f,1,f,51.54960652,-0.209078826,Apartment,Entire home/apt,4,1,2,2,Real Bed,,,1,0,1,1125,0,,,,,,,,t,flexible,f,f,
+391,none,within a few hours,1,f,5,f,51.49302368,-0.188372568,Apartment,Entire home/apt,4,1,2,3,Real Bed,250,90,4,15,1,80,7,90,9,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.29
+392,none,a few days or more,0.33,f,2,t,51.55995623,-0.070545183,Townhouse,Entire home/apt,4,2,2,2,Real Bed,3500,60,1,0,3,60,4,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.2
+393,none,within a day,0.85,f,13,t,51.51298702,-0.125703287,Apartment,Entire home/apt,6,1.5,2,2,Real Bed,74,65,1,0,3,1125,2,100,8,9,10,10,10,8,f,moderate,f,f,0.07
+394,none,N/A,N/A,f,1,f,51.54567239,-0.170782222,Apartment,Entire home/apt,2,1,1,1,Real Bed,899,50,1,0,3,60,2,90,9,9,10,10,10,9,f,strict_14_with_grace_period,f,f,0.22
+395,none,N/A,N/A,f,1,t,51.49128862,-0.049581618,House,Private room,2,1.5,1,1,Real Bed,,,1,0,1,1125,2,100,10,10,10,10,8,8,f,flexible,f,f,0.06
+396,none,within a day,0.97,f,12,t,51.53190086,-0.119478654,Apartment,Entire home/apt,4,1,1,2,Real Bed,150,60,2,10,1,1125,24,86,9,9,9,9,9,9,f,strict_14_with_grace_period,f,f,0.48
+397,none,N/A,N/A,f,1,f,51.52460243,-0.204269967,House,Entire home/apt,2,1,1,2,Real Bed,430,34,1,17,1,1125,2,100,10,10,10,10,10,10,f,flexible,f,f,0.04
+398,none,within an hour,1,f,8,f,51.48931211,-0.162548216,House,Entire home/apt,12,2,3,3,Real Bed,0,130,1,0,2,1125,1,100,10,10,10,10,10,10,t,flexible,f,f,1
+399,none,within a few hours,0.97,f,6,f,51.51925404,-0.071549694,Apartment,Entire home/apt,4,1,1,2,Real Bed,0,35,2,10,1,29,21,84,9,9,10,10,9,8,f,flexible,f,f,1.24
+400,none,N/A,N/A,t,1,t,51.47430055,0.014573882,Apartment,Entire home/apt,4,1,1,2,Real Bed,,48,2,5,2,60,27,99,10,10,10,10,10,10,f,moderate,f,f,1.46
+401,none,within an hour,0.96,f,1277,f,51.51774952,-0.213999064,Apartment,Entire home/apt,6,2,3,5,Real Bed,495,225,6,0,1,1125,1,70,7,7,7,7,9,7,t,strict_14_with_grace_period,f,f,0.15
+402,none,within an hour,1,f,5,t,51.53555235,0.010678892,Apartment,Private room,3,1.5,1,3,Real Bed,,6,3,8,2,1125,48,86,9,9,9,10,8,9,t,strict_14_with_grace_period,f,f,2.55
+403,none,N/A,N/A,f,1,f,51.47281332,-0.079479908,Apartment,Entire home/apt,2,1,1,1,Real Bed,85,64,2,15,2,1125,7,97,10,9,10,10,10,10,f,strict_14_with_grace_period,f,f,0.44
+404,none,within an hour,1,t,150,f,51.47724978,-0.190572592,Apartment,Entire home/apt,2,1,1,1,Real Bed,120,75,1,0,5,1125,5,100,10,10,10,10,9,9,f,moderate,f,f,0.31
+405,none,within an hour,1,f,2,f,51.49262755,-0.008101517,Townhouse,Entire home/apt,14,4.5,6,7,Real Bed,85,135,4,15,2,1125,17,95,9,10,10,10,10,10,f,moderate,f,f,2.34
+406,none,within an hour,1,f,3,t,51.5323853,-0.081068094,Apartment,Shared room,2,1,1,1,Real Bed,,,1,0,1,1125,2,100,10,9,10,10,10,9,t,strict_14_with_grace_period,f,f,1.82
+407,none,within a few hours,1,f,1,f,51.4836437,-0.023195265,Apartment,Private room,2,1,1,1,Real Bed,0,35,1,13,1,3,37,100,10,10,10,10,10,10,f,moderate,f,f,1.45
+408,none,within an hour,0.96,f,7,f,51.53053481,-0.121022135,Apartment,Entire home/apt,2,1,1,1,Real Bed,250,50,1,0,3,1125,1,100,10,10,10,10,10,10,f,flexible,f,f,0.91
+409,none,within a day,1,t,3,f,51.5251648,-0.076251686,Apartment,Private room,2,1,1,1,Real Bed,,10,1,0,2,1125,32,99,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,2.36
+410,none,within a few hours,1,f,1,f,51.52343416,-0.069392423,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,3,1125,3,87,10,10,9,9,10,10,f,flexible,f,f,1.08
+411,none,N/A,N/A,f,1,f,51.46404487,-0.157982822,Apartment,Private room,2,2,1,1,Real Bed,0,0,1,0,1,35,34,94,10,9,10,10,10,10,f,moderate,f,f,1.07
+412,family,within an hour,1,f,7,t,51.52226812,0.023304553,Townhouse,Entire home/apt,9,1,3,7,Real Bed,200,30,1,0,3,1125,18,98,9,10,10,10,9,10,f,strict_14_with_grace_period,t,t,0.29
+413,none,within a day,0.5,f,2,f,51.53052803,-0.071517699,Apartment,Entire home/apt,2,1.5,0,0,Real Bed,200,45,1,15,1,1125,5,88,9,8,10,9,10,9,t,strict_14_with_grace_period,f,f,1.24
+414,none,N/A,N/A,f,1,t,51.49408292,-0.064959012,House,Entire home/apt,2,1,1,1,Real Bed,,,1,0,2,9,0,,,,,,,,t,moderate,f,f,
+415,none,within an hour,0.97,f,61,f,51.50981763,-0.13122514,Apartment,Entire home/apt,5,1,2,2,Real Bed,0,50,1,0,3,1125,3,80,9,10,9,7,10,9,t,moderate,f,f,0.44
+416,none,within an hour,1,f,3,f,51.55391387,-0.057053994,Apartment,Private room,2,1,1,1,Real Bed,100,15,1,10,3,20,3,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.45
+417,none,within an hour,1,f,2,f,51.53096093,-0.095080096,Apartment,Entire home/apt,4,2,2,2,Real Bed,0,85,1,0,2,1125,40,96,10,10,9,10,10,9,f,strict_14_with_grace_period,f,f,2.11
+418,none,within a day,1,f,1,t,51.55130058,-0.052435101,Apartment,Entire home/apt,4,1,1,2,Real Bed,,,1,0,2,12,6,100,10,10,10,10,10,10,f,flexible,f,f,0.85
+419,none,within an hour,1,f,11,f,51.52975818,-0.097790456,Apartment,Private room,4,1,1,2,Real Bed,0,50,2,4,1,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+420,none,within an hour,0.97,f,61,f,51.49194393,-0.162607571,Apartment,Entire home/apt,4,1,1,2,Real Bed,0,40,1,0,3,1125,2,80,10,8,10,10,10,10,t,flexible,f,f,1
+421,none,N/A,N/A,t,1,f,51.5437252,-0.083226537,Apartment,Entire home/apt,2,1,1,1,Real Bed,85,64,1,0,2,160,6,100,10,10,10,10,10,10,f,moderate,f,f,0.31
+422,none,N/A,N/A,f,2,f,51.54539702,-0.136911911,Apartment,Private room,1,1,1,1,Real Bed,,5,1,0,2,1125,4,93,10,10,9,10,9,10,t,flexible,f,f,0.21
+423,none,within an hour,0.99,f,17,t,51.51225887,-0.064648032,Serviced apartment,Private room,2,1.5,1,1,Real Bed,,,1,0,1,3,293,88,9,9,10,10,9,9,t,strict_14_with_grace_period,f,f,8.23
+424,none,N/A,N/A,f,1,f,51.54977676,-0.039210336,House,Private room,1,1.5,1,1,Real Bed,0,40,1,0,14,60,3,93,9,9,9,10,9,9,f,strict_14_with_grace_period,f,f,0.08
+425,none,within an hour,1,f,21,f,51.47476892,-0.043999083,Apartment,Private room,1,1,1,1,Real Bed,,,2,0,2,1125,1,80,8,6,10,8,8,10,t,strict_14_with_grace_period,f,f,0.24
+426,none,within an hour,1,f,1,f,51.54113724,-0.101439551,Apartment,Entire home/apt,2,1,1,1,Real Bed,85,64,1,0,1,1125,4,87,9,9,10,10,9,9,f,moderate,f,f,0.35
+427,none,within an hour,1,f,2,f,51.52329064,-0.213665188,Apartment,Entire home/apt,6,1,2,2,Real Bed,300,35,4,20,4,90,43,93,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,1.4
+428,none,within an hour,0.96,f,1277,f,51.47964063,-0.117864167,House,Entire home/apt,5,2,3,4,Real Bed,495,300,5,0,1,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+429,none,within a few hours,0.83,f,7,f,51.50857648,-0.080386304,Loft,Entire home/apt,3,1,1,1,Real Bed,500,,2,30,1,1125,0,,,,,,,,t,super_strict_30,f,f,
+430,romantic,within a few hours,1,f,85,t,51.49290692,-0.163168347,Apartment,Entire home/apt,2,1,1,1,Real Bed,500,98,1,0,5,1125,3,100,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,0.06
+431,none,within an hour,0.99,f,67,f,51.5122548,-0.185609955,Apartment,Entire home/apt,6,2,3,3,Real Bed,0,110,1,0,2,1125,7,100,10,9,10,9,9,9,f,strict_14_with_grace_period,f,f,1.45
+432,none,within a few hours,1,f,4,t,51.48431067,-0.06974023,Condominium,Entire home/apt,2,1,1,1,Real Bed,0,30,2,30,3,90,1,100,10,10,10,10,10,8,f,flexible,f,f,0.27
+433,none,N/A,N/A,f,2,f,51.53975071,-0.125057743,Apartment,Entire home/apt,3,1,1,1,Real Bed,220,60,1,0,4,1125,7,100,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,0.21
+434,none,within a few hours,0.78,f,183,f,51.46621003,-0.261356233,House,Entire home/apt,6,2,3,3,Real Bed,495,225,1,0,3,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+435,none,N/A,N/A,f,1,t,51.53832522,-0.053735439,Apartment,Entire home/apt,6,1,3,3,Real Bed,,,1,0,1,1125,1,100,10,10,10,10,10,10,f,flexible,f,f,0.02
+436,none,N/A,N/A,t,1,f,51.46167229,-0.059876387,House,Entire home/apt,3,1,2,2,Real Bed,100,80,2,15,2,1125,22,94,10,10,10,9,9,9,f,moderate,f,f,0.78
+437,none,within a day,0.74,f,8,t,51.52495859,-0.115754939,Apartment,Private room,2,1,1,1,Real Bed,0,35,1,0,12,1125,0,,,,,,,,f,flexible,f,f,
+438,none,N/A,N/A,f,1,f,51.51317528,-0.058036163,Apartment,Private room,2,1,1,2,Real Bed,,,1,0,1,1125,0,,,,,,,,t,flexible,f,f,
+439,family,within a day,0.8,f,1,t,51.55521674,-0.043636656,House,Entire home/apt,8,2,5,5,Real Bed,0,40,6,30,6,14,5,100,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,0.11
+440,none,N/A,N/A,f,1,f,51.55521299,-0.09045365,Apartment,Entire home/apt,3,1,1,2,Real Bed,1000,20,4,0,3,93,2,100,10,10,10,10,10,10,f,flexible,f,f,0.24
+441,none,within an hour,1,f,2,f,51.55918551,-0.175333226,Apartment,Entire home/apt,6,1,2,3,Real Bed,250,85,2,25,2,1125,5,100,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,2.21
+442,none,within a day,1,f,1,f,51.55785407,-0.179100028,Apartment,Entire home/apt,5,1,2,2,Real Bed,,,1,0,2,1125,0,,,,,,,,t,flexible,f,f,
+443,none,within an hour,0.99,f,46,f,51.49491679,-0.194702775,Apartment,Entire home/apt,4,1.5,2,0,Real Bed,350,100,1,0,4,200,6,97,9,9,10,10,10,9,f,strict_14_with_grace_period,f,f,2.25
+444,none,within an hour,1,f,1,f,51.52639487,-0.202752003,Apartment,Entire home/apt,4,1,2,2,Real Bed,85,84,2,15,2,1125,18,94,10,9,10,10,9,9,f,strict_14_with_grace_period,f,f,0.92
+445,none,N/A,N/A,f,1,f,51.46346485,-0.068578733,Townhouse,Private room,2,1,1,1,Real Bed,,,1,0,2,14,2,80,7,7,7,8,9,8,f,flexible,f,f,0.26
+446,none,within an hour,1,f,1,t,51.46703393,-0.033546797,Apartment,Private room,1,1,1,1,Real Bed,,25,1,0,5,1125,1,100,10,8,8,10,10,10,f,moderate,f,f,0.81
+447,none,within an hour,1,f,1,f,51.4963861,-0.227428223,Apartment,Entire home/apt,4,2,2,2,Real Bed,85,84,2,15,2,1125,4,95,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,0.34
+448,none,N/A,N/A,f,1,t,51.53964844,-0.079686244,House,Entire home/apt,6,1,3,3,Real Bed,350,80,1,0,5,31,0,,,,,,,,f,flexible,f,f,
+449,none,N/A,N/A,f,1,t,51.55781838,-0.144438072,Apartment,Entire home/apt,4,1,1,2,Real Bed,,,1,0,1,30,3,100,10,10,10,10,10,10,f,flexible,f,f,0.08
+450,none,N/A,N/A,f,1,f,51.46629105,-0.002964917,House,Private room,1,1,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+451,none,within a day,1,f,9,f,51.52302277,-0.109558847,Apartment,Entire home/apt,3,1,1,3,Real Bed,300,,3,22,1,1125,1,100,10,10,10,10,10,10,t,super_strict_30,f,f,0.15
+452,none,N/A,N/A,f,2,f,51.50575855,-0.224576086,Apartment,Entire home/apt,6,2,2,2,Real Bed,,,1,0,3,30,1,,,,,,,,f,moderate,f,f,0.06
+453,none,N/A,N/A,f,1,f,51.51856101,-0.149558714,Apartment,Private room,2,1,1,1,Real Bed,0,25,1,0,3,7,4,80,9,10,9,9,10,9,t,flexible,f,f,0.48
+454,none,within an hour,1,f,1,t,51.48793234,-0.088695571,Apartment,Private room,1,1,1,1,Real Bed,,10,1,15,1,4,0,,,,,,,,f,moderate,f,f,
+455,none,N/A,N/A,f,2,t,51.48996906,-0.230105598,Apartment,Private room,2,1.5,1,1,Pull-out Sofa,,,1,5,1,7,22,99,10,10,10,10,10,10,f,moderate,f,f,0.5
+456,none,within a day,1,f,2,t,51.54247309,-0.138547966,Apartment,Private room,1,1,1,1,Real Bed,0,0,1,0,30,90,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+457,none,within an hour,1,f,2,t,51.46633151,-0.147231333,Apartment,Entire home/apt,4,1,2,1,Real Bed,,50,1,10,2,1125,21,95,10,9,9,10,9,9,f,strict_14_with_grace_period,f,f,0.78
+458,none,within an hour,1,f,2,f,51.48151104,0.019841594,House,Private room,2,1,1,1,Real Bed,900,10,1,25,1,1125,1,100,10,10,10,10,10,10,t,moderate,f,f,0.09
+459,business,N/A,N/A,f,0,t,51.49721363,-0.228986049,Apartment,Private room,2,1,1,1,Real Bed,,50,1,0,1,4,1,97,10,10,10,10,8,10,t,flexible,f,f,0.02
+460,none,within an hour,1,f,2,f,51.53407406,-0.134047257,Apartment,Entire home/apt,6,1,3,3,Real Bed,250,70,2,15,2,90,4,90,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,1.79
+461,none,N/A,N/A,f,1,t,51.52420567,-0.252473649,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,5,100,10,10,10,10,8,10,f,flexible,f,f,0.19
+462,none,N/A,N/A,f,1,f,51.54863875,-0.176358849,Apartment,Entire home/apt,4,1,3,1,Real Bed,0,40,2,25,3,1125,5,73,7,8,9,8,10,9,f,flexible,f,f,0.56
+463,none,within a day,0.91,f,22,f,51.49449713,-0.195095404,Serviced apartment,Entire home/apt,2,1,0,1,Real Bed,,,1,0,3,1125,0,,,,,,,,f,moderate,f,f,
+464,none,N/A,N/A,f,1,t,51.55810569,-0.143927036,Apartment,Entire home/apt,2,1,1,1,Real Bed,,30,2,0,7,21,5,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.08
+465,none,N/A,N/A,f,4,t,51.5479318,-0.069374367,House,Private room,1,1.5,1,1,Real Bed,0,10,1,0,4,60,6,100,10,10,10,10,10,10,f,moderate,f,f,0.74
+466,none,within an hour,1,f,9,f,51.49658167,-0.097228175,Apartment,Private room,2,1,1,1,Real Bed,0,5,2,0,1,112,89,89,9,9,10,10,10,9,t,strict_14_with_grace_period,f,f,5.97
+467,none,N/A,N/A,f,1,f,51.55552841,-0.040033124,House,Private room,2,1.5,1,1,Real Bed,0,0,1,0,2,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+468,none,within a day,0.9,f,2,f,51.55986655,-0.147273847,Townhouse,Private room,2,2,1,1,Real Bed,210,25,1,13,2,1125,1,100,10,10,10,10,8,10,f,flexible,f,f,0.29
+469,none,within an hour,1,f,2,t,51.51766054,-0.186996647,Apartment,Entire home/apt,4,1,2,2,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+470,none,N/A,N/A,f,1,f,51.52175067,-0.107960749,Apartment,Entire home/apt,4,2,2,2,Real Bed,0,85,1,0,2,1124,6,97,10,10,10,9,10,10,f,moderate,f,f,0.75
+471,none,within an hour,1,t,4,t,51.45735678,-0.016291769,Townhouse,Private room,2,2,1,1,Real Bed,77,12,1,14,5,1125,153,97,10,10,10,10,9,10,f,strict_14_with_grace_period,t,t,1.79
+472,none,within an hour,1,f,1,t,51.56430764,-0.047169236,Apartment,Entire home/apt,2,1,1,1,Real Bed,250,30,1,0,2,14,17,99,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,0.77
+473,none,N/A,N/A,f,1,t,51.47433609,-0.021418716,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+474,none,within an hour,0.94,f,99,f,51.51142267,-0.078149549,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,0,2,0,1,1125,0,,,,,,,,t,moderate,f,f,
+475,none,N/A,N/A,f,1,t,51.54169547,-0.184830757,Apartment,Entire home/apt,4,1,2,2,Real Bed,,65,4,15,1,1125,5,80,8,9,8,9,8,8,t,moderate,f,f,0.16
+476,none,within an hour,1,t,2,f,51.52173567,-0.207406412,Serviced apartment,Entire home/apt,4,1.5,3,3,Real Bed,400,110,1,0,3,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+477,none,within an hour,1,f,1,f,51.4432054,-0.171584704,House,Private room,2,,1,1,Real Bed,,,1,0,1,1125,11,98,10,10,10,10,10,10,f,flexible,f,f,0.19
+478,none,N/A,N/A,f,1,f,51.54095908,-0.085752399,Apartment,Entire home/apt,4,2,2,2,Real Bed,,,1,0,3,1125,1,100,10,10,10,10,8,10,f,strict_14_with_grace_period,f,f,0.06
+479,none,within a day,0.88,f,2,t,51.52033167,-0.051676663,Apartment,Private room,4,1,2,2,Real Bed,,20,2,25,2,14,108,92,10,9,10,10,10,9,f,strict_14_with_grace_period,f,f,2.6
+480,none,within an hour,1,f,179,f,51.48825297,-0.160985546,Serviced apartment,Entire home/apt,2,1,1,1,Real Bed,350,80,1,0,3,1125,2,100,10,9,10,10,10,10,f,strict_14_with_grace_period,f,f,0.16
+481,none,within an hour,0.98,f,89,f,51.526261,-0.079071182,Apartment,Entire home/apt,4,1,0,2,Real Bed,100,25,1,0,1,1125,11,82,9,9,9,9,10,8,t,strict_14_with_grace_period,f,f,0.67
+482,none,N/A,N/A,f,1,t,51.46912202,-0.127162025,Apartment,Private room,2,2,1,1,Real Bed,0,0,1,15,2,1125,2,100,10,10,10,10,9,9,t,moderate,f,f,0.86
+483,none,N/A,N/A,f,1,f,51.52760474,-0.201992062,House,Private room,2,1,1,1,Real Bed,,,1,0,3,14,0,,,,,,,,t,flexible,f,f,
+484,none,within an hour,1,f,6,t,51.48931915,-0.175704132,Apartment,Entire home/apt,2,1,1,2,Real Bed,,,1,0,3,1125,61,92,10,10,10,10,10,10,f,moderate,f,f,1.18
+485,none,within an hour,0.79,f,6,f,51.51405982,-0.001743015,House,Private room,1,1,1,1,Real Bed,,10,1,0,1,1125,0,,,,,,,,t,flexible,f,f,
+486,none,N/A,N/A,f,1,t,51.5560857,-0.107963397,Apartment,Entire home/apt,4,1,2,2,Real Bed,,20,1,0,14,1125,0,,,,,,,,f,flexible,f,f,
+487,none,N/A,N/A,f,1,t,51.46650489,-0.251256173,Apartment,Entire home/apt,4,1,2,4,Real Bed,,,1,0,5,1125,1,100,8,10,10,10,8,10,f,strict_14_with_grace_period,f,f,0.15
+488,none,within a day,0.67,f,2,t,51.53849758,-0.184539528,Apartment,Private room,2,1,1,1,Real Bed,,30,1,0,3,60,1,,,,,,,,f,flexible,f,f,0.03
+489,none,N/A,N/A,f,1,f,51.49768509,-0.034919023,Apartment,Entire home/apt,4,2,2,2,Real Bed,80,10,1,0,2,1125,6,97,10,10,10,10,9,9,f,flexible,f,f,0.39
+490,none,within an hour,0.98,f,8,f,51.53203884,-0.119249158,House,Private room,2,1,1,1,Real Bed,120,21,1,10,1,25,28,89,9,9,9,9,10,8,t,strict_14_with_grace_period,f,f,2.75
+491,none,within a day,1,f,1,t,51.46640864,-0.027063678,Apartment,Entire home/apt,4,1.5,2,2,Real Bed,400,0,3,10,4,15,2,100,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,0.12
+492,none,within an hour,1,f,11,f,51.52605619,-0.06999527,Townhouse,Private room,4,2,1,1,Real Bed,,12,2,15,1,1125,14,90,10,9,10,10,9,10,t,flexible,f,f,6.27
+493,none,within an hour,0.99,f,46,f,51.49386551,-0.241666181,Apartment,Entire home/apt,6,2,3,3,Real Bed,350,100,1,0,5,1125,11,98,10,10,9,10,10,10,t,flexible,f,f,1.34
+494,none,within a few hours,1,f,85,t,51.51712796,-0.204762558,Apartment,Entire home/apt,2,1,1,1,Real Bed,500,129,1,0,5,1125,0,,,,,,,,f,flexible,f,f,
+495,none,N/A,N/A,f,1,f,51.47929468,-0.115053611,Apartment,Entire home/apt,4,1,2,2,Real Bed,0,40,1,0,10,14,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+496,none,N/A,N/A,t,20,f,51.52682688,-0.056407071,Serviced apartment,Private room,2,1,1,1,Real Bed,76,35,1,0,1,1125,1,100,10,10,10,10,10,10,f,flexible,f,f,0.15
+497,none,within an hour,0.84,f,60,t,51.49499298,-0.19475682,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,0,2,0,1,1125,2,100,10,10,10,10,10,9,t,super_strict_60,f,f,2
+498,none,N/A,N/A,f,1,t,51.51049577,-0.217409298,House,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,1,100,10,8,10,10,8,8,f,flexible,f,f,0.02
+499,none,within an hour,1,t,2,f,51.54422564,-0.110140673,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,3,1125,20,97,10,10,10,10,9,10,t,flexible,f,f,2.07
+500,none,N/A,N/A,f,1,t,51.53928901,-0.077051425,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,5,1125,0,,,,,,,,f,moderate,f,f,
+501,none,within an hour,1,f,1,f,51.49659352,-0.198123858,Apartment,Entire home/apt,7,1.5,3,3,Real Bed,500,71,7,20,2,88,3,93,8,9,10,9,9,8,t,strict_14_with_grace_period,f,f,1
+502,none,N/A,N/A,f,1,f,51.49460279,-0.188341448,Apartment,Entire home/apt,4,2,2,2,Real Bed,,,1,0,1,60,0,,,,,,,,f,flexible,f,f,
+503,none,a few days or more,0,f,2,f,51.52626877,-0.022375489,Condominium,Entire home/apt,2,1,1,1,Real Bed,1000,50,2,50,30,90,3,100,10,9,10,10,9,10,f,strict_14_with_grace_period,f,f,0.42
+504,none,N/A,N/A,f,1,f,51.52804031,-0.190252757,Townhouse,Entire home/apt,5,2,2,2,Real Bed,0,45,1,0,4,14,1,100,10,10,10,10,10,10,f,flexible,f,f,0.07
+505,none,N/A,N/A,f,1,t,51.53058199,-0.089281047,Apartment,Private room,2,1,1,1,Real Bed,0,10,1,5,3,21,3,67,6,6,6,6,8,7,t,strict_14_with_grace_period,f,f,0.15
+506,none,within an hour,1,t,3,t,51.53493665,-0.11578222,Boat,Entire home/apt,3,1,2,2,Real Bed,0,30,2,20,3,100,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+507,none,within an hour,1,f,20,f,51.49226033,-0.232081461,Apartment,Entire home/apt,8,1,1,3,Real Bed,300,50,1,0,3,1124,5,96,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,0.3
+508,none,within an hour,1,t,7,f,51.51229781,-0.231874727,Apartment,Private room,1,1.5,1,1,Real Bed,,15,1,0,1,14,7,100,10,10,10,10,10,10,f,moderate,f,f,2.53
+509,social,within a few hours,0.9,f,2,f,51.48744448,-0.188843234,Apartment,Private room,1,1,1,1,Real Bed,250,25,1,0,2,6,144,95,10,10,10,10,10,10,f,strict_14_with_grace_period,f,t,1.58
+510,none,within an hour,1,f,2,f,51.52702894,-0.17251508,Cottage,Private room,2,1,1,1,Real Bed,,25,1,0,2,5,0,,,,,,,,f,flexible,f,f,
+511,none,within an hour,1,f,2,f,51.53096846,-0.086871702,Apartment,Private room,2,1,1,1,Real Bed,0,15,1,0,1,30,7,100,10,9,10,10,10,10,t,flexible,f,f,3.04
+512,none,within a few hours,1,t,2,t,51.48555951,0.006583749,Apartment,Private room,2,1,1,1,Real Bed,,,1,5,1,1125,148,99,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,3.59
+513,none,within a few hours,1,f,2,f,51.49936203,-0.191409574,Serviced apartment,Entire home/apt,4,1,1,2,Real Bed,100,60,3,0,3,220,42,95,10,9,10,10,10,9,f,strict_14_with_grace_period,f,f,1.22
+514,none,within an hour,1,f,37,f,51.54877667,-0.193269801,Apartment,Entire home/apt,3,1,0,2,Real Bed,300,40,2,15,3,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+515,none,N/A,N/A,f,1,f,51.52053859,-0.031836719,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,1,,,,,,,,f,flexible,f,f,0.02
+516,none,N/A,N/A,f,1,t,51.47637474,-0.121731458,Apartment,Entire home/apt,3,1,0,2,Real Bed,90,30,2,20,1,1125,43,89,9,9,10,10,9,9,f,strict_14_with_grace_period,f,f,0.92
+517,none,within a day,0.6,f,1,t,51.4686042,-0.124430488,Apartment,Private room,2,1,1,1,Real Bed,,25,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+518,none,N/A,N/A,f,1,f,51.45817708,-0.002256654,Apartment,Entire home/apt,3,1,2,3,Real Bed,100,0,1,0,1,7,0,,,,,,,,t,flexible,f,f,
+519,none,within an hour,0.97,f,8,t,51.4911866,-0.101435506,Apartment,Entire home/apt,6,1,2,3,Real Bed,,35,2,20,1,1125,176,86,9,8,9,9,9,9,t,moderate,t,t,2.52
+520,none,N/A,N/A,f,1,f,51.5269792,-0.199202352,Townhouse,Entire home/apt,6,3,3,3,Real Bed,,50,1,0,2,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+521,none,within an hour,1,f,1,f,51.50468372,-0.147814154,Apartment,Entire home/apt,5,2,2,2,Real Bed,200,80,1,0,2,1125,1,80,8,10,10,8,8,8,t,moderate,f,f,1
+522,family,N/A,N/A,f,1,f,51.52255814,-0.114414102,Apartment,Entire home/apt,8,2,4,4,Real Bed,500,50,1,0,2,7,29,94,10,9,10,10,9,9,f,flexible,f,f,0.52
+523,none,within an hour,0.92,f,2,t,51.49482054,-0.083862707,Apartment,Private room,2,1,1,1,Real Bed,3500,10,1,0,3,1125,92,87,9,9,9,10,9,9,f,strict_14_with_grace_period,f,f,1.88
+524,none,within a few hours,1,f,1,f,51.45670596,-0.195325265,Loft,Entire home/apt,5,2.5,2,3,Real Bed,0,85,1,0,2,1125,27,94,10,9,10,9,10,9,f,strict_14_with_grace_period,f,f,1.46
+525,none,N/A,N/A,f,1,t,51.48857242,-0.137270023,Apartment,Entire home/apt,4,1,1,1,Real Bed,0,20,2,5,5,1125,4,100,10,9,10,10,10,10,t,strict_14_with_grace_period,f,f,0.22
+526,none,a few days or more,0.38,f,1,t,51.54504047,-0.068218912,Apartment,Entire home/apt,2,1,0,1,Real Bed,200,25,1,0,1,40,19,91,9,8,10,10,10,9,f,moderate,f,f,0.57
+527,none,within a few hours,1,t,6,f,51.49668795,-0.024313726,Apartment,Entire home/apt,4,1,2,2,Real Bed,100,70,1,0,1,28,3,93,10,10,10,8,10,10,f,strict_14_with_grace_period,f,f,0.25
+528,none,N/A,N/A,f,1,t,51.49166753,-0.094892011,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,30,1,0,1,7,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+529,none,within a day,0.85,f,13,t,51.51306529,-0.137675705,Apartment,Entire home/apt,4,1,1,1,Real Bed,75,60,1,0,4,1125,28,96,10,10,10,10,10,9,f,moderate,f,f,0.9
+530,none,within an hour,1,t,5,t,51.51183271,-0.116843065,Apartment,Entire home/apt,6,1,2,3,Real Bed,199,69,4,10,3,1100,27,96,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,1.47
+531,none,within a few hours,1,f,1,f,51.50271134,-0.218400832,Apartment,Entire home/apt,3,1,2,2,Real Bed,0,60,2,10,3,1125,4,100,10,10,10,10,10,10,f,moderate,f,f,0.87
+532,none,within a few hours,1,f,1,f,51.4887763,-0.194324451,Apartment,Private room,2,1,1,1,Real Bed,0,0,1,10,1,1125,0,,,,,,,,f,flexible,f,f,
+533,none,within an hour,1,f,1,t,51.47666273,-0.138289916,Apartment,Private room,2,1.5,1,1,Real Bed,0,0,1,10,5,1125,1,80,10,8,10,8,8,8,t,moderate,f,f,1
+534,none,N/A,N/A,f,1,t,51.56383814,-0.056119738,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,1,5,0,,,,,,,,t,flexible,f,f,
+535,none,N/A,N/A,f,2,t,51.55741951,-0.078914655,House,Entire home/apt,8,2.5,3,5,Real Bed,600,50,6,5,2,10,14,94,9,10,10,10,9,9,f,strict_14_with_grace_period,f,f,0.31
+536,none,within an hour,1,t,5,t,51.54761871,-0.124245295,Apartment,Entire home/apt,2,2,1,1,Real Bed,500,70,2,25,1,160,54,96,10,10,9,10,9,9,f,moderate,f,f,0.81
+537,none,within an hour,1,f,1,f,51.50787275,-0.230379911,House,Private room,2,2,1,3,Real Bed,90,40,1,20,1,1125,1,100,10,10,10,10,10,10,t,flexible,f,f,0.45
+538,none,within a day,1,f,1,f,51.53556788,-0.05422479,Apartment,Entire home/apt,4,1,2,2,Real Bed,300,85,2,10,3,1125,11,95,10,9,10,10,10,9,f,strict_14_with_grace_period,f,f,0.38
+539,none,within a few hours,1,t,12,t,51.53740957,-0.076400665,Apartment,Entire home/apt,2,1,1,0,Real Bed,150,60,1,0,37,1125,39,97,10,10,10,10,9,9,f,moderate,f,f,0.94
+540,none,N/A,N/A,f,1,t,51.50490249,-0.210107064,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,40,1,0,2,15,1,80,8,8,10,10,10,8,t,moderate,f,f,0.13
+541,none,within an hour,1,f,3,t,51.46472779,-0.2198269,House,Entire home/apt,5,1,2,3,Real Bed,150,,1,0,4,60,25,94,10,10,9,10,10,10,t,strict_14_with_grace_period,f,f,0.88
+542,none,N/A,N/A,f,1,t,51.53082603,-0.10045215,Apartment,Entire home/apt,4,1,2,2,Real Bed,,,1,0,4,12,1,80,10,8,10,10,10,10,f,flexible,f,f,0.45
+543,none,within a day,0.67,f,1,f,51.5446621,-0.172578522,Apartment,Entire home/apt,3,1,1,0,Real Bed,,,2,10,4,35,22,97,9,10,10,10,10,10,f,moderate,f,f,0.31
+544,none,within an hour,1,t,4,t,51.51306357,-0.128595795,Apartment,Entire home/apt,6,1,2,4,Real Bed,199,69,4,10,3,1124,39,97,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,1.35
+545,family,N/A,N/A,f,1,t,51.53463598,-0.170357481,Apartment,Entire home/apt,5,1,3,2,Real Bed,0,43,1,0,3,1125,4,95,9,9,10,10,10,9,t,moderate,f,f,0.07
+546,none,N/A,N/A,f,1,t,51.46723703,-0.069137636,House,Entire home/apt,4,1,2,2,Real Bed,300,80,1,0,3,20,5,100,9,10,10,10,10,9,f,strict_14_with_grace_period,f,f,0.44
+547,none,within an hour,1,f,1,f,51.4483558,-0.097237352,House,Entire home/apt,6,2.5,5,5,Real Bed,,,1,0,7,14,3,100,10,10,10,10,10,10,f,flexible,f,f,0.07
+548,social,N/A,N/A,f,1,f,51.45432907,-0.129358016,Apartment,Private room,2,,1,1,Real Bed,150,,1,10,25,1125,39,96,10,9,10,10,9,9,f,strict_14_with_grace_period,f,f,0.49
+549,none,N/A,N/A,t,1,f,51.51198592,-0.236075512,Apartment,Private room,2,1,1,1,Real Bed,0,20,1,0,2,1125,13,100,10,10,10,10,10,10,t,moderate,f,f,0.73
+550,none,within an hour,1,f,1,f,51.52724495,-0.047161185,House,Private room,2,1,1,1,Real Bed,,,1,0,2,1125,67,98,10,10,10,10,9,10,t,flexible,f,f,2.95
+551,none,N/A,N/A,f,2,f,51.45576609,-0.031116744,Apartment,Entire home/apt,4,1,2,2,Real Bed,,45,1,0,2,1125,0,,,,,,,,t,flexible,f,f,
+552,none,within an hour,0.98,f,58,f,51.5272524,-0.079287724,Apartment,Entire home/apt,4,1,1,2,Real Bed,100,25,1,0,1,1125,33,88,9,10,9,9,10,9,t,strict_14_with_grace_period,f,f,2.56
+553,none,within an hour,1,t,2,t,51.56284821,-0.197346802,House,Private room,1,2,1,1,Real Bed,,,1,0,3,21,110,99,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,2.5
+554,none,within an hour,1,f,2,t,51.52785833,-0.05901273,Apartment,Entire home/apt,3,1,1,2,Real Bed,200,25,1,0,2,60,2,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.35
+555,none,within a few hours,1,f,1,t,51.54192479,-0.054381251,Apartment,Private room,2,1.5,1,1,Real Bed,,,1,0,1,1125,5,80,8,6,10,9,8,7,f,flexible,f,f,0.18
+556,none,within a day,0.95,f,6,f,51.51911401,-0.158144251,Serviced apartment,Entire home/apt,4,1,1,3,Real Bed,0,45,1,10,3,121,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+557,none,N/A,N/A,f,1,t,51.4499803,-0.118122433,Apartment,Entire home/apt,3,1,2,2,Real Bed,500,,3,12,4,1125,4,100,10,10,10,10,9,9,f,moderate,f,f,0.09
+558,none,within an hour,1,f,3,t,51.51783985,-0.188760115,Apartment,Private room,2,2,2,0,Real Bed,80,20,1,35,1,1,18,89,9,9,9,9,10,8,f,moderate,f,f,0.5
+559,none,within an hour,1,t,1,t,51.50545776,-0.107761246,House,Entire home/apt,6,2,2,2,Real Bed,500,90,4,50,2,1125,33,96,10,10,10,10,10,9,f,moderate,f,f,0.99
+560,family,N/A,N/A,t,1,f,51.53031865,-0.034795445,Apartment,Entire home/apt,5,1,2,1,Real Bed,100,,2,10,4,50,94,94,10,10,10,10,9,9,f,strict_14_with_grace_period,f,f,1.15
+561,none,within an hour,1,f,24,f,51.49486442,-0.147577163,Serviced apartment,Entire home/apt,2,1,0,1,Real Bed,80,0,1,0,3,999,16,89,10,10,10,9,10,8,f,strict_14_with_grace_period,f,f,1.28
+562,none,within a day,1,f,2,f,51.45460294,-0.038267766,House,Entire home/apt,5,1.5,3,4,Real Bed,,,1,0,5,42,0,,,,,,,,f,flexible,f,f,
+563,none,N/A,N/A,f,1,t,51.53551667,-0.098529106,House,Private room,2,1,1,1,Real Bed,,10,1,0,7,60,1,100,10,10,10,10,10,10,f,flexible,f,f,0.03
+564,none,within a day,1,t,3,f,51.51248564,-0.137871499,Apartment,Entire home/apt,2,1,0,3,Real Bed,130,50,2,20,3,7,16,98,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,1.61
+565,none,within an hour,0.87,t,1,f,51.55471244,-0.153808685,House,Private room,2,1,1,1,Real Bed,0,10,1,0,1,1125,143,99,10,10,10,10,10,10,f,moderate,f,f,4.35
+566,none,within an hour,1,f,123,f,51.45338449,-0.065903597,House,Entire home/apt,4,1.5,2,2,Real Bed,250,95,1,0,4,1001,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+567,none,within a few hours,1,t,1,t,51.55103952,-0.064084364,Apartment,Private room,1,1,1,1,Real Bed,0,15,1,0,4,14,93,98,10,10,10,10,10,10,f,moderate,f,f,1.95
+568,none,within a few hours,1,f,5,f,51.48395082,-0.217073472,House,Private room,2,1,1,1,Real Bed,,25,1,0,1,99,2,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.11
+569,none,within a day,0.92,f,34,t,51.49382768,-0.14243401,Apartment,Entire home/apt,4,2,2,2,Real Bed,300,70,1,0,3,31,1,60,6,10,10,6,10,6,f,strict_14_with_grace_period,f,f,1
+570,none,within an hour,1,f,4,f,51.49782633,-0.034564198,Apartment,Private room,2,1,1,1,Real Bed,250,,1,0,4,1125,1,100,10,10,10,10,10,10,t,moderate,f,f,0.35
+571,none,within an hour,0.97,f,10,f,51.49033664,-0.007396668,Apartment,Private room,2,1.5,0,1,Real Bed,,,1,0,1,1125,0,,,,,,,,t,flexible,f,f,
+572,none,N/A,N/A,f,1,f,51.52845896,-0.110322352,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,2,1125,1,100,10,10,10,10,10,10,f,flexible,f,f,0.04
+573,none,within an hour,0.97,f,28,f,51.50515618,-0.137976764,Apartment,Entire home/apt,6,2.5,2,2,Real Bed,1000,150,4,20,5,1125,2,100,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,2
+574,none,within an hour,1,t,5,f,51.48600962,-0.095685535,Guest suite,Private room,2,1,1,1,Real Bed,300,40,2,25,6,120,21,95,10,9,10,10,9,9,f,strict_14_with_grace_period,f,f,0.97
+575,none,within an hour,0.98,f,2,t,51.4705743,-0.041046631,Apartment,Private room,2,1,1,1,Real Bed,,5,2,15,1,30,134,93,10,9,10,10,9,10,f,moderate,f,f,5.64
+576,none,within an hour,1,f,1,f,51.52743056,-0.072960128,Apartment,Entire home/apt,2,1,0,0,Real Bed,80,64,1,0,2,90,2,100,10,10,10,10,10,10,f,flexible,f,f,2
+577,none,N/A,N/A,f,1,t,51.55342708,-0.101781483,Apartment,Private room,1,1,1,1,Real Bed,75,17,1,10,2,7,0,,,,,,,,f,flexible,f,f,
+578,none,N/A,N/A,f,1,t,51.52398314,-0.066573875,Apartment,Private room,2,1,1,1,Real Bed,,20,1,0,2,1125,4,100,9,8,8,10,10,9,t,flexible,f,f,0.13
+579,none,within a day,0.75,f,1,f,51.44565958,-0.189590135,Apartment,Private room,2,1.5,1,1,Real Bed,0,15,1,0,2,30,7,97,10,10,10,10,9,10,f,flexible,f,f,1.45
+580,none,within a day,0.72,f,22,t,51.4931856,-0.192175631,Apartment,Entire home/apt,4,1,1,1,Real Bed,200,50,1,0,5,90,15,95,10,9,10,10,10,10,f,flexible,f,f,0.99
+581,none,a few days or more,0.33,f,2,f,51.49520009,-0.10213501,Apartment,Entire home/apt,4,1,1,2,Real Bed,,,1,0,2,1125,1,60,8,6,10,10,10,10,f,strict_14_with_grace_period,f,f,0.03
+582,none,N/A,N/A,f,2,t,51.54127004,-0.127269456,Apartment,Entire home/apt,4,1,2,2,Real Bed,150,15,4,0,2,1125,39,88,9,9,10,10,9,9,f,moderate,f,f,0.87
+583,none,a few days or more,0.2,f,21,t,51.51804623,-0.028552761,Apartment,Private room,1,1,1,5,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+584,none,within an hour,1,f,1,t,51.56273159,-0.080109319,Townhouse,Entire home/apt,6,2,3,3,Real Bed,1000,60,1,30,2,1125,11,98,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,0.76
+585,none,within an hour,1,f,10,f,51.4745293,-0.174536612,Apartment,Entire home/apt,4,1,1,1,Real Bed,,,2,0,2,1125,0,,,,,,,,t,moderate,f,f,
+586,none,within an hour,1,t,1,t,51.45907532,-0.197667449,House,Private room,3,1,2,2,Real Bed,0,5,3,30,1,1125,109,98,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,3.02
+587,none,within a few hours,0.73,f,17,f,51.54702144,-0.178321109,Apartment,Entire home/apt,6,2,1,2,Real Bed,500,,4,30,1,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+588,none,N/A,N/A,f,1,f,51.50008342,-0.114339432,Apartment,Private room,2,1.5,1,1,Real Bed,0,10,1,10,1,10,3,100,10,10,10,9,10,9,t,strict_14_with_grace_period,f,f,0.16
+589,none,N/A,N/A,f,1,f,51.50779221,-0.028364839,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,7,1125,0,,,,,,,,t,flexible,f,f,
+590,none,within an hour,1,f,7,f,51.49793994,-0.020887943,Apartment,Entire home/apt,3,1,1,2,Real Bed,150,10,2,10,2,28,105,96,10,10,9,10,10,9,t,super_strict_30,f,f,6.26
+591,none,within an hour,1,f,1,f,51.47112121,-0.033214164,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,3,1125,1,60,10,6,10,10,10,6,f,flexible,f,f,0.45
+592,none,N/A,N/A,f,2,f,51.53757086,-0.073879364,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,2,10,10,100,10,10,10,10,9,10,t,moderate,f,f,0.55
+593,none,N/A,N/A,f,1,f,51.53052857,-0.139621769,Apartment,Entire home/apt,5,1,3,3,Real Bed,,30,1,0,2,1125,1,,,,,,,,t,flexible,f,f,0.07
+594,none,within an hour,1,f,3,t,51.5093508,-0.123944259,Apartment,Entire home/apt,4,1,2,2,Real Bed,200,50,1,0,2,1125,54,95,10,10,10,10,10,9,t,moderate,f,f,1.76
+595,none,within a few hours,0.92,f,1,t,51.51622708,-0.017781108,Apartment,Private room,2,1,1,1,Real Bed,0,0,1,0,1,1125,4,100,10,10,10,10,10,10,f,flexible,f,f,3.08
+596,none,within an hour,1,f,21,f,51.51561171,-0.202568365,Apartment,Entire home/apt,3,1,1,2,Real Bed,350,75,2,15,4,101,11,98,10,9,10,10,10,9,t,strict_14_with_grace_period,f,f,0.87
+597,none,within an hour,0.79,f,10,f,51.49381359,-0.194188004,Apartment,Entire home/apt,4,1,1,1,Real Bed,0,120,4,20,1,90,0,,,,,,,,f,flexible,f,f,
+598,none,within an hour,1,f,7,f,51.54322489,-0.18037813,Apartment,Entire home/apt,6,2,3,3,Real Bed,250,100,2,50,5,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+599,none,within an hour,1,f,2,f,51.51247257,-0.128622983,Apartment,Entire home/apt,6,1,3,3,Real Bed,150,95,4,20,2,1125,18,90,8,9,9,9,10,9,t,strict_14_with_grace_period,f,f,1.22
+600,none,within a day,0.5,f,1,t,51.51674432,0.019764567,Apartment,Private room,1,1,1,1,Real Bed,150,0,1,0,2,7,2,90,10,10,10,10,9,10,f,moderate,f,f,0.19
+601,none,within a few hours,0.94,f,81,f,51.47946613,-0.237644321,House,Private room,2,1,1,2,Real Bed,150,36,1,0,30,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+602,none,within an hour,0.95,f,10,t,51.50227051,-0.08168626,Serviced apartment,Entire home/apt,10,2,3,3,Real Bed,150,100,3,15,2,1125,18,81,9,10,9,9,10,8,t,flexible,f,f,1.4
+603,none,N/A,N/A,f,1,f,51.54715415,-0.044434046,Apartment,Entire home/apt,2,1,1,1,Real Bed,200,30,1,50,3,1125,0,,,,,,,,t,flexible,f,f,
+604,none,N/A,N/A,f,1,t,51.52163315,-0.177030445,Apartment,Entire home/apt,2,1,1,1,Real Bed,86,17,1,0,3,20,10,82,9,9,9,10,9,8,f,moderate,f,f,0.27
+605,none,N/A,N/A,f,1,f,51.56173445,-0.053935484,House,Private room,2,1,1,1,Real Bed,,30,1,50,3,1125,0,,,,,,,,t,flexible,f,f,
+606,business,within an hour,1,t,1,t,51.5168724,-0.196305287,Apartment,Entire home/apt,3,1,2,2,Real Bed,200,,2,30,6,180,124,97,10,9,10,10,10,10,t,strict_14_with_grace_period,f,f,1.54
+607,none,within a few hours,1,f,1,f,51.49353054,-0.178960667,Apartment,Entire home/apt,4,1,2,2,Real Bed,1000,75,1,0,5,1125,16,93,10,9,10,9,10,9,t,strict_14_with_grace_period,f,f,0.88
+608,none,N/A,N/A,f,2,f,51.54237386,-0.147745854,Apartment,Private room,2,1,1,1,Real Bed,0,45,1,0,2,31,1,100,10,10,10,10,10,10,t,moderate,f,f,0.11
+609,none,N/A,N/A,f,2,t,51.52772881,-0.096492371,Apartment,Entire home/apt,3,1,1,2,Real Bed,250,36,2,30,3,1125,1,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.03
+610,none,N/A,N/A,f,1,f,51.51312134,-0.182554398,Apartment,Entire home/apt,2,1,1,1,Real Bed,,30,1,0,3,5,13,95,10,10,10,10,10,10,f,moderate,f,f,0.29
+611,none,within a day,1,f,1,t,51.51788819,-0.07676652,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,3,1125,6,93,10,9,9,9,10,10,f,moderate,f,f,0.53
+612,none,within an hour,0.9,f,15,f,51.52787938,-0.059736264,Apartment,Private room,2,1,1,1,Real Bed,0,8,1,0,2,1125,76,82,9,8,9,9,9,9,t,moderate,f,f,5.92
+613,none,N/A,N/A,f,2,f,51.46874163,-0.186291003,Apartment,Entire home/apt,6,2.5,3,4,Real Bed,200,70,1,0,3,90,22,96,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,0.94
+614,none,within an hour,1,t,2,f,51.48506685,-0.11807342,Guest suite,Entire home/apt,5,1,1,3,Real Bed,,60,1,0,1,1125,127,94,10,9,10,10,9,9,t,strict_14_with_grace_period,f,f,2.31
+615,none,N/A,N/A,f,1,t,51.52384317,-0.184258297,Apartment,Entire home/apt,4,1,2,2,Real Bed,,33,1,0,3,14,8,100,10,10,10,10,10,9,f,flexible,f,f,0.25
+616,none,within a few hours,0.67,t,1,f,51.56416263,-0.199268515,Apartment,Entire home/apt,6,1.5,2,3,Real Bed,,30,1,15,2,60,10,94,9,8,9,10,9,9,f,strict_14_with_grace_period,f,f,2.21
+617,business,N/A,N/A,t,1,t,51.54156092,-0.132673015,Apartment,Entire home/apt,2,1,1,2,Real Bed,200,25,1,0,2,2,58,95,10,10,10,10,10,10,f,moderate,f,f,1.24
+618,business,within a few hours,1,f,2,t,51.50244901,-0.090579005,Condominium,Entire home/apt,4,1,1,2,Real Bed,0,40,2,0,3,21,62,95,10,10,10,10,10,9,f,moderate,f,f,1.22
+619,none,N/A,N/A,f,1,t,51.49244926,-0.232316242,Apartment,Private room,2,1,1,2,Real Bed,,,1,0,2,1125,1,80,10,10,10,10,10,10,t,flexible,f,f,0.05
+620,none,within a few hours,1,f,2,t,51.47455878,-0.014705677,Apartment,Private room,2,1,1,1,Real Bed,85,60,1,0,2,1125,43,88,9,10,10,9,9,9,f,strict_14_with_grace_period,f,f,1.34
+621,none,within a few hours,1,f,1,t,51.52795731,-0.209286025,Apartment,Entire home/apt,5,1,2,3,Real Bed,300,60,4,10,3,1125,19,83,8,8,9,9,9,9,f,strict_14_with_grace_period,f,f,0.47
+622,none,within an hour,1,f,1,t,51.54135276,-0.11902553,Apartment,Private room,2,1,1,1,Real Bed,0,5,1,25,1,1125,2,100,10,10,8,10,10,10,t,flexible,f,f,1.33
+623,none,N/A,N/A,f,1,f,51.5174645,-0.068573063,Apartment,Private room,2,2,1,1,Real Bed,0,10,1,10,1,15,27,94,9,10,10,10,9,9,t,moderate,f,f,1.49
+624,none,within an hour,1,t,1,t,51.55012985,-0.051813394,Condominium,Private room,3,1,1,1,Real Bed,80,12,2,20,3,62,178,96,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,1.72
+625,social,within an hour,1,f,3,t,51.49414904,-0.024721085,Apartment,Shared room,2,1,1,1,Pull-out Sofa,120,10,1,15,1,1125,23,99,10,10,10,10,10,10,f,flexible,f,f,0.42
+626,none,within a day,1,f,1,f,51.46732541,-0.101717914,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,2,1125,1,100,10,10,10,10,10,10,f,flexible,f,f,0.03
+627,none,within a day,0.9,f,8,t,51.52135447,-0.120380051,Apartment,Private room,2,1,1,1,Real Bed,400,30,1,5,2,1125,6,80,9,7,9,10,10,9,f,strict_14_with_grace_period,f,f,0.21
+628,none,within an hour,1,f,1,f,51.4886273,-0.080944551,Apartment,Entire home/apt,4,1,1,2,Real Bed,100,40,2,10,1,1125,1,60,8,4,8,8,6,6,t,strict_14_with_grace_period,f,f,1
+629,none,within an hour,1,f,2,f,51.52117818,-0.158766042,Apartment,Private room,2,1,1,1,Real Bed,0,0,1,15,6,1125,0,,,,,,,,f,flexible,f,f,
+630,none,within an hour,0.99,f,68,t,51.46657129,-0.158465868,House,Entire home/apt,8,2.5,4,6,Real Bed,500,138,5,20,1,1125,1,100,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,0.42
+631,none,within an hour,0.9,f,3,f,51.49733093,-0.012651192,Apartment,Entire home/apt,9,2,2,5,Real Bed,0,50,2,5,1,1125,4,80,10,9,9,8,10,9,t,strict_14_with_grace_period,f,f,0.95
+632,none,within a few hours,0.92,f,31,f,51.47336463,-0.020691789,Apartment,Entire home/apt,4,2,2,3,Real Bed,0,45,4,12,3,1125,17,100,10,10,10,9,9,10,f,strict_14_with_grace_period,f,f,0.79
+633,none,N/A,N/A,f,1,t,51.52899061,-0.052643734,Apartment,Entire home/apt,4,1,2,2,Real Bed,0,20,1,0,2,7,9,89,9,9,9,10,9,9,t,moderate,f,f,0.2
+634,none,within a few hours,0.98,f,11,f,51.52432287,-0.202693742,Apartment,Private room,3,2,1,2,Real Bed,0,17,1,0,1,60,67,82,9,8,9,9,9,8,t,moderate,f,f,4.15
+635,none,within an hour,1,f,1,f,51.5135225,-0.061431243,House,Entire home/apt,5,1,2,3,Real Bed,150,85,4,15,2,1125,28,91,9,9,9,9,9,9,f,moderate,f,f,4.88
+636,none,within an hour,0.96,f,1277,f,51.54492253,-0.171165293,Apartment,Entire home/apt,4,2,2,2,Real Bed,495,150,1,0,3,1125,1,40,8,8,10,10,10,6,t,strict_14_with_grace_period,f,f,0.06
+637,none,within an hour,1,t,25,t,51.51173352,-0.111640498,Apartment,Private room,2,1,0,1,Real Bed,0,0,1,0,1,180,4,100,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,4
+638,none,within an hour,1,t,2,f,51.55647966,-0.136154926,House,Entire home/apt,4,2,3,4,Real Bed,500,80,4,20,5,12,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+639,none,within an hour,1,f,1,t,51.49687711,-0.187977084,House,Entire home/apt,8,2.5,4,4,Real Bed,250,145,1,0,2,1125,35,89,9,8,10,10,10,9,f,strict_14_with_grace_period,f,f,1.39
+640,none,within an hour,0.96,f,1277,f,51.54374545,-0.192069642,Apartment,Entire home/apt,4,1,1,2,Real Bed,571,86,4,0,4,1125,1,80,8,4,4,10,10,6,t,strict_14_with_grace_period,f,f,0.14
+641,none,within a day,0.98,f,40,f,51.51388719,-0.133841463,Apartment,Entire home/apt,4,1,1,1,Real Bed,200,50,1,0,3,90,4,85,9,9,9,10,9,9,f,strict_14_with_grace_period,f,f,0.19
+642,none,N/A,N/A,f,1,t,51.53336074,-0.11873912,Apartment,Entire home/apt,2,1,1,1,Real Bed,,25,1,0,4,18,5,90,10,9,10,10,10,9,t,strict_14_with_grace_period,f,f,0.15
+643,none,N/A,N/A,f,1,f,51.55965102,-0.096462851,Apartment,Entire home/apt,4,1,2,2,Real Bed,85,84,2,15,2,1125,2,100,10,10,10,10,9,9,f,moderate,f,f,0.46
+644,none,N/A,N/A,f,1,f,51.51600697,-0.06354666,House,Private room,1,2.5,1,1,Real Bed,0,10,1,35,4,11,0,,,,,,,,t,moderate,f,f,
+645,none,within a few hours,1,f,1,f,51.48054558,-0.084256173,Apartment,Private room,2,1,1,0,Real Bed,0,0,1,10,3,1125,42,97,10,10,10,10,9,10,f,flexible,f,f,1.17
+646,none,N/A,N/A,f,1,f,51.5625524,-0.197028543,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,1,30,0,,,,,,,,f,flexible,f,f,
+647,none,N/A,N/A,f,1,f,51.55578427,-0.168708342,Apartment,Entire home/apt,2,1,0,1,Futon,,15,1,0,3,1125,44,96,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.88
+648,none,N/A,N/A,f,1,t,51.55519996,-0.071642925,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,3,14,2,100,10,10,10,9,10,10,f,flexible,f,f,0.08
+649,none,N/A,N/A,f,50,f,51.48985022,-0.179400962,Apartment,Entire home/apt,4,1,1,2,Real Bed,,39,1,0,5,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+650,none,within a few hours,1,t,9,t,51.48939225,-0.143927517,Serviced apartment,Entire home/apt,4,1,2,3,Real Bed,400,80,1,0,4,90,19,94,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,1.82
+651,none,within an hour,1,t,3,f,51.45973743,-0.122329344,Apartment,Private room,2,1,1,1,Real Bed,,15,1,0,2,1125,0,,,,,,,,f,moderate,f,f,
+652,none,N/A,N/A,f,1,f,51.5239903,-0.124675431,Apartment,Private room,2,1,1,1,Real Bed,100,20,1,0,1,1125,0,,,,,,,,f,moderate,f,f,
+653,none,N/A,N/A,f,1,f,51.51138974,-0.053426872,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,30,365,0,,,,,,,,t,flexible,f,f,
+654,none,within a day,1,f,1,t,51.53808305,-0.15367548,House,Private room,2,1,1,1,Real Bed,,,1,0,1,14,2,100,10,10,10,10,10,10,f,flexible,f,f,0.19
+655,none,N/A,N/A,t,2,f,51.55490733,-0.123473402,Apartment,Private room,2,1,1,1,Real Bed,100,10,1,10,3,8,4,95,10,10,10,10,9,10,f,moderate,f,f,0.29
+656,none,within an hour,0.94,f,99,f,51.51311269,-0.074861087,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,0,2,0,1,1125,0,,,,,,,,t,moderate,f,f,
+657,none,N/A,N/A,f,6,f,51.49877381,-0.018534244,Apartment,Entire home/apt,3,1,1,2,Real Bed,0,30,2,15,1,14,3,60,6,6,10,10,10,6,t,flexible,f,f,0.2
+658,none,within an hour,1,f,6,f,51.55151012,-0.218435744,Apartment,Private room,2,1,1,1,Real Bed,,,2,6,28,1050,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+659,none,N/A,N/A,f,1,f,51.46238647,-0.117959133,House,Entire home/apt,6,2,3,3,Real Bed,200,40,1,0,3,1125,0,,,,,,,,f,flexible,f,f,
+660,none,N/A,N/A,f,1,t,51.46029719,-0.051715873,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,20,1,0,2,1125,8,95,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,0.19
+661,none,within a few hours,1,f,1,f,51.50097226,-0.21916359,Apartment,Entire home/apt,4,1,1,1,Real Bed,0,25,1,0,1,1125,26,82,9,8,9,9,9,8,f,strict_14_with_grace_period,f,f,2.67
+662,none,within an hour,1,f,24,t,51.49897814,-0.021873161,Apartment,Entire home/apt,8,2,4,9,Real Bed,300,65,4,20,21,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+663,none,N/A,N/A,f,1,f,51.52733745,-0.192210813,Apartment,Entire home/apt,2,1,2,2,Real Bed,400,14,1,0,5,1125,4,95,10,10,10,10,10,10,f,moderate,f,f,0.08
+664,none,within an hour,1,t,3,t,51.56088731,-0.076296943,House,Entire home/apt,6,2,4,5,Real Bed,350,,5,0,4,1125,3,93,10,9,10,10,9,9,f,strict_14_with_grace_period,f,f,0.05
+665,none,N/A,N/A,f,2,f,51.46997481,-0.143183952,Apartment,Entire home/apt,4,2,2,2,Real Bed,,40,4,40,5,14,5,100,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,0.06
+666,none,within an hour,1,f,11,t,51.56403776,-0.106344036,Apartment,Entire home/apt,4,1,2,2,Real Bed,100,45,2,10,1,1125,26,89,9,9,10,10,10,9,t,strict_14_with_grace_period,f,f,2.34
+667,none,N/A,N/A,f,1,f,51.54175562,-0.224719106,Apartment,Private room,2,1,1,1,Real Bed,,,1,15,7,1125,0,,,,,,,,f,moderate,f,f,
+668,none,within a day,1,t,1,t,51.5516978,-0.11467287,Apartment,Entire home/apt,4,1,2,2,Real Bed,,30,1,0,2,1125,25,98,10,10,10,10,10,9,f,moderate,f,f,1.16
+669,none,within an hour,0.96,f,1277,f,51.4950748,-0.183025475,Apartment,Entire home/apt,4,1,2,2,Real Bed,495,150,4,0,1,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+670,none,within an hour,1,f,24,f,51.51229118,-0.068229764,Apartment,Private room,2,1,1,1,Real Bed,150,25,1,25,1,1125,23,90,9,10,9,9,9,9,t,strict_14_with_grace_period,f,f,1.5
+671,none,within an hour,1,t,1,f,51.46198923,-0.005040309,Apartment,Private room,2,1,1,1,Real Bed,,10,1,0,2,14,73,97,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,4.24
+672,none,N/A,N/A,f,1,f,51.49876981,-0.02315736,Apartment,Private room,2,1,1,1,Real Bed,100,10,1,20,1,14,4,90,10,9,10,10,10,9,t,flexible,f,f,0.47
+673,none,within an hour,0.97,f,7,t,51.52267301,-0.103183031,Apartment,Entire home/apt,4,1,1,0,Real Bed,150,65,1,10,5,1125,4,95,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,1.26
+674,none,within an hour,0.96,f,1277,f,51.48564047,-0.126855288,Apartment,Entire home/apt,4,2,2,2,Real Bed,495,95,4,0,3,1125,1,20,10,10,6,2,2,2,t,strict_14_with_grace_period,f,f,0.03
+675,none,within a few hours,1,f,2,t,51.55195915,-0.078110017,Apartment,Entire home/apt,2,1.5,1,1,Real Bed,300,45,2,15,28,1125,27,98,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.64
+676,none,within an hour,1,f,1,f,51.54918721,-0.074818833,Apartment,Entire home/apt,2,1,1,1,Real Bed,,0,1,10,2,20,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+677,none,within a few hours,1,f,3,f,51.52527096,-0.123718763,Apartment,Private room,1,1,1,1,Real Bed,0,20,1,0,1,1125,2,70,10,7,10,9,10,8,f,strict_14_with_grace_period,f,f,0.12
+678,none,within an hour,1,f,2,t,51.50867268,-0.251818511,Apartment,Entire home/apt,4,1,1,2,Real Bed,400,50,2,25,20,1125,6,87,10,10,10,10,8,9,t,strict_14_with_grace_period,f,f,0.31
+679,none,within a day,1,f,2,f,51.52032509,-0.158000233,Apartment,Entire home/apt,2,1,1,2,Real Bed,100,60,1,0,14,84,0,,,,,,,,t,flexible,f,f,
+680,none,N/A,N/A,f,1,t,51.51278265,-0.070576113,Apartment,Entire home/apt,4,1,1,2,Airbed,,,2,25,2,20,25,98,10,10,10,10,10,9,f,moderate,f,f,0.82
+681,none,within an hour,1,f,15,f,51.52378093,-0.140547905,Apartment,Entire home/apt,6,1,2,3,Real Bed,210,93,10,0,1,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+682,none,within an hour,1,f,4,f,51.51669503,-0.052510071,Apartment,Private room,4,1,1,3,Real Bed,0,5,1,5,1,1125,150,92,9,9,10,10,9,9,t,moderate,f,f,9.7
+683,none,within a day,0.64,f,1,t,51.51777233,-0.190359322,Apartment,Entire home/apt,4,2,2,2,Real Bed,500,30,4,50,7,1125,3,100,10,9,10,10,10,10,f,moderate,f,f,0.14
+684,none,within an hour,1,t,9,f,51.51883565,-0.214778935,Apartment,Entire home/apt,4,1,,2,Real Bed,,50,2,20,1,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+685,none,N/A,N/A,f,1,f,51.53815338,0.003990196,Apartment,Entire home/apt,4,1,1,2,Real Bed,0,25,1,0,3,365,4,95,10,10,10,10,10,10,t,flexible,f,f,0.33
+686,none,within an hour,1,f,8,f,51.53539275,-0.139057262,Apartment,Entire home/apt,8,1,2,2,Real Bed,200,130,4,10,2,1125,28,92,10,10,10,9,10,9,t,strict_14_with_grace_period,f,f,1.8
+687,none,within an hour,1,f,24,f,51.54478257,-0.17518665,Hostel,Shared room,1,10,1,4,Real Bed,,,1,0,1,1125,0,,,,,,,,t,flexible,f,f,
+688,none,within an hour,1,f,1,t,51.49315742,-0.084861934,Apartment,Private room,2,1,1,1,Real Bed,80,20,1,0,1,3,68,90,9,10,9,9,9,9,f,strict_14_with_grace_period,f,f,1.94
+689,none,within an hour,1,f,1,f,51.52998874,-0.043414013,Apartment,Private room,3,1,1,1,Real Bed,150,25,2,25,3,30,2,100,10,9,10,10,9,10,f,moderate,f,f,0.95
+690,none,within an hour,0.9,f,1,t,51.52431138,-0.184740618,Apartment,Entire home/apt,4,1,1,1,Real Bed,0,20,2,30,1,1125,104,92,10,9,10,10,10,9,f,strict_14_with_grace_period,f,f,2.79
+691,none,within a day,1,f,1,t,51.52529832,-0.009160918,Apartment,Entire home/apt,4,1,1,2,Real Bed,,25,1,0,20,1125,29,95,10,9,10,10,9,10,f,moderate,f,f,1.26
+692,none,within an hour,1,f,1,f,51.52736271,-0.093226054,Apartment,Private room,2,1,1,1,Real Bed,120,5,1,30,2,1125,1,100,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,0.46
+693,none,N/A,N/A,f,1,f,51.50189255,-0.084389943,Apartment,Entire home/apt,5,2,2,2,Real Bed,0,85,1,0,90,1124,1,100,10,10,8,10,10,10,f,moderate,f,f,0.11
+694,none,within a few hours,1,f,2,t,51.52575655,-0.068110048,Apartment,Private room,1,1,1,1,Real Bed,0,20,1,0,2,30,0,,,,,,,,f,flexible,f,f,
+695,none,N/A,N/A,f,1,f,51.55086616,-0.204771335,Apartment,Entire home/apt,2,1,1,1,Real Bed,85,64,1,0,2,1125,2,80,7,6,8,7,8,8,f,moderate,f,f,0.27
+696,none,within an hour,0.96,f,1277,f,51.48790133,-0.13712393,Apartment,Entire home/apt,8,2,3,5,Real Bed,495,225,8,0,1,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+697,none,within an hour,1,f,213,t,51.49705534,-0.212837277,Apartment,Entire home/apt,4,1,2,2,Real Bed,250,55,1,0,2,1125,11,93,10,10,9,10,9,9,f,strict_14_with_grace_period,f,f,0.5
+698,none,within a few hours,1,f,4,f,51.55940793,0.009007025,Townhouse,Private room,2,1,1,1,Real Bed,150,0,1,5,1,1125,2,100,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,0.08
+699,none,within an hour,1,f,1,f,51.53703749,-0.113639675,Apartment,Entire home/apt,4,1,1,2,Real Bed,,,1,0,1,30,0,,,,,,,,f,flexible,f,f,
+700,none,N/A,N/A,f,1,f,51.50736518,-0.098065214,Apartment,Private room,2,1,1,1,Real Bed,,,1,10,1,1125,2,100,10,10,10,10,10,10,f,moderate,f,f,0.06
+701,none,within an hour,1,t,1,t,51.4914844,-0.01641108,House,Private room,2,1,1,1,Real Bed,0,0,1,5,1,10,8,100,10,10,10,10,10,10,f,flexible,f,f,1.79
+702,none,within an hour,1,f,3,t,51.46341013,-0.2189582,House,Entire home/apt,5,1,2,4,Real Bed,150,,1,0,7,60,14,97,10,10,10,9,10,10,t,strict_14_with_grace_period,f,f,0.5
+703,none,within an hour,0.98,f,28,f,51.53411953,-0.089021249,Apartment,Private room,2,1.5,1,1,Real Bed,100,30,1,0,2,1125,1,60,10,6,10,4,8,8,t,strict_14_with_grace_period,f,f,0.75
+704,none,within an hour,1,t,7,t,51.50816847,-0.123352744,Apartment,Entire home/apt,5,2.5,2,2,Real Bed,0,36,2,10,2,14,65,96,9,10,10,10,10,9,f,strict_14_with_grace_period,f,f,1.33
+705,none,within an hour,1,f,3,t,51.50560734,-0.196934519,Apartment,Entire home/apt,4,2,2,3,Real Bed,0,50,1,0,4,1125,3,93,9,10,10,10,10,9,t,strict_14_with_grace_period,f,f,1.25
+706,none,within an hour,0.93,f,24,f,51.53039433,-0.081951137,Serviced apartment,Entire home/apt,2,1,0,1,Real Bed,200,,1,0,2,1125,2,90,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,0.49
+707,none,N/A,N/A,f,1,f,51.54124398,-0.116669128,Apartment,Entire home/apt,5,2,2,3,Real Bed,200,60,1,0,3,1125,0,,,,,,,,f,flexible,f,f,
+708,none,N/A,N/A,f,2,f,51.50714539,-0.054766473,House,Entire home/apt,6,1,3,3,Real Bed,,,1,0,2,1125,3,93,9,9,9,9,9,9,f,strict_14_with_grace_period,f,f,0.06
+709,none,N/A,N/A,f,5,f,51.49402708,-0.176930548,Serviced apartment,Entire home/apt,3,1,1,1,Real Bed,150,,3,0,1,1125,0,,,,,,,,t,super_strict_30,f,f,
+710,none,within an hour,0.9,f,1,f,51.51714169,-0.168378514,Apartment,Entire home/apt,4,1,1,1,Real Bed,0,65,1,0,2,1125,4,80,8,8,8,9,8,8,f,moderate,f,f,1.6
+711,none,within an hour,0.98,f,13,f,51.51347183,-0.256592176,House,Private room,2,2,1,1,Real Bed,0,15,1,0,14,100,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+712,none,within an hour,1,t,3,f,51.53699682,-0.073901454,Apartment,Private room,2,1,1,1,Real Bed,0,12,1,5,3,15,32,99,10,10,10,10,10,10,f,moderate,f,f,1.6
+713,none,within an hour,0.83,f,5,f,51.5162799,-0.076474225,Apartment,Entire home/apt,6,2,2,2,Real Bed,,,1,0,2,1124,3,93,10,9,10,10,9,9,t,strict_14_with_grace_period,f,f,0.09
+714,none,within an hour,1,f,1,t,51.52094865,-0.118169411,Apartment,Entire home/apt,5,1,2,2,Real Bed,500,70,1,0,3,1125,35,98,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,0.81
+715,none,within an hour,1,f,1,t,51.50140256,-0.21485989,Apartment,Entire home/apt,4,2,2,2,Real Bed,200,80,3,10,1,1125,74,98,10,10,10,10,10,10,t,moderate,f,f,1.75
+716,none,within a few hours,1,f,1,t,51.55567144,-0.133497912,Apartment,Entire home/apt,2,2,1,1,Real Bed,0,10,2,15,3,1125,7,89,9,7,9,8,9,8,f,moderate,f,f,0.12
+717,none,N/A,N/A,f,1,f,51.53113593,-0.039234154,Apartment,Entire home/apt,5,2,3,2,Real Bed,,30,1,0,5,1125,3,100,8,10,,,,,t,moderate,f,f,0.15
+718,none,within a day,0.83,f,1,t,51.51938744,-0.218253603,House,Private room,2,1,1,0,Real Bed,,,1,0,3,1125,3,100,10,10,10,10,10,10,f,moderate,f,f,0.07
+719,none,within an hour,1,t,2,f,51.54450653,-0.227460452,Apartment,Entire home/apt,6,1,2,3,Real Bed,0,90,4,15,2,999,4,95,10,10,10,10,10,10,t,super_strict_60,f,f,1.26
+720,none,within an hour,1,t,2,f,51.51260619,-0.168173863,Apartment,Entire home/apt,6,2,3,3,Real Bed,,50,4,10,2,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+721,none,within a day,1,f,10,f,51.49427063,-0.193449162,Apartment,Entire home/apt,2,1,0,1,Real Bed,300,100,1,0,3,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+722,none,within an hour,1,f,2,t,51.54439393,-0.08843908,Apartment,Entire home/apt,2,1,1,1,Real Bed,250,25,1,0,2,1125,9,82,9,8,10,10,9,9,f,strict_14_with_grace_period,f,f,0.32
+723,none,within a few hours,0.78,f,183,f,51.54694158,-0.177083858,Apartment,Entire home/apt,4,1,1,2,Real Bed,495,75,1,0,3,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+724,none,within an hour,0.92,f,5,f,51.54105596,-0.138209496,House,Entire home/apt,8,1,2,2,Real Bed,200,135,4,10,3,1125,18,92,10,9,10,9,10,9,t,moderate,f,f,1.1
+725,none,within a day,1,f,2,f,51.46285345,-0.211598061,Apartment,Entire home/apt,2,1,2,2,Real Bed,250,25,1,0,2,7,1,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.45
+726,none,N/A,N/A,f,1,t,51.45671527,-0.04987855,Townhouse,Entire home/apt,3,1,2,2,Real Bed,,12,1,0,2,30,11,91,10,9,10,10,8,9,t,moderate,f,f,0.34
+727,none,N/A,N/A,f,1,f,51.54055423,-0.087398387,Guesthouse,Private room,2,1,1,1,Real Bed,,,1,0,15,30,1,,,,,,,,f,strict_14_with_grace_period,f,f,0.1
+728,none,N/A,N/A,f,1,f,51.53086777,-0.061944325,Loft,Private room,1,2,1,1,Real Bed,,,1,0,75,115,1,100,10,8,10,10,10,10,t,strict_14_with_grace_period,f,f,0.07
+729,none,within a few hours,1,t,1,f,51.5213299,-0.183722278,Boat,Entire home/apt,4,1,2,3,Real Bed,100,25,2,15,2,30,385,98,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,4.12
+730,none,N/A,N/A,f,1,t,51.55398918,-0.047863503,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,2,90,3,,,,,,,,f,flexible,f,f,0.27
+731,none,within an hour,1,f,3,t,51.51971944,-0.211861634,Apartment,Private room,2,1,1,1,Real Bed,200,18,2,30,7,1125,6,100,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,0.23
+732,none,within an hour,1,f,44,f,51.52728118,-0.078938006,Apartment,Entire home/apt,4,1,0,2,Real Bed,100,25,1,0,1,1125,30,94,10,10,9,10,10,9,t,strict_14_with_grace_period,f,f,4.62
+733,none,within a few hours,1,f,2,t,51.45017887,-0.115983463,Apartment,Private room,2,0.5,1,1,Real Bed,0,8,1,18,1,30,10,91,10,9,9,9,9,9,t,flexible,f,f,0.63
+734,none,within a day,1,f,1,f,51.53714512,-0.098992842,Apartment,Private room,2,1,1,1,Real Bed,0,0,1,0,2,20,17,100,10,10,10,10,10,10,f,flexible,f,f,0.64
+735,none,within a day,0.92,f,1,f,51.5064531,-0.067410254,Apartment,Entire home/apt,4,1,1,2,Real Bed,300,30,2,20,1,1125,22,93,10,9,10,10,10,9,f,flexible,f,f,4.13
+736,none,within an hour,1,f,1,f,51.4584966,-0.008151787,Apartment,Entire home/apt,4,1,2,2,Real Bed,200,68,1,0,2,60,9,100,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,0.44
+737,family,within an hour,1,t,3,t,51.54697694,-0.066994555,Townhouse,Entire home/apt,9,2,3,4,Real Bed,500,50,6,10,5,39,7,97,10,9,10,10,9,10,f,moderate,f,f,0.15
+738,none,N/A,N/A,f,1,f,51.49279081,-0.164661703,Serviced apartment,Entire home/apt,3,1,1,1,Real Bed,,,1,0,3,1125,0,,,,,,,,t,flexible,f,f,
+739,none,within an hour,1,f,2,t,51.4747654,-0.067410768,Apartment,Entire home/apt,1,1,1,1,Real Bed,,10,1,0,1,1125,4,95,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,0.71
+740,none,within a few hours,1,f,2,t,51.44431764,-0.032497291,Apartment,Private room,4,1,1,1,Real Bed,300,50,1,0,1,1125,14,86,9,8,8,9,8,9,f,strict_14_with_grace_period,f,f,0.22
+741,none,within an hour,0.97,t,89,f,51.49616614,-0.127432441,Apartment,Entire home/apt,4,2,2,2,Real Bed,300,103,4,5,2,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+742,none,N/A,N/A,f,1,f,51.5145231,-0.20201462,Apartment,Private room,2,,1,,Real Bed,,,1,0,14,21,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+743,none,within an hour,0.94,f,15,f,51.50078293,-0.232073828,Villa,Private room,4,1,1,2,Real Bed,0,10,1,0,1,1125,41,85,9,9,9,9,9,9,t,strict_14_with_grace_period,f,f,4.02
+744,none,a few days or more,0,f,1,t,51.52391537,-0.201922099,Apartment,Private room,1,1,1,1,Real Bed,,40,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+745,none,within an hour,1,f,39,f,51.49034999,-0.227966852,Apartment,Private room,2,2,1,1,Real Bed,100,36,1,10,1,13,16,93,10,9,10,10,10,9,f,moderate,f,f,2.3
+746,none,N/A,N/A,f,1,t,51.51974313,-0.212981291,House,Entire home/apt,6,2,3,5,Real Bed,0,60,1,0,4,15,12,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.4
+747,none,within a few hours,0.67,f,25,f,51.55965505,-0.074735211,Apartment,Entire home/apt,6,1,2,3,Real Bed,1000,100,1,0,14,1125,13,88,9,9,9,9,9,9,f,strict_14_with_grace_period,f,f,0.23
+748,none,N/A,N/A,f,1,f,51.45510429,-0.097838638,Apartment,Private room,2,1.5,1,1,Real Bed,,,1,0,1,31,5,85,8,9,9,10,9,8,f,strict_14_with_grace_period,f,f,0.18
+749,social,N/A,N/A,f,1,t,51.52330456,-0.217765782,Apartment,Private room,2,1,1,1,Real Bed,100,20,1,22,2,5,183,93,10,9,9,10,9,9,f,strict_14_with_grace_period,f,f,2.7
+750,none,N/A,N/A,f,2,f,51.54538335,-0.086100351,Apartment,Entire home/apt,4,1,2,2,Real Bed,2000,25,1,0,2,31,1,80,8,6,8,6,10,8,f,strict_14_with_grace_period,f,f,0.03
+751,none,within a few hours,1,t,1,t,51.48962739,-0.188429468,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,50,1,0,3,1125,22,94,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,0.99
+752,none,within an hour,0.91,f,16,f,51.51570447,-0.162078203,Apartment,Entire home/apt,6,1.5,1,1,Real Bed,0,60,1,0,5,1125,3,100,9,10,10,10,10,10,f,strict_14_with_grace_period,f,f,3
+753,none,N/A,N/A,f,1,t,51.53973975,-0.042595989,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+754,none,N/A,N/A,f,4,f,51.52273184,-0.161154447,Apartment,Entire home/apt,4,1,2,3,Real Bed,,,4,0,1,1125,0,,,,,,,,t,moderate,f,f,
+755,none,within an hour,1,f,159,t,51.52118519,-0.209924702,Apartment,Entire home/apt,4,1,2,2,Real Bed,0,90,4,0,1,1125,0,,,,,,,,t,strict_14_with_grace_period,f,t,
+756,none,within an hour,1,t,3,t,51.51655557,-0.203797777,Apartment,Entire home/apt,2,1,1,0,Real Bed,,,1,0,4,90,3,100,10,10,10,10,10,9,t,flexible,f,f,0.96
+757,none,within a few hours,1,f,52,f,51.512888,-0.036982889,Apartment,Entire home/apt,8,2,3,3,Real Bed,150,45,6,20,3,999,0,,,,,,,,f,flexible,f,f,
+758,none,within a few hours,1,f,9,f,51.49422399,-0.113678909,Apartment,Entire home/apt,4,1,1,1,Real Bed,0,45,2,30,1,1000,33,96,9,10,10,10,9,10,f,strict_14_with_grace_period,f,f,1.63
+759,none,N/A,N/A,f,1,f,51.49140321,-0.209712711,Apartment,Entire home/apt,2,1,1,1,Real Bed,172,17,1,0,3,1125,0,,,,,,,,f,moderate,f,f,
+760,none,within an hour,0.95,f,6,f,51.53349426,-0.11871015,Apartment,Private room,2,1,1,1,Real Bed,0,40,1,10,1,1125,13,74,8,8,8,8,10,7,t,strict_14_with_grace_period,f,f,1.19
+761,none,N/A,N/A,f,1,f,51.56496373,-0.064150804,Bed and breakfast,Private room,2,1,1,1,Real Bed,,15,1,0,1,1125,0,,,,,,,,t,flexible,f,f,
+762,none,within an hour,1,f,6,t,51.51496553,-0.193860996,Apartment,Private room,2,2,1,1,Real Bed,,10,1,0,1,1125,197,92,10,10,10,10,10,9,t,moderate,f,f,6.77
+763,none,within a few hours,1,f,6,f,51.49270633,-0.073385924,Apartment,Entire home/apt,8,2.5,2,4,Real Bed,250,60,4,5,2,28,6,93,9,10,10,9,10,10,f,strict_14_with_grace_period,f,f,3.91
+764,none,within a day,0.9,f,1,t,51.50388454,-0.109257346,Apartment,Entire home/apt,4,1,1,2,Real Bed,,30,2,10,1,1125,43,97,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,1.55
+765,none,within an hour,1,f,2,t,51.49282406,-0.023809666,House,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,7,94,9,8,9,9,9,9,t,flexible,f,f,0.33
+766,none,N/A,N/A,f,1,t,51.49430582,-0.20525004,Apartment,Private room,2,1.5,1,0,Real Bed,300,35,1,0,3,30,3,100,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,0.06
+767,none,N/A,N/A,f,1,f,51.4963261,-0.012008251,Apartment,Private room,1,1.5,1,1,Real Bed,65,20,1,0,1,1125,1,,,,,,,,t,flexible,f,f,0.03
+768,none,within an hour,0.84,f,12,f,51.51400778,-0.162449851,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,0,2,0,1,1125,13,92,10,9,9,10,10,9,t,moderate,f,f,2.31
+769,none,within a day,0.8,f,2,t,51.47659236,-0.118556564,Apartment,Private room,2,1,1,1,Real Bed,0,20,1,20,1,1125,54,93,10,9,10,10,9,9,f,strict_14_with_grace_period,f,f,1.04
+770,none,within an hour,1,t,3,t,51.55426896,-0.11541971,Apartment,Entire home/apt,5,1,3,3,Real Bed,100,70,3,20,5,1125,17,92,10,10,10,10,10,9,t,strict_14_with_grace_period,t,t,0.82
+771,none,within an hour,0.95,f,5,f,51.49134693,-0.145158991,House,Private room,3,1.5,1,3,Real Bed,0,30,1,0,2,20,8,90,10,9,10,10,10,9,t,flexible,f,f,1.44
+772,none,within an hour,0.96,f,1277,f,51.45015304,-0.129850808,House,Entire home/apt,8,2,4,6,Real Bed,495,195,1,0,6,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+773,none,within an hour,1,t,2,t,51.56329747,-0.010207943,Apartment,Private room,2,1,1,1,Real Bed,0,0,1,15,1,1125,8,100,10,10,10,10,9,10,t,strict_14_with_grace_period,f,f,0.75
+774,none,within an hour,1,f,2,t,51.4447207,-0.21098761,Apartment,Entire home/apt,4,1,2,2,Real Bed,400,40,1,0,2,14,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+775,none,within a few hours,0.67,f,12,f,51.51261927,-0.157520651,Apartment,Private room,2,1,1,1,Real Bed,,,6,0,1,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+776,none,within a few hours,1,t,2,t,51.54526221,-0.055100958,Apartment,Entire home/apt,4,1,2,2,Real Bed,99,25,1,0,4,30,4,95,10,10,10,10,9,10,f,moderate,f,f,0.09
+777,none,N/A,N/A,f,3,t,51.51902234,-0.146293612,Apartment,Entire home/apt,4,2,2,2,Real Bed,1000,30,1,0,2,10,4,100,10,9,10,10,10,10,f,strict_14_with_grace_period,f,f,0.13
+778,none,within a few hours,1,t,1,t,51.55312661,-0.108490404,Apartment,Entire home/apt,2,1,1,1,Real Bed,,25,1,0,3,1120,55,97,10,10,9,10,10,10,f,moderate,f,f,1.37
+779,none,N/A,N/A,f,1,f,51.4919425,-0.05231733,Apartment,Private room,3,1,1,1,Real Bed,,,2,15,1,1125,2,100,10,10,10,10,10,10,f,flexible,f,f,0.05
+780,none,within a few hours,1,f,1,f,51.54277226,-0.184600187,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,49,1,0,2,30,5,100,10,10,10,9,10,10,f,moderate,f,f,0.53
+781,none,within an hour,1,f,25,t,51.51286376,-0.06296821,Apartment,Private room,1,1,1,1,Real Bed,80,10,1,0,1,28,26,91,10,9,10,10,9,9,t,strict_14_with_grace_period,f,f,3.29
+782,none,within an hour,1,t,1,f,51.49336782,-0.102468995,Apartment,Entire home/apt,5,1,2,2,Real Bed,0,29,1,0,2,1125,21,89,9,9,10,10,9,9,f,strict_14_with_grace_period,f,f,1.29
+783,none,within an hour,0.94,f,13,f,51.52331848,-0.261389352,Apartment,Entire home/apt,2,1,1,1,Real Bed,200,75,1,0,7,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+784,none,N/A,N/A,t,3,t,51.51277781,-0.057124471,Apartment,Private room,2,1,2,3,Real Bed,100,0,1,20,1,365,8,95,9,10,10,10,8,9,f,strict_14_with_grace_period,f,f,0.12
+785,none,within an hour,1,t,43,f,51.50142274,-0.188619775,Apartment,Entire home/apt,4,1,1,1,Real Bed,300,70,2,10,2,1125,2,100,10,10,10,10,10,10,t,moderate,f,f,2
+786,none,within an hour,1,t,14,f,51.51511087,-0.190358871,Apartment,Entire home/apt,2,1,0,0,Real Bed,150,33,1,0,5,1125,19,95,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,3.28
+787,none,within a few hours,1,f,1,t,51.51783488,-0.161483955,Apartment,Entire home/apt,3,1.5,1,1,Real Bed,300,30,2,30,2,1125,2,100,7,10,10,10,10,10,f,moderate,f,f,0.11
+788,none,N/A,N/A,f,2,f,51.5073076,-0.265296492,Other,Private room,2,1.5,1,1,Real Bed,,,1,0,3,1125,0,,,,,,,,t,flexible,f,f,
+789,none,within an hour,1,f,66,f,51.51959733,-0.051397952,Apartment,Private room,2,1,1,1,Real Bed,0,30,1,16,1,14,58,84,9,9,10,10,9,9,t,strict_14_with_grace_period,f,f,1.78
+790,none,within a few hours,0.9,f,1,t,51.56175453,-0.059557395,Apartment,Entire home/apt,4,1,2,2,Real Bed,200,65,2,15,2,30,81,96,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,1.94
+791,none,within an hour,0.99,f,7,f,51.49337246,-0.16492826,Apartment,Entire home/apt,4,1,1,2,Real Bed,150,25,1,0,1,1125,56,92,10,9,10,10,10,9,t,strict_14_with_grace_period,f,f,2.33
+792,none,N/A,N/A,f,1,f,51.5333023,-0.182632887,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,3,4,0,,,,,,,,f,flexible,f,f,
+793,none,within a day,1,f,1,f,51.46703295,-0.106720537,Condominium,Entire home/apt,2,1,1,1,Real Bed,,,1,0,2,7,14,100,10,10,10,10,10,10,t,flexible,f,f,1.57
+794,none,N/A,N/A,f,1,t,51.52802738,-0.101535047,Apartment,Private room,2,1.5,1,1,Real Bed,200,,1,0,3,1125,1,80,8,8,6,8,8,8,f,flexible,f,f,0.03
+795,none,within an hour,1,t,17,t,51.4897076,-0.195538395,Apartment,Private room,2,1,1,1,Real Bed,,25,1,0,1,1125,94,96,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,2.77
+796,none,N/A,N/A,f,1,t,51.44742614,-0.124484243,House,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,1,100,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,0.02
+797,none,within an hour,1,f,3,f,51.49245246,-0.209367938,Apartment,Private room,2,2,1,1,Real Bed,0,10,1,0,2,30,0,,,,,,,,t,moderate,f,f,
+798,none,within a few hours,0.78,f,183,f,51.51788362,-0.187531587,House,Entire home/apt,4,2,2,2,Real Bed,495,145,1,0,2,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+799,none,within a few hours,1,f,1,t,51.4884739,-0.113993001,House,Private room,2,1,1,1,Real Bed,0,60,1,0,5,120,17,93,9,9,10,10,9,9,f,moderate,f,f,0.41
+800,none,within an hour,0.87,f,21,f,51.500831,-0.113334373,Apartment,Entire home/apt,4,2,2,2,Real Bed,,,4,20,1,180,0,,,,,,,,t,moderate,f,f,
+801,none,within an hour,1,f,2,f,51.52183212,-0.070519175,Apartment,Private room,1,1,1,1,Real Bed,,5,1,0,1,1125,9,93,9,9,10,10,10,10,t,flexible,f,f,1.17
+802,none,within an hour,1,f,5,f,51.47522148,-0.171737447,Apartment,Private room,2,1,1,1,Real Bed,0,9,1,9,3,1125,23,97,10,10,10,10,9,10,t,strict_14_with_grace_period,f,f,0.67
+803,none,within an hour,1,f,1,f,51.45228336,-0.147936998,Condominium,Private room,2,1,1,1,Real Bed,100,20,1,20,1,1125,0,,,,,,,,t,flexible,f,f,
+804,none,within an hour,0.96,f,1277,f,51.53064498,-0.179286419,Apartment,Entire home/apt,4,1,1,2,Real Bed,495,75,1,0,5,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+805,none,within an hour,1,f,35,f,51.51519118,-0.057302448,Apartment,Entire home/apt,4,1,1,2,Real Bed,250,65,2,10,1,1125,12,98,10,10,10,10,9,9,f,strict_14_with_grace_period,f,f,1.48
+806,none,within an hour,1,f,80,f,51.5327558,-0.09388221,Apartment,Entire home/apt,4,2,2,3,Real Bed,0,0,4,0,1,28,1,60,8,10,8,4,10,6,t,super_strict_30,f,f,0.25
+807,none,N/A,N/A,f,1,f,51.50010905,-0.13968154,House,Entire home/apt,11,3.5,7,7,Real Bed,1000,160,7,15,3,1125,10,96,10,9,10,10,10,9,f,moderate,f,f,0.52
+808,none,N/A,N/A,f,1,t,51.54103562,-0.087711749,Townhouse,Private room,1,1,1,1,Real Bed,,,1,0,7,20,0,,,,,,,,f,flexible,f,f,
+809,none,within a day,1,f,2,t,51.5264916,-0.069386519,Apartment,Entire home/apt,4,2,2,2,Real Bed,300,40,4,10,40,1125,84,90,9,8,10,10,10,9,f,moderate,f,f,1.23
+810,none,N/A,N/A,f,1,f,51.5472109,-0.156859638,Apartment,Entire home/apt,2,1,1,2,Real Bed,0,60,2,0,3,90,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+811,none,within an hour,1,f,12,t,51.52561946,-0.065532791,House,Private room,2,1,1,1,Real Bed,,,1,0,2,1125,1,100,10,10,10,10,10,10,t,flexible,f,f,0.36
+812,none,within a day,0.5,f,1,t,51.50871289,-0.141340336,Apartment,Entire home/apt,4,1.5,2,4,Real Bed,300,35,2,30,2,1125,45,97,10,9,10,10,10,10,f,flexible,f,f,1.47
+813,none,within an hour,0.93,f,2,f,51.50020508,-0.113292699,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,1,1125,5,80,9,8,8,8,9,8,t,flexible,f,f,0.56
+814,none,within a few hours,1,f,1,f,51.48944397,-0.047800827,Townhouse,Private room,2,1,1,1,Real Bed,0,0,1,13,2,365,31,96,10,10,10,10,9,9,f,strict_14_with_grace_period,f,f,1.1
+815,none,within an hour,1,f,39,f,51.52866398,-0.041925769,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,65,1,0,2,1124,19,96,10,10,9,9,10,10,f,moderate,f,f,1.9
+816,none,N/A,N/A,f,1,t,51.56340766,-0.099706854,Apartment,Entire home/apt,4,1,1,2,Real Bed,200,,1,0,5,1125,2,80,7,8,10,10,9,8,f,flexible,f,f,0.06
+817,none,N/A,N/A,f,1,f,51.54520455,-0.175218066,Apartment,Entire home/apt,4,1,2,2,Real Bed,0,90,1,0,5,1125,2,90,9,9,8,8,9,8,t,flexible,f,f,0.87
+818,none,within an hour,1,t,5,t,51.47233995,-0.033069563,Apartment,Private room,3,1,1,2,Real Bed,150,0,2,17,1,1125,37,94,9,9,10,10,9,10,f,strict_14_with_grace_period,f,f,0.85
+819,none,within a day,1,f,1,t,51.45231803,-0.076587185,House,Private room,2,1.5,1,1,Real Bed,0,20,1,0,1,120,1,,,,,,,,f,flexible,f,f,1
+820,none,N/A,N/A,f,3,f,51.4731754,-0.054038029,Apartment,Entire home/apt,4,2,2,2,Real Bed,80,,1,0,1,30,5,92,10,9,10,10,10,10,f,flexible,f,f,0.21
+821,none,within an hour,1,f,179,f,51.51001779,-0.122850923,Serviced apartment,Entire home/apt,6,2,3,3,Real Bed,350,125,1,0,3,1125,2,90,7,7,9,10,10,7,f,strict_14_with_grace_period,f,f,0.29
+822,none,within an hour,1,f,9,f,51.49416321,-0.186655475,Apartment,Entire home/apt,4,1,1,2,Real Bed,150,60,2,10,2,182,13,88,9,9,10,10,9,8,f,strict_14_with_grace_period,f,f,1.33
+823,none,N/A,N/A,f,1,f,51.51131498,-0.065781941,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,2,1125,6,93,10,9,9,10,10,10,f,flexible,f,f,0.16
+824,none,N/A,N/A,f,1,f,51.52889781,-0.145442949,Condominium,Private room,1,1,1,1,Real Bed,,,1,0,1,3,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+825,none,within an hour,1,f,12,f,51.49504964,-0.167721346,Apartment,Entire home/apt,6,1,1,5,Real Bed,,200,1,0,28,1125,1,100,10,10,10,10,8,8,t,moderate,f,f,0.56
+826,none,within a day,0.75,f,1,f,51.499056,-0.079490317,Apartment,Private room,2,1,1,1,Real Bed,0,10,1,0,1,1125,14,92,9,10,10,10,10,10,f,moderate,f,f,3.68
+827,none,N/A,N/A,f,1,f,51.48755183,-0.138649495,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,1,1125,5,90,10,10,10,10,10,10,f,flexible,f,f,0.16
+828,none,within an hour,1,f,3,f,51.49017147,-0.100636647,House,Private room,2,1,1,1,Real Bed,0,10,1,0,2,32,4,65,9,7,8,6,9,8,t,flexible,f,f,3
+829,none,a few days or more,0.25,f,1,t,51.52455385,-0.074730392,Apartment,Entire home/apt,2,1,1,1,Real Bed,300,20,1,0,2,30,26,99,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.45
+830,none,within an hour,1,f,123,f,51.50130353,-0.197599183,House,Entire home/apt,7,3,4,4,Real Bed,500,125,1,0,5,1124,50,87,9,9,9,9,10,9,t,strict_14_with_grace_period,f,f,1.13
+831,none,within a few hours,1,f,2,t,51.51957888,-0.133956037,Apartment,Entire home/apt,2,1,0,2,Real Bed,150,0,1,25,5,1125,2,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.12
+832,none,within an hour,0.96,f,1277,f,51.49998644,-0.09409422,House,Entire home/apt,6,3,3,3,Real Bed,495,225,6,0,2,1125,6,97,9,10,9,10,10,10,t,strict_14_with_grace_period,f,f,0.21
+833,none,within an hour,1,f,2,f,51.52726207,-0.072623229,Apartment,Private room,2,1,1,1,Real Bed,80,30,2,10,2,1125,2,100,7,9,9,10,9,10,t,moderate,f,f,0.14
+834,social,within an hour,1,f,6,t,51.53119744,-0.080539331,Apartment,Entire home/apt,6,1,2,3,Real Bed,100,40,1,10,1,1825,318,90,9,9,10,10,9,9,f,strict_14_with_grace_period,f,f,3.91
+835,none,within a day,0.74,f,8,t,51.5119471,-0.213359733,House,Private room,6,2,3,3,Real Bed,300,150,1,0,8,1125,4,75,9,7,10,8,10,9,f,strict_14_with_grace_period,f,f,0.32
+836,none,N/A,N/A,f,1,f,51.54911893,-0.081154535,House,Private room,2,1,1,1,Real Bed,100,0,1,8,3,10,45,97,10,10,10,10,9,10,t,moderate,f,f,1.11
+837,none,N/A,N/A,f,1,f,51.53778809,-0.188391226,Apartment,Entire home/apt,3,1,2,2,Real Bed,85,80,2,15,2,1125,9,89,8,9,9,10,8,9,f,strict_14_with_grace_period,f,f,0.42
+838,none,N/A,N/A,f,1,f,51.44601086,-0.044090709,House,Private room,2,1,1,1,Real Bed,,,1,0,2,21,3,100,10,10,10,10,9,10,f,moderate,f,f,0.23
+839,none,N/A,N/A,f,1,f,51.53481856,-0.090381822,Apartment,Entire home/apt,4,2,2,2,Real Bed,200,80,2,15,2,1125,1,100,10,10,10,10,8,,f,strict_14_with_grace_period,f,f,0.04
+840,none,within a day,0.5,f,2,f,51.55637767,-0.046444697,House,Private room,2,2,1,1,Pull-out Sofa,0,5,1,15,1,1125,8,88,9,10,9,10,10,10,f,moderate,f,f,0.16
+841,none,N/A,N/A,f,1,f,51.55261432,-0.161072214,Apartment,Entire home/apt,2,1,1,1,Real Bed,300,,1,50,14,1125,1,100,10,8,10,10,10,8,f,strict_14_with_grace_period,f,f,0.02
+842,none,within an hour,1,f,80,f,51.49941374,-0.079895181,Apartment,Entire home/apt,4,2,2,3,Real Bed,0,0,4,0,1,28,0,,,,,,,,t,super_strict_30,f,f,
+843,none,N/A,N/A,f,1,f,51.49778899,-0.046092741,Apartment,Entire home/apt,4,1,2,3,Real Bed,,,1,0,1,6,1,,,,,,,,t,flexible,f,f,0.21
+844,none,N/A,N/A,f,1,t,51.51662741,-0.077351403,Apartment,Private room,1,1.5,1,1,Real Bed,,,1,0,2,12,3,100,10,10,10,10,10,10,t,flexible,f,f,0.26
+845,none,within a few hours,1,f,1,f,51.48304531,-0.097847296,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,1,1125,123,97,10,9,10,10,10,10,f,moderate,f,f,2.95
+846,none,within a day,0.7,f,1,f,51.4779588,-0.191654511,Apartment,Entire home/apt,4,1,2,2,Real Bed,200,30,1,0,2,1125,0,,,,,,,,f,moderate,f,f,
+847,none,N/A,N/A,f,1,f,51.44937386,-0.142582651,House,Private room,2,1,1,1,Real Bed,200,0,1,25,1,7,0,,,,,,,,t,flexible,f,f,
+848,none,within an hour,1,f,3,f,51.47934934,-0.197507689,Apartment,Entire home/apt,3,1,1,1,Real Bed,0,45,2,20,2,1125,4,95,9,10,10,10,10,10,t,strict_14_with_grace_period,f,f,0.69
+849,romantic,within an hour,1,f,25,f,51.51502777,-0.194268,Apartment,Entire home/apt,2,1,0,1,Real Bed,300,35,1,0,1,365,45,82,9,9,9,9,10,9,t,strict_14_with_grace_period,f,f,1.42
+850,none,within an hour,1,f,52,f,51.49721351,-0.016874054,Apartment,Entire home/apt,4,1,1,2,Real Bed,0,65,1,0,2,1125,27,91,9,9,9,9,10,9,t,strict_14_with_grace_period,f,f,1.78
+851,none,within an hour,0.95,f,24,f,51.51283044,-0.046675225,Apartment,Private room,2,1,1,1,Real Bed,0,0,2,0,1,1125,0,,,,,,,,t,flexible,f,f,
+852,none,within an hour,1,f,52,f,51.53795669,-0.188093278,Apartment,Entire home/apt,4,1,1,2,Real Bed,0,65,1,0,2,1125,12,97,9,10,9,9,10,9,f,moderate,f,f,1.61
+853,none,within a few hours,1,f,4,f,51.45683601,-0.216627065,Apartment,Private room,2,2,1,1,Real Bed,250,70,1,5,4,180,0,,,,,,,,f,moderate,f,f,
+854,none,N/A,N/A,f,1,t,51.46615056,-0.217311268,Apartment,Entire home/apt,6,1,3,3,Real Bed,,,1,0,4,7,0,,,,,,,,f,flexible,f,f,
+855,none,within an hour,0.99,f,30,t,51.51902099,-0.077091544,Serviced apartment,Entire home/apt,2,1,1,1,Real Bed,300,30,1,0,1,1125,5,96,10,10,10,10,10,8,t,strict_14_with_grace_period,f,f,1.88
+856,none,within an hour,1,f,52,f,51.48683301,-0.208729389,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,65,1,0,2,1125,0,,,,,,,,f,moderate,f,f,
+857,none,within a few hours,1,f,1,t,51.52687996,-0.198523022,Apartment,Entire home/apt,4,1,1,2,Real Bed,0,0,2,0,2,1125,14,94,10,9,10,10,9,10,f,flexible,f,f,0.97
+858,none,within an hour,1,f,13,f,51.54913152,-0.168957239,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,30,1,0,3,28,0,,,,,,,,t,flexible,f,f,
+859,none,N/A,N/A,f,1,f,51.5356463,-0.134699272,Apartment,Private room,1,1.5,1,1,Real Bed,,,1,0,1,1125,3,100,10,10,10,10,10,10,t,flexible,f,f,0.26
+860,none,within an hour,1,f,1,f,51.54653847,-0.113765119,Apartment,Private room,2,2,1,1,Real Bed,0,55,2,0,7,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+861,none,N/A,N/A,f,1,f,51.55703847,-0.066100346,Apartment,Private room,2,2,1,1,Real Bed,,20,1,0,1,1125,0,,,,,,,,f,moderate,f,f,
+862,none,N/A,N/A,f,3,f,51.47874638,-0.210445065,House,Private room,2,1,2,3,Real Bed,150,30,1,20,3,1125,0,,,,,,,,t,flexible,f,f,
+863,none,N/A,N/A,f,1,t,51.54864285,-0.097943088,Apartment,Private room,2,1.5,1,1,Real Bed,,20,1,0,1,1125,9,93,10,9,10,10,10,10,f,strict_14_with_grace_period,f,f,0.19
+864,none,N/A,N/A,f,1,t,51.53934156,-0.087099463,Apartment,Private room,2,,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+865,none,within an hour,1,t,1,t,51.53581276,-0.072530432,Apartment,Private room,1,1,2,1,Real Bed,600,0,1,0,2,1125,21,100,10,10,10,10,10,10,t,flexible,f,f,4.04
+866,none,within an hour,1,f,15,f,51.45200838,-0.18321379,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,4,85,9,9,10,10,10,10,t,strict_14_with_grace_period,f,f,0.78
+867,none,N/A,N/A,f,2,f,51.51346057,-0.059212405,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,1,1125,2,70,9,9,10,10,8,9,t,flexible,f,f,0.05
+868,none,N/A,N/A,f,1,f,51.54085458,-0.223307853,House,Entire home/apt,7,2,4,4,Real Bed,100,60,1,0,7,14,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+869,family,N/A,N/A,f,1,t,51.52391562,-0.191161015,Apartment,Entire home/apt,4,1,2,2,Real Bed,200,40,4,0,2,1125,4,100,9,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.08
+870,none,within an hour,0.94,f,1199,f,51.49379727,-0.139730237,Apartment,Entire home/apt,2,1.5,1,1,Real Bed,300,71,2,5,2,1125,9,93,9,10,8,9,9,8,f,strict_14_with_grace_period,f,f,0.86
+871,none,N/A,N/A,f,2,f,51.45880352,-0.209463623,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,1,14,2,100,10,10,10,10,10,10,f,flexible,f,f,0.14
+872,none,a few days or more,0,f,11,f,51.54791711,-0.143268958,Bed and breakfast,Private room,1,2.5,1,1,Real Bed,0,10,1,10,1,1125,3,40,3,7,8,6,8,8,f,flexible,f,f,0.17
+873,none,N/A,N/A,f,1,f,51.52388961,-0.197088993,Apartment,Entire home/apt,2,1,0,1,Real Bed,,,1,0,5,1125,2,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.1
+874,none,N/A,N/A,f,1,f,51.52176072,-0.096487281,Apartment,Entire home/apt,4,1,1,2,Real Bed,85,69,2,15,2,1125,14,84,9,9,8,9,9,8,f,strict_14_with_grace_period,f,f,0.8
+875,none,N/A,N/A,f,1,f,51.51602495,-0.19597016,Apartment,Entire home/apt,4,2,2,2,Real Bed,85,84,2,15,2,1121,9,93,9,10,9,10,10,10,f,strict_14_with_grace_period,f,f,0.5
+876,none,within an hour,0.98,f,57,f,51.54336874,-0.147831095,House,Private room,2,2,1,1,Real Bed,0,14,1,0,1,365,23,80,9,9,9,8,9,8,t,strict_14_with_grace_period,f,f,3.85
+877,none,N/A,N/A,f,1,f,51.5485283,-0.167399438,Apartment,Entire home/apt,2,1,1,1,Real Bed,,40,1,0,3,14,1,100,10,10,10,10,10,10,t,flexible,f,f,0.44
+878,none,N/A,N/A,f,1,f,51.49159482,-0.038811687,Apartment,Entire home/apt,2,1,1,1,Real Bed,300,45,1,30,7,90,2,100,10,10,10,10,10,10,f,flexible,f,f,0.29
+879,none,N/A,N/A,f,1,t,51.52590931,-0.081778593,Apartment,Private room,2,2,1,1,Real Bed,200,0,1,50,1,4,0,,,,,,,,t,flexible,f,f,
+880,none,N/A,N/A,f,1,f,51.49338303,-0.140180508,House,Entire home/apt,7,2.5,3,3,Real Bed,85,104,2,15,2,1125,31,93,10,9,10,10,10,9,f,moderate,f,f,1.29
+881,none,within a few hours,0.83,f,28,f,51.51502935,-0.149662278,Apartment,Entire home/apt,2,1,1,1,Real Bed,250,50,1,0,7,1125,13,97,10,10,10,10,10,10,f,moderate,f,f,0.57
+882,none,N/A,N/A,f,1,t,51.51692339,-0.212557618,Apartment,Entire home/apt,4,1,2,2,Real Bed,66,,4,30,2,17,12,98,10,10,10,10,10,10,f,moderate,f,f,0.31
+883,none,within an hour,1,f,32,f,51.50692363,-0.006098649,Apartment,Entire home/apt,4,2,2,2,Real Bed,500,90,1,0,2,1125,2,100,8,6,2,6,8,10,f,strict_14_with_grace_period,f,f,0.91
+884,social,N/A,N/A,f,2,f,51.49705199,-0.203221167,Apartment,Private room,1,1,1,1,Real Bed,100,30,1,0,4,1125,9,93,10,9,10,10,10,9,f,strict_14_with_grace_period,f,f,0.13
+885,none,within an hour,0.97,f,9,t,51.481217,-0.200545522,Apartment,Entire home/apt,2,1,0,1,Couch,,18,1,0,2,1125,67,88,9,9,10,10,9,9,t,flexible,f,f,1.91
+886,none,within an hour,1,f,2,t,51.45738021,-0.12199171,Apartment,Private room,1,1,1,1,Real Bed,,25,1,0,5,45,13,97,10,10,10,10,10,10,t,moderate,f,f,1.01
+887,none,within an hour,1,t,4,f,51.49616113,-0.204892619,Apartment,Entire home/apt,4,2,2,2,Real Bed,600,50,3,35,3,1125,0,,,,,,,,t,flexible,f,f,
+888,none,N/A,N/A,f,1,f,51.56269191,-0.081576232,Apartment,Private room,2,1,1,3,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+889,none,within an hour,1,f,5,f,51.5303106,-0.097269921,Apartment,Entire home/apt,5,1,1,3,Real Bed,0,40,3,8,1,1125,0,,,,,,,,t,moderate,f,f,
+890,none,within a day,1,f,2,f,51.5455491,-0.198541614,Condominium,Entire home/apt,4,2,2,3,Real Bed,250,100,3,15,30,1123,2,80,10,8,8,9,10,8,f,strict_14_with_grace_period,f,f,0.13
+891,none,a few days or more,0.2,f,21,t,51.51588117,-0.028845536,Apartment,Private room,1,1,1,1,Real Bed,0,20,1,0,1,1125,2,70,6,4,8,7,7,5,f,flexible,f,f,0.05
+892,none,within an hour,0.96,f,1277,f,51.48867389,-0.142026349,Apartment,Entire home/apt,2,1,1,1,Real Bed,495,75,1,0,3,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+893,none,within an hour,1,f,8,t,51.49649399,-0.100159987,Apartment,Entire home/apt,5,1,2,3,Real Bed,500,45,4,15,5,1123,215,91,10,9,10,10,9,9,t,strict_14_with_grace_period,f,f,2.49
+894,none,within an hour,1,f,213,t,51.51383319,0.011513412,Apartment,Entire home/apt,4,2,2,2,Real Bed,250,80,4,20,2,1125,87,94,10,9,9,10,10,9,t,strict_14_with_grace_period,f,f,3.35
+895,none,within a few hours,0.92,f,90,t,51.51416021,-0.18704139,Apartment,Entire home/apt,3,1,1,1,Real Bed,0,0,1,0,2,181,62,90,10,9,10,9,10,9,f,strict_14_with_grace_period,f,f,2.11
+896,none,within an hour,1,f,12,f,51.49103563,-0.097656426,Apartment,Entire home/apt,3,1,1,2,Real Bed,100,,1,0,1,1125,39,76,8,8,9,9,8,8,t,strict_14_with_grace_period,f,f,1.49
+897,none,within an hour,1,t,4,f,51.53923014,-0.022385976,Apartment,Private room,3,2,1,2,Real Bed,0,10,2,10,5,1125,2,90,9,8,10,10,9,9,f,flexible,f,f,0.32
+898,none,within a day,0.9,f,2,t,51.48694887,0.005742861,House,Private room,2,1,1,1,Real Bed,,5,1,0,2,7,24,97,10,10,10,10,10,10,f,moderate,f,f,0.95
+899,none,within an hour,0.96,f,1277,f,51.50974553,-0.242423775,House,Entire home/apt,10,2,4,7,Real Bed,495,300,1,0,3,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+900,none,within a few hours,1,f,1,f,51.48185181,0.011718073,House,Entire home/apt,8,2.5,4,4,Real Bed,200,60,1,0,4,1125,0,,,,,,,,f,flexible,f,f,
+901,none,N/A,N/A,f,1,f,51.47661429,-0.135910214,Apartment,Entire home/apt,2,1,1,1,Real Bed,,,1,0,4,1125,5,95,10,10,10,10,8,10,f,flexible,f,f,0.16
+902,none,within an hour,1,f,22,t,51.51151911,-0.056104765,Apartment,Private room,2,1.5,1,1,Real Bed,100,0,1,20,7,1125,2,90,10,10,10,10,10,9,t,strict_14_with_grace_period,f,f,0.19
+903,none,within an hour,1,f,1,f,51.46633102,-0.233903471,Apartment,Private room,2,1,2,1,Real Bed,,,1,0,2,4,0,,,,,,,,f,flexible,f,f,
+904,none,within an hour,1,t,1,f,51.45054974,-0.158068616,House,Private room,2,1.5,2,2,Real Bed,0,10,1,15,2,1125,75,95,10,10,10,10,10,10,f,flexible,f,f,1.27
+905,none,within an hour,1,f,51,f,51.50597373,-0.22263424,House,Private room,2,1,1,1,Real Bed,0,0,1,4,3,1125,40,88,9,9,9,10,10,9,f,moderate,f,f,2.79
+906,none,within an hour,1,f,1,f,51.56036232,-0.177974103,Apartment,Entire home/apt,3,1,1,1,Real Bed,100,40,1,0,2,29,6,100,10,10,10,10,10,10,t,flexible,f,f,0.2
+907,none,within an hour,1,t,1,f,51.51310547,-0.163784099,Apartment,Entire home/apt,2,1,1,0,Real Bed,100,65,1,0,3,7,35,99,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,1.66
+908,none,within an hour,1,f,213,t,51.54241499,-0.20636268,Apartment,Entire home/apt,4,1,2,2,Real Bed,300,80,1,0,2,1124,16,91,10,9,10,10,9,9,f,strict_14_with_grace_period,f,f,1.81
+909,none,within an hour,0.98,f,10,f,51.51187772,-0.133431135,Apartment,Private room,2,1,1,1,Real Bed,79,0,1,0,1,160,117,81,9,9,9,10,9,8,t,strict_14_with_grace_period,f,f,3.05
+910,none,within an hour,1,t,2,t,51.49788978,-0.234918432,Townhouse,Private room,1,1.5,1,1,Real Bed,0,8,1,0,3,28,71,99,10,10,10,10,10,10,f,moderate,f,f,2.41
+911,none,N/A,N/A,f,1,f,51.45050098,-0.217312705,Apartment,Entire home/apt,4,1,2,2,Real Bed,,0,1,0,1,30,9,89,9,9,9,10,9,9,f,strict_14_with_grace_period,f,f,0.87
+912,none,N/A,N/A,f,1,f,51.51416591,-0.176962051,Apartment,Entire home/apt,2,1,0,1,Real Bed,,20,1,0,1,1125,2,60,6,6,6,8,8,5,f,moderate,f,f,0.08
+913,none,within an hour,1,f,4,t,51.48151868,-0.188317369,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,3,1125,0,,,,,,,,t,flexible,f,f,
+914,none,within an hour,1,f,2,f,51.46457747,-0.229600975,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,5,8,5,96,10,10,10,10,10,10,t,strict_14_with_grace_period,f,f,0.36
+915,none,within a day,0.5,f,1,f,51.54878009,-0.099128495,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,1,20,1,,,,,,,,t,flexible,f,f,0.1
+916,none,N/A,N/A,f,1,t,51.45505759,-0.065558278,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,7,7,1,,,,,,,,t,flexible,f,f,0.15
+917,none,within an hour,1,f,6,t,51.51453791,-0.218446641,Apartment,Entire home/apt,4,1,2,2,Real Bed,0,85,1,0,2,1125,55,91,9,10,9,10,9,9,f,strict_14_with_grace_period,f,f,2.23
+918,none,within a few hours,1,f,26,f,51.50184512,-0.211473274,Apartment,Private room,1,1,1,1,Real Bed,0,25,1,0,4,1125,12,95,9,9,9,10,10,10,f,strict_14_with_grace_period,f,f,0.44
+919,none,within an hour,1,t,1,t,51.51601708,0.018785649,Apartment,Entire home/apt,2,1,1,1,Real Bed,120,50,1,0,2,1125,6,97,9,9,10,10,10,9,t,flexible,f,f,1.07
+920,none,within an hour,1,f,1,f,51.45410739,-0.158162073,Townhouse,Entire home/apt,6,2,3,3,Real Bed,,,1,0,5,15,4,100,10,10,10,10,10,9,t,flexible,f,f,0.42
+921,none,within a few hours,0.92,f,31,f,51.52101434,-0.158092603,Apartment,Entire home/apt,2,1,0,1,Real Bed,0,30,1,0,3,1125,16,83,9,10,9,8,10,8,f,strict_14_with_grace_period,f,f,1.48
+922,none,N/A,N/A,f,1,t,51.53007923,-0.230526716,Apartment,Entire home/apt,4,1,1,2,Real Bed,0,30,2,20,2,1125,1,60,6,8,8,4,10,6,t,flexible,f,f,0.05
+923,none,N/A,N/A,f,1,f,51.54266033,-0.137437093,Apartment,Private room,1,1.5,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+924,none,within a few hours,1,f,2,f,51.49422334,-0.233137341,Apartment,Entire home/apt,5,0.5,2,3,Real Bed,0,30,1,25,3,180,5,85,9,7,10,10,10,9,f,strict_14_with_grace_period,f,f,0.27
+925,none,within a few hours,1,f,6,f,51.52494704,-0.071805264,Serviced apartment,Entire home/apt,5,2,2,2,Real Bed,150,75,4,35,30,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+926,none,within a day,1,f,1,f,51.4992571,-0.159830316,Apartment,Entire home/apt,3,3,3,3,Real Bed,1000,50,1,0,7,90,0,,,,,,,,t,flexible,f,f,
+927,none,within an hour,1,f,8,f,51.49475442,-0.14280344,Apartment,Entire home/apt,4,2,2,2,Real Bed,400,75,2,15,2,1124,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+928,none,N/A,N/A,t,1,t,51.56286817,-0.112907221,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,120,1125,54,98,10,10,10,10,10,10,f,flexible,f,f,1.53
+929,none,N/A,N/A,f,1,t,51.55967526,-0.069482307,Apartment,Entire home/apt,4,1,2,4,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+930,none,within an hour,1,f,17,t,51.51530127,-0.073110564,Apartment,Entire home/apt,6,1.5,2,3,Real Bed,195,40,1,0,2,90,25,94,9,9,10,10,10,9,t,strict_14_with_grace_period,f,f,4.41
+931,none,within an hour,1,f,15,f,51.49581098,-0.186660655,Apartment,Entire home/apt,6,1,1,1,Real Bed,450,45,2,12,1,1125,9,93,9,9,10,10,10,9,f,strict_14_with_grace_period,f,f,1.48
+932,business,within a few hours,0.9,t,3,f,51.54810629,-0.066809891,Apartment,Entire home/apt,2,1,1,1,Real Bed,557,56,2,0,3,1124,14,96,10,10,10,10,9,9,f,strict_14_with_grace_period,f,f,0.2
+933,none,N/A,N/A,f,1,t,51.56317435,-0.074819124,Apartment,Entire home/apt,4,2,2,2,Real Bed,,,1,0,2,1125,8,85,9,9,9,10,9,9,f,flexible,f,f,0.2
+934,none,N/A,N/A,f,1,f,51.49197142,-0.237244523,Apartment,Entire home/apt,4,1,1,2,Real Bed,0,10,2,5,2,21,7,93,10,9,10,10,9,9,f,moderate,f,f,0.35
+935,none,within an hour,0.84,f,18,f,51.53038611,-0.098016949,Apartment,Private room,2,1,1,1,Real Bed,0,15,1,0,1,20,4,90,10,10,9,10,10,10,t,strict_14_with_grace_period,f,f,2.61
+936,none,N/A,N/A,f,1,f,51.54066014,-0.075980961,Loft,Private room,1,1,1,1,Real Bed,,,1,0,1,3,0,,,,,,,,f,flexible,f,f,
+937,none,N/A,N/A,f,1,f,51.5482493,-0.06641635,Apartment,Entire home/apt,4,1,2,3,Real Bed,100,0,1,10,4,8,3,100,10,9,10,10,9,10,t,moderate,f,f,0.16
+938,none,within an hour,1,f,13,f,51.54774056,-0.17219936,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,30,1,0,3,56,1,80,10,8,10,10,10,10,t,flexible,f,f,1
+939,none,N/A,N/A,f,1,t,51.45521853,-0.141098184,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,45,1,0,4,30,3,100,10,10,10,10,10,10,f,moderate,f,f,0.49
+940,none,N/A,N/A,f,1,t,51.50739134,-0.232822085,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,30,1,0,3,1125,5,100,10,10,10,10,8,10,f,strict_14_with_grace_period,f,f,0.15
+941,none,within a few hours,1,t,1,t,51.56055462,-0.115761202,Apartment,Private room,2,1,1,1,Real Bed,,10,1,5,3,15,130,96,10,10,10,10,9,10,f,moderate,f,f,2.65
+942,none,within a few hours,1,f,1,t,51.55588372,-0.111371467,Apartment,Private room,2,2,1,1,Real Bed,0,20,1,0,3,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+943,none,within an hour,1,f,2,f,51.54746518,-0.00561688,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,50,1,0,1,1125,9,85,10,8,10,10,10,8,t,strict_14_with_grace_period,f,f,1.09
+944,none,within an hour,1,t,1,t,51.56403422,-0.143666196,Apartment,Entire home/apt,3,1,1,2,Real Bed,,40,2,10,3,1125,39,95,10,10,10,10,9,10,t,moderate,f,f,0.94
+945,none,within an hour,0.96,f,1277,f,51.45261533,-0.14718047,House,Entire home/apt,9,4,5,4,Real Bed,495,375,1,0,3,1125,1,100,10,10,10,10,10,6,t,strict_14_with_grace_period,f,f,0.04
+946,none,within a day,1,f,1,f,51.44900508,-0.024020246,Apartment,Entire home/apt,2,1,1,1,Real Bed,99,0,1,0,5,1125,6,97,10,10,9,10,9,10,t,strict_14_with_grace_period,f,f,0.4
+947,none,within an hour,0.95,f,17,f,51.52017637,-0.072028197,Apartment,Entire home/apt,6,1,2,3,Real Bed,0,50,2,10,1,1125,58,88,9,9,10,9,10,8,f,super_strict_30,f,f,2.56
+948,none,within an hour,0.98,f,8,f,51.47389672,-0.060107661,Apartment,Entire home/apt,4,1,1,2,Real Bed,200,40,2,15,2,1125,0,,,,,,,,t,moderate,f,f,
+949,none,N/A,N/A,f,1,f,51.50128217,-0.216741303,Apartment,Entire home/apt,4,1,2,3,Real Bed,250,25,1,0,2,30,7,89,9,9,9,10,10,9,f,strict_14_with_grace_period,f,f,0.35
+950,none,within an hour,1,f,10,f,51.47565357,-0.098885361,Serviced apartment,Entire home/apt,4,1,1,2,Real Bed,0,25,1,0,1,50,45,95,9,9,10,10,9,9,t,moderate,f,f,8.6
+951,none,within an hour,1,f,1,t,51.50455322,-0.232911371,Apartment,Entire home/apt,4,1,2,2,Real Bed,,30,1,0,2,1125,10,93,10,9,10,10,10,9,f,flexible,f,f,1.14
+952,none,N/A,N/A,f,1,t,51.53903301,-0.102334106,Apartment,Entire home/apt,4,1,2,2,Real Bed,,,1,0,4,1125,1,80,8,6,10,6,10,8,f,flexible,f,f,0.02
+953,none,within a day,0.5,f,2,f,51.51469668,-0.016783075,Apartment,Private room,2,1,1,1,Real Bed,0,10,1,0,2,1125,0,,,,,,,,f,flexible,f,f,
+954,none,within an hour,1,f,5,f,51.51522541,-0.112770265,Apartment,Entire home/apt,2,1,1,2,Real Bed,301,34,1,5,90,180,124,93,10,10,10,10,10,9,f,strict_14_with_grace_period,f,f,7.37
+955,none,within a day,0.88,f,25,t,51.51630899,-0.153913904,House,Entire home/apt,6,2.5,3,3,Real Bed,500,150,1,0,5,1125,11,87,9,8,9,9,10,9,f,strict_14_with_grace_period,f,f,0.37
+956,none,within an hour,1,f,9,f,51.51325237,-0.061207655,Apartment,Private room,3,1,1,1,Real Bed,,10,2,15,1,1125,6,83,9,8,10,10,9,9,f,moderate,f,f,0.18
+957,none,within a few hours,1,f,3,f,51.53026719,-0.053875662,Apartment,Private room,1,1,1,1,Real Bed,300,15,1,30,4,30,1,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,1
+958,none,within a day,1,t,1,f,51.53025721,-0.198987668,Apartment,Entire home/apt,1,1,1,1,Real Bed,600,50,1,0,7,600,12,90,9,10,10,10,10,9,f,strict_14_with_grace_period,f,f,0.29
+959,none,N/A,N/A,f,1,t,51.53331058,-0.010054968,Apartment,Private room,2,2,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+960,none,N/A,N/A,f,1,f,51.54954056,-0.074552722,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,t,flexible,f,f,
+961,none,within a few hours,1,f,1,t,51.54471337,-0.087885039,House,Entire home/apt,5,2.5,3,5,Real Bed,2000,150,1,0,3,30,4,100,10,10,10,10,9,10,t,strict_14_with_grace_period,f,f,0.35
+962,none,within a day,1,f,10,f,51.49341883,-0.193673946,Apartment,Entire home/apt,4,1,1,1,Real Bed,300,100,1,0,3,1125,0,,,,,,,,t,strict_14_with_grace_period,f,f,
+963,none,within a day,1,f,1,f,51.52261335,-0.162584148,Apartment,Entire home/apt,2,2,1,1,Real Bed,150,40,1,0,7,14,14,100,10,10,10,10,10,10,f,moderate,f,f,0.7
+964,none,within a few hours,1,f,2,f,51.51519506,-0.124934224,Apartment,Entire home/apt,4,1,2,2,Real Bed,0,35,1,0,15,45,20,99,10,10,10,10,10,10,t,moderate,f,f,0.89
+965,none,within a few hours,0.8,f,2,f,51.51478806,-0.157976763,Boutique hotel,Entire home/apt,16,3,0,8,Real Bed,400,110,3,69,1,1125,6,68,7,8,7,9,10,7,t,strict_14_with_grace_period,f,f,0.23
+966,none,within an hour,1,f,1,f,51.50418816,-0.23821707,House,Entire home/apt,6,2.5,4,4,Real Bed,500,100,1,100,3,1125,6,96,9,10,10,10,8,10,f,strict_14_with_grace_period,f,f,0.31
+967,none,N/A,N/A,f,1,f,51.45748523,-0.107582721,Apartment,Entire home/apt,1,1,1,1,Real Bed,,,1,0,1,1125,0,,,,,,,,f,flexible,f,f,
+968,none,N/A,N/A,f,1,f,51.49432625,-0.1402627,Apartment,Private room,2,1,1,1,Real Bed,0,0,1,0,1,1125,36,94,10,9,10,10,10,10,f,strict_14_with_grace_period,f,f,2.2
+969,none,within an hour,1,f,3,t,51.54814502,-0.119584324,House,Private room,2,1,1,1,Real Bed,,15,1,10,2,1125,53,98,10,10,10,10,10,10,f,moderate,f,f,2.53
+970,none,within a few hours,1,f,1,f,51.52211581,-0.169352347,Apartment,Entire home/apt,4,1,1,2,Real Bed,100,69,2,15,2,1125,2,50,6,7,6,7,8,5,f,moderate,f,f,2
+971,none,within an hour,0.97,t,14,t,51.49523888,-0.144326556,Bed and breakfast,Private room,3,1,1,2,Real Bed,,40,1,25,1,1125,5,96,10,10,9,10,10,9,t,strict_14_with_grace_period,f,f,1.46
+972,none,within an hour,1,t,2,f,51.55730082,0.012358163,Townhouse,Entire home/apt,4,1,2,2,Real Bed,0,35,2,5,1,1125,9,96,10,10,10,10,9,10,f,strict_14_with_grace_period,f,f,1.21
+973,none,within a few hours,1,f,2,f,51.50024768,-0.251920897,House,Entire home/apt,6,4,5,5,Real Bed,,80,6,50,2,1125,0,,,,,,,,t,flexible,f,f,
+974,none,N/A,N/A,f,3,f,51.48944982,-0.146133643,Apartment,Shared room,2,1.5,1,1,Real Bed,,,2,25,1,3,5,95,10,10,10,10,10,10,f,moderate,f,f,0.17
+975,none,within a day,1,f,1,f,51.55389025,-0.085371264,Townhouse,Entire home/apt,6,1.5,3,3,Real Bed,1000,75,4,25,7,14,11,100,10,10,10,10,10,10,f,strict_14_with_grace_period,f,f,0.41
+976,none,N/A,N/A,f,1,t,51.51108384,-0.195863841,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,7,14,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+977,none,within an hour,1,t,1,f,51.47657516,-0.091730777,Apartment,Private room,2,1,1,1,Real Bed,,,1,0,1,1125,75,95,10,9,10,10,10,9,t,flexible,f,f,2.66
+978,none,N/A,N/A,f,1,t,51.55474698,-0.054165431,Apartment,Private room,2,2,1,1,Real Bed,200,25,1,0,1,17,0,,,,,,,,f,moderate,f,f,
+979,none,within a few hours,0.6,f,1,f,51.52262394,-0.09901768,Apartment,Private room,2,1,0,1,Real Bed,,,1,0,1,20,2,80,8,8,10,10,10,8,f,strict_14_with_grace_period,f,f,0.27
+980,none,within an hour,1,f,4,f,51.44679638,-0.016163005,House,Private room,2,1,1,3,Real Bed,,,1,0,1,1125,1,100,8,8,10,8,8,10,t,flexible,f,f,0.45
+981,none,N/A,N/A,f,1,f,51.54947536,-0.058319815,Apartment,Entire home/apt,2,1,1,1,Real Bed,0,25,1,0,5,1125,18,97,10,9,10,10,10,10,f,moderate,f,f,0.68
+982,none,N/A,N/A,f,1,t,51.47839194,-0.19305019,House,Entire home/apt,7,2.5,4,4,Real Bed,,,1,0,2,31,0,,,,,,,,f,flexible,f,f,
+983,none,N/A,N/A,f,1,t,51.56075698,-0.07589351,House,Entire home/apt,7,2.5,4,4,Real Bed,450,60,1,0,5,1125,19,99,10,10,10,10,9,9,f,strict_14_with_grace_period,f,f,0.46
+984,none,N/A,N/A,f,2,f,51.55382444,-0.221290193,Apartment,Private room,1,1,1,1,Real Bed,,,1,0,1,7,0,,,,,,,,f,moderate,f,f,
+985,none,within a few hours,1,f,52,f,51.51863461,-0.076769679,Apartment,Entire home/apt,5,2,2,2,Real Bed,150,40,4,25,3,999,0,,,,,,,,f,flexible,f,f,
+986,none,within an hour,1,f,2,t,51.51940077,-0.13776978,Apartment,Entire home/apt,8,2,3,5,Real Bed,200,120,1,15,2,90,24,96,10,10,10,10,10,9,t,moderate,f,f,0.85
+987,none,within a few hours,1,f,3,t,51.5246846,-0.069987942,Apartment,Private room,2,1,1,1,Real Bed,0,25,1,0,3,1125,1,80,10,6,10,10,8,6,f,strict_14_with_grace_period,f,f,0.24
+988,none,within a day,1,f,1,t,51.5341142,0.01696601,House,Private room,1,1,1,1,Real Bed,,,1,0,2,1125,2,100,10,10,10,10,10,10,t,flexible,f,f,0.09
+989,none,within an hour,1,f,13,f,51.51974624,-0.055842589,Serviced apartment,Entire home/apt,6,1,3,3,Real Bed,0,29,4,25,1,1125,9,89,9,10,8,9,9,9,t,strict_14_with_grace_period,f,f,7.94
+990,none,within an hour,1,f,3,f,51.51819666,-0.173387957,Apartment,Entire home/apt,5,2,3,3,Real Bed,,,1,0,10,1125,0,,,,,,,,f,flexible,f,f,
+991,none,within a day,0.81,f,2,f,51.51706517,-0.190443521,Apartment,Private room,1,1,1,1,Real Bed,0,30,1,0,4,1125,1,100,10,10,10,10,10,10,f,flexible,f,f,1
+992,none,N/A,N/A,f,1,f,51.51104085,0.031207843,House,Private room,1,1,1,1,Real Bed,,,1,0,3,30,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+993,none,within an hour,1,f,111,f,51.52846719,-0.095094866,Apartment,Entire home/apt,2,1,1,1,Real Bed,250,0,1,0,7,1124,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+994,none,within a few hours,1,f,3,f,51.48623886,-0.180340895,Apartment,Entire home/apt,6,2,3,3,Real Bed,,,1,0,2,30,0,,,,,,,,f,flexible,f,f,
+995,social,within an hour,1,f,2,f,51.52473047,-0.069484161,Apartment,Entire home/apt,4,1,2,2,Real Bed,86,,2,26,14,250,9,100,10,10,10,10,10,10,f,flexible,f,f,0.18
+996,none,N/A,N/A,f,1,f,51.51713603,-0.069324845,Apartment,Entire home/apt,4,1,1,2,Real Bed,150,36,1,6,1,1125,1,,,,,,,,f,strict_14_with_grace_period,f,f,0.04
+997,none,within an hour,1,t,2,f,51.44687605,-0.112617174,House,Private room,2,1,1,1,Real Bed,0,10,1,20,1,1125,54,96,9,9,10,10,9,10,f,moderate,f,f,4.98
+998,none,N/A,N/A,f,1,f,51.48713219,-0.194435579,Serviced apartment,Entire home/apt,6,1,2,3,Real Bed,350,92,1,0,3,1125,0,,,,,,,,f,strict_14_with_grace_period,f,f,
+999,none,N/A,N/A,f,1,f,51.48629083,-0.210134965,Apartment,Private room,2,1,1,1,Real Bed,350,35,1,0,1,1125,6,87,9,10,10,10,9,9,t,strict_14_with_grace_period,f,f,0.17
