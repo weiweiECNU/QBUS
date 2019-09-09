@@ -1,0 +1,24 @@
+VARIABLE DESCRIPTIONS:
+The dataset has 21 columns which include nominal, ordinal, and numeric variables.
+
+id					An identifier for a house
+date				Date when the house was sold
+price				Sale price of a house
+bedrooms			Number of Bedrooms
+bathrooms			Number of bathrooms
+sqft_living			Square footage of the home
+sqft_lot			Square footage of the lot
+floors				Total floors (levels) in house
+waterfront			House which has a view to a waterfront
+view				Has been viewed
+condition			How good the overall condition is
+overall_grade		Overall grade given to the housing unit
+sqft_above			Square footage of house apart from basement
+sqft_basement		Square footage of the basement
+year_built			Year when the house was built
+year_renovated		Year when house was renovated
+zipcode				Zipcode of house location
+latitude			Latitude coordinate
+longitude			Longitude coordinate
+sqft_living15		Living room area in 2015 (implies some renovations) This might or might not have affected the lot size area
+sqft_lot15			Lot size area in 2015(implies some renovations)
