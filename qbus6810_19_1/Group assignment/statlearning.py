@@ -780,3 +780,4 @@ def bootstrap_mean(y, S=1000, alpha=0.05):
     ci_high = y_mean-se*np.percentile(t_boot, 100*(alpha/2))
 
     return mean_boot, ci_low, ci_high
+
